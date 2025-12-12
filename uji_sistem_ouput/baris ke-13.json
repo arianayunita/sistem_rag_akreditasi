@@ -1,0 +1,59 @@
+===================================================================================
+CONTOH PEMANGGILAN ANALISIS DENGAN PROMPT V4
+Jenis Analisis: 'AK_DAN_AL'
+Usulan: 23010222413301100957201, Aspek: C9.2.A
+===================================================================================
+
+--- HASIL ANALISIS LENGKAP AKHIR (JSON) DENGAN PROMPT V4 ---
+{
+  "nomor_usulan_analisis": "23010222413301100957201",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "23010222413301100957201",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "target capaian kinerja dalam hal rerata indeks prestasi kumulatif lulusan , kesesuaian masa studi , ...",
+    "nilai_ak1_input": "1.5",
+    "komen_ak2_input": "mengacu pada rencana strategis dan rencana operasional fakultas ilmu komputer dan pada tahun laporan...",
+    "nilai_ak2_input": "1.5",
+    "komen_al_input": "target capaian kinerja dalam hal rerata indeks prestasi kumulatif lulusan , kesesuaian masa studi , ...",
+    "nilai_al_input": "4"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "23010222413301100957201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "target capaian kinerja dalam hal rerata indeks prestasi kumulatif lulusan, kesesuaian masa studi, waktu tunggu alumni, kesesuaian pekerjaan alumni, kepuasan pengguna terhadap alumni, dan jumlah hak kekayaan intelektual yang diperoleh dosen/mhs disampaikan dalam periode 5 tahun namun capaiannya sendiri tidak disebutkan angkanya. cek saat asesmen lapangan.",
+        "nilai_asli": "1.5"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "mengacu pada rencana strategis dan rencana operasional fakultas ilmu komputer dan pada tahun laporan evaluasi diri lam infokom hal 71 dari 95 204 2018, tahun 2019 2023 dan tahun 2020 2024, indikator dan target capaian luaran pendidikan disajikan pada tabel 9.1.",
+        "nilai_asli": "1.5"
+      },
+      "status_utama_konsistensi_ak": "TIDAK_KONSISTEN",
+      "status_sub_kategori_ak": "KOMEN_BERBEDA_NILAI_SAMA",
+      "penjelasan_sistem_ak": "Kedua asesor memberikan nilai yang sama (1.5) namun substansi komentar mereka sangat berbeda. Asesor 1 menyoroti ketidaklengkapan data kuantitatif dan menyarankan pengecekan lebih lanjut, sedangkan Asesor 2 lebih fokus pada dokumentasi dan rencana strategis tanpa menyoroti kekurangan data yang spesifik. Ini menunjukkan bahwa meskipun nilai yang diberikan sama, kedua asesor memiliki fokus evaluasi yang berbeda, yang seharusnya mempengaruhi nilai yang diberikan. Konsistensi internal dalam penilaian ini kurang karena kedua asesor seharusnya memberikan nilai yang berbeda berdasarkan fokus evaluasi mereka.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "1.0-1.5",
+        "alasan_rekomendasi_nilai": "Rekomendasi nilai ini didasarkan pada kebutuhan untuk mencerminkan ketidaklengkapan data yang signifikan yang diungkapkan oleh Asesor 1, yang seharusnya lebih mempengaruhi penilaian keseluruhan. Nilai 1.5 yang diberikan oleh kedua asesor tampaknya terlalu tinggi mengingat komentar Asesor 1 tentang ketidaklengkapan data yang penting."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "23010222413301100957201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "target capaian kinerja dalam hal rerata indeks prestasi kumulatif lulusan, kesesuaian masa studi, waktu tunggu alumni, kesesuaian pekerjaaan alumni, kepuasan pengguna terhadap alumni, dan jumlah hak kekayaan intelektual yang diperoleh dosen/mhs disampaikan dalam periode 5 tahun. data capaian indeks prestasi kumulatif lulusan3.53 (saat tersebut) kelulusan tepat waktu34 dari 49 mahasiswa lulus tepat waktu masa studi berkisar dari 4.11 sampai dengan 4.35 tahun kepuasan pengguna596/700 memberi nilai sangat baik dan baik rerata masa tunggu2.9 bulan kesesuaian bidang kerja17 dari 22 alumni bekerja pada bidang yang sesuai.",
+      "nilai_al_asli": 4,
+      "status_relevansi_komentar_al": "SANGAT_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL secara efektif membahas semua poin kunci yang diidentifikasi dari Keterangan Aspek Utama. Ini termasuk capaian indeks prestasi kumulatif, kelulusan tepat waktu, masa studi, kepuasan pengguna, masa tunggu, dan kesesuaian bidang kerja. Komentar AL memberikan data spesifik dan terukur untuk setiap aspek, seperti IPK rata-rata lulusan, persentase kelulusan tepat waktu, rentang masa studi, dan tingkat kepuasan pengguna. Ini menunjukkan pemahaman yang mendalam dan evaluasi yang komprehensif terhadap aspek-aspek yang diukur, mendukung status relevansi 'SANGAT_RELEVAN'.",
+      "analisis_terhadap_nilai_al_asli": "Nilai 4 yang diberikan dalam Asesmen Lapangan (AL) konsisten dengan tingkat detail dan kualitas data yang disajikan dalam komentar AL. Komentar tersebut secara efektif menunjukkan pemenuhan terhadap standar yang diharapkan, dengan bukti yang konkret dan spesifik.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": 4,
+        "alasan_rekomendasi_nilai": "Berdasarkan analisis terhadap komentar AL yang sangat relevan dan mendalam, serta konsistensi antara nilai yang diberikan dan bukti yang disajikan, nilai 4 adalah tepat dan mencerminkan kinerja yang sangat baik dalam memenuhi kriteria yang ditetapkan."
+      }
+    }
+  }
+}

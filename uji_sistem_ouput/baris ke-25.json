@@ -1,0 +1,59 @@
+===================================================================================
+CONTOH PEMANGGILAN ANALISIS DENGAN PROMPT V4
+Jenis Analisis: 'AK_DAN_AL'
+Usulan: 22091417131901317356201, Aspek: C9.2.A
+===================================================================================
+
+--- HASIL ANALISIS LENGKAP AKHIR (JSON) DENGAN PROMPT V4 ---
+{
+  "nomor_usulan_analisis": "22091417131901317356201",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "22091417131901317356201",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "keterlaksanaan kebijakan , standar ( indikator kinerja utama , indikator kinerja tambahan ) terkait ...",
+    "nilai_ak1_input": "3",
+    "komen_ak2_input": "1 ) . capaian pembelajaran lulusan diukur berdasarkan rata rata indeks prestasi kumulatif lulusan . ...",
+    "nilai_ak2_input": "3",
+    "komen_al_input": "1 ) . capaian pembelajaran lulusan diukur berdasarkan rata rata indeks prestasi kumulatif lulusan . ...",
+    "nilai_al_input": "3.5"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "22091417131901317356201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "keterlaksanaan kebijakan, standar (indikator kinerja utama, indikator kinerja tambahan) terkait luaran dan capaian mencakup (a) pendidikan pemenuhan capaian pembelajaran lulusan, indeks prestasi kumulatif rerata, prestasi mahasiswa, kelulusan tepat waktu, pelacakan dan perekaman data lulusan, masa tunggu rerata, kesesuaian bidang kerja, karya dosen/mahasiswa ber hak kekayaan intelektual tersedia data hasil pelaksanaan (1) pemenuhan capaian pembelajaran lulusan (capaian pembelajaran lulusan) dan rata rata indeks prestasi kumulatif (2) prestasi mahasiswa (akademik, dan non akademik) (3) kelulusan tepat waktu (4) pelacakan dan perekaman data lulusan (5) karya dtpr/mahasiswa yang mendapat hak kekayaan intelektual (sertifikat dilampirkan). bukti perlu diverifikasi.",
+        "nilai_asli": "3"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "1). capaian pembelajaran lulusan diukur berdasarkan rata rata indeks prestasi kumulatif lulusan. terdapat rerata indeks prestasi kumulatif 3.43 pada tersebut. indeks prestasi kumulatif lulusan telah mencapai standar indikator kinerja utama yang ditetapkan yakni 2.75 2). prestasi mahasiswa, untuk bid akademik di tahun 2022 terdapat 2 prestasi mahasiswa di tingkat nasional dan wilayah sedangkan di tahun 2021 terdapat 11 mahasiswa yang mampu berprestasi di tingkat nasional. juga terdapat prestasi di bid non akademik pada tahun 2020 (1 prestasi) dan 2021 (2). 3). kelulusan tepat waktu dalam 4 tahun terakhir terdapat penurunan jumlah kelulusan tepat waktu namun di 3 tahun terakhir terdapat trend perbaikan jumlah lulusan tepat waktu. 4). pelacakan dan perekaman data lulusan telah dilakukan terhadap lulusan 3 tahun terakhir sebanyak 156 lulusan. yang terlacak sebanyak 61 lulusan (39). telah dilakukan juga survey pengukuran kepuasan user dengan hasil sangat baik (43,90, baik 44,94, cukup 10,80, dan kurang 0,34). 5.) rata rata masa tunggu untuk mendapatkan pekerjaan pertama 6 bulan sebanyak 17 lulusan (68) sedangkan rata rata waktu tunggu untuk mendapatkan pekerjaan pertama di atas 6 bulan sebanyak 8 lulusan (32.). 6). kesesuaian bidang kerja dengan bidang program studi didapatkan data selama 3 tahun terakhir sebesar 60, 75, dan 56 berturut tersebut 4, tersebut 3, dan tersebut 2. 7). karya dosen/mahasiswa yang mendapat hak kekayaan intelektual, terdapat 10 dosen tetap penghitung rasio yang memiliki hak atas kekayaan intelektual namun hanya 1 judul hak atas kekayaan intelektual yang melibatkan mahasiswa. pelaksanaan pengukuran luaran dilakukan secara efektif dengan data yang cukup lengkap namun bukti belum disertakan dalm laporan evaluasi diri.",
+        "nilai_asli": "3"
+      },
+      "status_utama_konsistensi_ak": "KONSISTEN",
+      "status_sub_kategori_ak": "KOMEN_BERBEDA_NILAI_SAMA",
+      "penjelasan_sistem_ak": "Kedua asesor memberikan nilai yang sama (3) namun substansi komentar mereka berbeda. Asesor pertama lebih fokus pada kebijakan dan standar yang terkait dengan luaran dan capaian, sementara asesor kedua lebih detail dalam menguraikan data spesifik dan hasil survei. Meskipun kedua asesor memberikan nilai yang sama, perbedaan dalam fokus dan detail komentar mereka menunjukkan bahwa mereka mungkin memiliki perspektif yang berbeda dalam menilai aspek yang sama.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "3",
+        "alasan_rekomendasi_nilai": "Nilai 3 yang diberikan oleh kedua asesor tampaknya mencerminkan konsensus meskipun ada perbedaan dalam substansi komentar. Nilai ini didukung oleh data yang cukup lengkap dan kecukupan pelaksanaan kebijakan, meskipun ada catatan bahwa bukti lebih lanjut perlu diverifikasi."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "22091417131901317356201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "1 ). capaian pembelajaran lulusan diukur berdasarkan rata rata indeks prestasi kumulatif lulusan. terdapat rerata indeks prestasi kumulatif 3.43 pada tersebut. indeks prestasi kumulatif lulusan telah mencapai standar indikator kinerja utama yang ditetapkan yakni 2.75 2 ). prestasi mahasiswa, untuk bid akademik di tahun 2022 terdapat 2 prestasi mahasiswa di tingkat nasional dan wilayah sedangkan di tahun 2021 terdapat 11 mahasiswa yang mampu berprestasi di tingkat nasional. juga terdapat prestasi di bid non akademik pada tahun 2020 (1 prestasi) dan 2021 (2). 3 ). kelulusan tepat waktu dalam 4 tahun terakhir terdapat penurunan jumlah kelulusan tepat waktu namun di 3 tahun terakhir terdapat trend perbaikan jumlah lulusan tepat waktu. 4 ). pelacakan dan perekaman data lulusan telah dilakukan terhadap lulusan 3 tahun terakhir sebanyak 156 lulusan. yang terlacak sebanyak 61 lulusan (39). telah dilakukan juga survey pengukuran kepuasan user dengan hasil sangat baik (43,90, baik 44,94, cukup 10,80, dan kurang 0,34). 5 ). rata rata masa tunggu untuk mendapatkan pekerjaan pertama 6 bulan sebanyak 17 lulusan (68) sedangkan rata rata waktu tunggu untuk mendapatkan pekerjaan pertama di atas 6 bulan sebanyak 8 lulusan (32.). 6 ). kesesuaian bidang kerja dengan bidang program studi didapatkan data selama 3 tahun terakhir sebesar 60, 75, dan 56 berturut tersebut 4, tersebut 3, dan tersebut 2. 7 ). karya dosen/mahasiswa yang mendapat hak kekayaan intelektual, terdapat 10 dosen tetap penghitung rasio yang memiliki hak atas kekayaan intelektual namun hanya 1 judul hak atas kekayaan intelektual yang melibatkan mahasiswa. pelaksanaan pengukuran luaran dilakukan secara efektif dengan data yang lengkap.",
+      "nilai_al_asli": "3.5",
+      "status_relevansi_komentar_al": "SANGAT_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL secara efektif dan mendalam membahas semua poin kunci dari Keterangan Aspek Utama. Setiap aspek seperti capaian pembelajaran, prestasi mahasiswa, kelulusan tepat waktu, pelacakan data lulusan, masa tunggu, kesesuaian bidang kerja, dan karya intelektual, tidak hanya disebutkan tetapi juga diberikan data dan analisis spesifik yang mendukung. Ini menunjukkan pemahaman yang baik tentang kebutuhan aspek dan penyediaan bukti yang relevan untuk mendukung penilaian.",
+      "analisis_terhadap_nilai_al_asli": "Nilai 3.5 yang diberikan dalam Asesmen Lapangan (AL) mencerminkan penilaian yang sangat relevan dan mendalam terhadap aspek-aspek yang diukur. Komentar AL memberikan bukti yang cukup dan analisis yang mendalam terhadap setiap poin, yang sesuai dengan skor yang tinggi.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": "3.5",
+        "alasan_rekomendasi_nilai": "Berdasarkan analisis mendalam dan relevansi tinggi komentar terhadap aspek yang dinilai, nilai 3.5 yang asli sudah mencerminkan penilaian yang akurat dan adil. Komentar AL menunjukkan pemahaman yang baik dan penyajian data yang mendukung untuk setiap kriteria yang dinilai."
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+===================================================================================
+CONTOH PEMANGGILAN ANALISIS DENGAN PROMPT V4
+Jenis Analisis: 'AK_DAN_AL'
+Usulan: 23011217423415101559201, Aspek: C9.2.A
+===================================================================================
+
+--- HASIL ANALISIS LENGKAP AKHIR (JSON) DENGAN PROMPT V4 ---
+{
+  "nomor_usulan_analisis": "23011217423415101559201",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "23011217423415101559201",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "prestasi akademik mahasiswa 4 medali perunggu tingkat nasional , juara 2 tingkat lokal , prestasi no...",
+    "nilai_ak1_input": "1.5",
+    "komen_ak2_input": "unit pengelola program studi dan ps belum menguraikan keterlaksanaan pengukuran pemenuhan capaian st...",
+    "nilai_ak2_input": "2",
+    "komen_al_input": "prestasi non akademik mahasiswa program studi teknik informasi baru mencapai tingkat lokal dimana pr...",
+    "nilai_al_input": "2.5"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "23011217423415101559201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "prestasi akademik mahasiswa 4 medali perunggu tingkat nasional, juara 2 tingkat lokal, prestasi non akademik jumlahnya tidak dijelaskan. perlu klarfikasi lapang bukti prestasi mahasiswa tersebut.",
+        "nilai_asli": "1.5"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "unit pengelola program studi dan ps belum menguraikan keterlaksanaan pengukuran pemenuhan capaian standar dan indikator kinerja utama terkait pembelajaran lulusan dilakukan secara periodik pada tersebut dengan memenuhi aspek keserbacakupan, kedalaman, dan kebermanfaatan menggunakan acuan dan target yang sudah ditetapkan antara lain indeks prestasi kumulatif, prestasi akademik/nonakademik, masa studi, daya saing lulusan (masa tunggu dan kesesuaian bidang kerja) dan kinerja lulusan (kepuasan pengguna dan tempat kerja) unit pengelola program studi dan ps juga belum menguraikan keterlaksanaan pengukuran pemenuhan capaian standar dan indikator kinerja tambahan yang telah ditetapkan pembelajaran lulusan dilakukan secara periodik pada tersebut dengan memenuhi aspek keserbacakupan, kedalaman, dan kebermanfaatan menggunakan acuan dan target yang sudah ditetapkan terkait kompetensi bidang studi yang dipelajari. pada bagian pelaksanaan ini unit pengelola program studi dan ps hanya memberikan penjelasan tentang standar mutu kompetensi lulusan yaitu indeks prestasi kumulatif ratarata lulusan adalah 3.00 yang seharusnya diuraikan pada bagian penetapan c.9.1.a. upp dan ps hanya menyajikan prestasi akademik dan non akademik mahasiswa namun belum disertai dengan penjelasan keterlaksaan capain indikator tersebut yang belum ditetapkan di penetapan c.9.2.a serta belum disertai data dukung yang disajikan pada lembaga pengembangan keterampilan dan sertifikasi tabel 9.1 9.5",
+        "nilai_asli": "2"
+      },
+      "status_utama_konsistensi_ak": "TIDAK_KONSISTEN",
+      "status_sub_kategori_ak": "KOMEN_DAN_NILAI_BERBEDA",
+      "penjelasan_sistem_ak": "Kedua asesor memberikan komentar yang sangat berbeda dalam fokus dan substansi. Asesor pertama berfokus pada prestasi mahasiswa dengan meminta klarifikasi lebih lanjut, sementara asesor kedua lebih fokus pada proses pengukuran dan pemenuhan standar secara keseluruhan tanpa data yang memadai. Nilai yang diberikan oleh kedua asesor juga menunjukkan perbedaan yang signifikan, yang mencerminkan perbedaan dalam penilaian mereka terhadap keterlaksanaan dan kecukupan data yang disajikan. Perbedaan ini menunjukkan ketidaksesuaian dalam penilaian dan pendekatan evaluasi antara kedua asesor.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "1.75",
+        "alasan_rekomendasi_nilai": "Nilai disarankan 1.75 sebagai nilai tengah antara dua penilaian asesor, mengingat kedua asesor menunjukkan perbedaan substansial dalam penilaian mereka. Nilai ini dianggap mencerminkan keseimbangan antara kekurangan data yang diidentifikasi oleh kedua asesor dan kebutuhan untuk klarifikasi lebih lanjut sebagaimana disarankan oleh asesor pertama."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "23011217423415101559201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "prestasi non akademik mahasiswa program studi teknik informasi baru mencapai tingkat lokal dimana prestasi tersebut diraih dari ajang seni dan olahraga, dari ajang seni 1 (satu) mahasiswa yaitu duta bahasa tingkat lokal provinsi nusa tenggara timur dan olahraga 1 (satu) mahasiswa yaitu taekwondo dan 1 (satu) tim mahasiswa lomba futsal di tingkat lokal. link bukti dukung prestasi non akademik mahasiswa dasar kebijakan pemenuhan capaian pembelajaran lulusan (capaian pembelajaran lulusan), rata rata indeks prestasi kumulatif, prestasi mahasiswa, kelulusan tepat waktu, pelacakan dan perekaman data lulusan, rata rata masa tunggu, kesesuaian bidang kerja dengan bidang program studi, karya dosen/mahasiswa yang mendapat hak kekayaan intelektual adalah dokumen sistem penjaminan mutu internal kode std.a.01/lpm/ucb/r2 tanggal 01 agustus 2021 tentang dokumen sistem penjaminan mutu internal standar kompetensi lulusan link dasar kebijakan capaian pembelajaran lulusan (capaian pembelajaran lulusan) bukti kegiatan cukup lengkap dan sahih. berdasarkan hasil klarifikasi dan bukti dukung tambahan yang disampaikan pada saat asesmen lapangan menunjukkan bahwa, terlaksananya pemenuhan capaian pembelajaran lulusan (capaian pembelajaran lulusan), rata rata indeks prestasi kumulatif, prestasi mahasiswa, kelulusan tepat waktu, pelacakan dan perekaman data lulusan, rata rata masa tunggu, kesesuaian bidang kerja dengan bidang program studi, karya dosen/mahasiswa yang mendapat hak kekayaan intelektual disertai bukti yang sahih dan cukup lengkap.",
+      "nilai_al_asli": "2.5",
+      "status_relevansi_komentar_al": "SANGAT_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL secara efektif membahas dan memberikan bukti yang sahih dan cukup lengkap terkait dengan semua poin kunci yang disebutkan dalam Keterangan Aspek Utama. Komentar tersebut mencakup prestasi akademik dan non-akademik, kelulusan tepat waktu, pelacakan dan perekaman data lulusan, serta kesesuaian bidang kerja dengan bidang program studi, yang semuanya didukung dengan dokumentasi yang sahih. Ini menunjukkan pemenuhan yang baik terhadap standar yang diharapkan.",
+      "analisis_terhadap_nilai_al_asli": "Nilai 2.5 yang diberikan dalam Asesmen Lapangan mencerminkan penilaian yang konsisten dengan tingkat pemenuhan yang baik terhadap poin-poin kunci yang diharapkan dari Keterangan Aspek Utama. Nilai ini menunjukkan bahwa meskipun ada beberapa area yang mungkin masih bisa ditingkatkan, secara keseluruhan, pemenuhan terhadap standar telah tercapai dengan baik.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": "2.5",
+        "alasan_rekomendasi_nilai": "Berdasarkan analisis yang mendalam terhadap komentar AL dan pemenuhan terhadap poin kunci dari Keterangan Aspek Utama, nilai 2.5 tampaknya tepat dan mencerminkan tingkat pemenuhan yang baik. Tidak ada bukti yang menunjukkan kebutuhan untuk penyesuaian nilai berdasarkan data yang disajikan."
+      }
+    }
+  }
+}

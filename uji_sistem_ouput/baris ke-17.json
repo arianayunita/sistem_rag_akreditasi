@@ -1,0 +1,57 @@
+Jenis Analisis: 'AK_DAN_AL'
+Usulan: 22100711115303320657201, Aspek: C9.2.A
+===================================================================================
+
+--- HASIL ANALISIS LENGKAP AKHIR (JSON) DENGAN PROMPT V4 ---
+{
+  "nomor_usulan_analisis": "22100711115303320657201",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "22100711115303320657201",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "c9.2 pelaksanaan a. pendidikan pemenuhan capaian pembelajaran lulusan , rata rata indeks prestasi ku...",
+    "nilai_ak1_input": "2.75",
+    "komen_ak2_input": "pelaksanaan ( a ) pemenuhan capaian pembelajaran lulusan belum ada hasil pengukuran capaian pembelaj...",
+    "nilai_ak2_input": "2",
+    "komen_al_input": "pelaksanaan ( a ) pemenuhan capaian pembelajaran lulusan belum ada hasil pengukuran capaian pembelaj...",
+    "nilai_al_input": "3.5"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "22100711115303320657201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "c9.2 pelaksanaan a. pendidikan pemenuhan capaian pembelajaran lulusan, rata rata indeks prestasi kumulatif, prestasi mahasiswa, kelulusan tepat waktu, pelacakan dan pemerekaman data lulusan, rata rata masa tunggu, kesesuaian bidang kerja dengan bidang prodi, karya dtpr/mahasiswa yang mendapat hak kekayaan intelektual. 1. rata rata indeks prestasi kumulatif lulusan, dalam tiga tahun terakhir, rata rata indeks prestasi kumulatif mahasiswa prodi sitem informasi 3.18, dengan indeks prestasi kumulatif terendah 2.52 dan tertinggi 3.82. 2. prestasi mahasiswa, tidak ada informasi terkait prestasi mahasiswa. 3. kelulusan tepat waktu, rata rata persentase lulus tepat waktu dari setiap angkatan mulai dari tersebut 6, tersebut 5, tersebut 4, tersebut 3 adalah sebesar 34,18. 4. pelacakan dan perekaman data lulusan, rata rata lulusan yang berprofesi sebagai wirausaha memenuhi standar ketetapan yaitu lebih atau sama dengan 5 untuk setiap program studi. 5. rata rata masa tunggu, rata rata masa tunggu kerja mahasiswa memenuhi standar yang telah menjadi standar ketetapan dimana rata rata waktu tunggu kerja pertama kurang dari atau sama dengan 6 (enam) bulan. 6. kesesuaian bidang kerja dengan bidang prodi, kesesuaian bidang kerja lulusan dengan bidang studi lebih dari atau sama dengan 85. 7. karya dtpr/mahasiswa yang mendapat hak kekayaan intelektual, tidak ada informasi terkait dengan karya dtpr/mahasiswa yang mendapat hak kekayaan intelektual. belum ada link bukti yang disampaikan, klarifikasi saat asesmen lapangan.",
+        "nilai_asli": "2.75"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "pelaksanaan (a) pemenuhan capaian pembelajaran lulusan belum ada hasil pengukuran capaian pembelajaran lulusan, masih menggunakan indeks prestasi kumulatif. (b) rata rata indeks prestasi kumulatif lulusan tidak ada informasi (c) prestasi mahasiswa tidak ada informasi detailnya (perlu klarifikasi dan bukti), prestasi dalam bidang akademik ada 1 kegiatan internasional dan 1 kegiatan nasional. sedangkan untuk prestasi non akademik ada 2 kegiatan nasional (d) kelulusan tepat waktu rata rata persentase lulus tepat waktu dari setiap angkatan mulai dari tersebut 6, tersebut 5, tersebut 4, tersebut 3 adalah sebesar 34,18 (e) pelacakan dan perekaman data lulusan tidak dijelaskan bagaimana mekanisme yang digunakan dalam melakukan pelacakan dan perekaman data lulusan. hasilnya jumlah lulusan (29), yang terlacak (24) dengan rincian lokal/ wilayah/ berwirausaha tidak berbadan hukum (4), nasional/ berwirausaha berbadan hukum (15) dan multinasiona/internasional (3) (4) rata rata lama studi mahasiswa tidak ada informasi (5) waktu tunggu lulusan dalam memperoleh pekerjaan pertamanya adalah dari 29 jumlah lulusan, 24 berhasil terlacak dengan 23 lulusan yang waktu tunggu mendapatkan pekerjaan 6 bulan (6) kesesuaian bidang pekerjaan lulusan tidak ada informasi (8) karya dosen/mhs yang mendapat hak kekayaan intelektual tidak ada informasi",
+        "nilai_asli": "2"
+      },
+      "status_utama_konsistensi_ak": "TIDAK_KONSISTEN",
+      "status_sub_kategori_ak": "KOMEN_DAN_NILAI_BERBEDA",
+      "penjelasan_sistem_ak": "Dari analisis data baru, terdapat perbedaan signifikan dalam substansi komentar dan nilai yang diberikan oleh kedua asesor. Asesor pertama memberikan informasi lebih rinci dan menyeluruh, sedangkan asesor kedua lebih fokus pada kekurangan informasi dan klarifikasi yang diperlukan. Nilai yang diberikan juga mencerminkan perbedaan pendekatan ini, dengan asesor pertama memberikan nilai yang lebih tinggi (2.75) dibandingkan asesor kedua (2). Perbedaan ini menunjukkan ketidaksesuaian dalam penilaian dan interpretasi data yang disampaikan.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "2.5",
+        "alasan_rekomendasi_nilai": "Nilai disarankan 2.5 sebagai nilai tengah antara dua asesor, mengingat adanya perbedaan pendapat yang signifikan. Nilai ini mencerminkan kebutuhan untuk klarifikasi lebih lanjut dan pengumpulan bukti tambahan selama asesmen lapangan."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "22100711115303320657201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "pelaksanaan ( a ) pemenuhan capaian pembelajaran lulusan belum ada hasil pengukuran capaian pembelajaran lulusan , masih menggunakan indeks prestasi kumulatif . implementasi kurikulum berbasis obe belum sepenuhnya . ( b ) rata rata indeks prestasi kumulatif lulusan dalam tiga tahun terakhir , rata rata indeks prestasi kumulatif mahasiswa prodi sitem informasi 3.18 , dengan indeks prestasi kumulatif terendah 2.52 dan tertinggi 3.82 . ( c ) prestasi mahasiswa prestasi dalam bidang akademik ada 4 kegiatan internasional dan 3 kegiatan nasional . sedangkan untuk prestasi non akademik ada 1 kegiatan nasional ( d ) kelulusan tepat waktu rata rata persentase lulus tepat waktu dari setiap angkatan mulai dari tersebut 6 , tersebut 5 , tersebut 4 , tersebut 3 adalah sebesar 34,18 ( e ) pelacakan dan perekaman data lulusan tidak dijelaskan bagaimana mekanisme yang digunakan dalam melakukan pelacakan dan perekaman data lulusan . hasilnya jumlah lulusan ( 29 ) , yang terlacak ( 24 ) dengan rincian lokal/ wilayah/ berwirausaha tidak berbadan hukum ( 4 ) , nasional/ berwirausaha berbadan hukum ( 15 ) dan multinasiona/internasional ( 3 ) ( f ) rata rata masa tunggu lulusan dalam memperoleh pekerjaan pertamanya adalah dari 29 jumlah lulusan , 24 berhasil terlacak dengan 23 lulusan yang waktu tunggu mendapatkan pekerjaan 6 bulan ( g ) kesesuaian bidang kerja dengan bidang prodi , kesesuaian bidang kerja lulusan dengan bidang studi lebih dari atau sama dengan 75 . ( h ) karya dtpr/mahasiswa yang mendapat hak kekayaan intelektual belum ada",
+      "nilai_al_asli": 3.5,
+      "status_relevansi_komentar_al": "CUKUP_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL mencakup sebagian besar poin kunci dari Keterangan Aspek Utama, namun beberapa poin seperti pelacakan dan perekaman data lulusan tidak dijelaskan secara mendalam mengenai mekanisme yang digunakan. Meskipun demikian, ada upaya yang cukup dalam menjelaskan kesesuaian bidang kerja, rata-rata masa tunggu, dan prestasi mahasiswa. Namun, kurangnya informasi tentang karya kekayaan intelektual dan pengukuran capaian pembelajaran lulusan menunjukkan bahwa beberapa aspek penting belum sepenuhnya terpenuhi atau dijelaskan dengan baik.",
+      "analisis_terhadap_nilai_al_asli": "Nilai 3.5 yang diberikan dalam AL tampaknya mencerminkan upaya yang cukup dalam memenuhi beberapa aspek kunci, namun masih ada kekurangan dalam beberapa area penting seperti pelacakan data lulusan dan pengukuran capaian pembelajaran yang tidak sepenuhnya dijelaskan atau diimplementasikan.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": "3.0",
+        "alasan_rekomendasi_nilai": "Rekomendasi nilai 3.0 lebih mencerminkan kondisi sebenarnya di mana sebagian besar poin kunci dibahas namun beberapa di antaranya tidak dijelaskan dengan cukup detail atau tidak memiliki bukti yang kuat. Penurunan nilai ini disarankan untuk mencerminkan kebutuhan akan peningkatan dalam dokumentasi dan implementasi penuh dari aspek-aspek kunci."
+      }
+    }
+  }
+}

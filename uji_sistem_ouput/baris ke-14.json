@@ -1,0 +1,59 @@
+===================================================================================
+CONTOH PEMANGGILAN ANALISIS DENGAN PROMPT V4
+Jenis Analisis: 'AK_DAN_AL'
+Usulan: 22122414170011102755201, Aspek: C9.2.A
+===================================================================================
+
+--- HASIL ANALISIS LENGKAP AKHIR (JSON) DENGAN PROMPT V4 ---
+{
+  "nomor_usulan_analisis": "22122414170011102755201",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "22122414170011102755201",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "dijelaskan bahwa dalam pelaksanaan terdapat beberapa dokumen yang dilampirkan daftar formulir pelaks...",
+    "nilai_ak1_input": "3",
+    "komen_ak2_input": "pada pelaksanan tidak lengkap karena tidak semua ada informasi pelaksnaan standar ( 1 ) pemenuhan ca...",
+    "nilai_ak2_input": "3.3",
+    "komen_al_input": "pemenuhan capaian pembelajaran lulusan dalam memastikan seluruh mahasiswa yang diluluskan telah meme...",
+    "nilai_al_input": "3.15"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "22122414170011102755201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "dijelaskan bahwa dalam pelaksanaan terdapat beberapa dokumen yang dilampirkan daftar formulir pelaksanaan tracer study 2019 2021. lembaga pusat karir dan alumni melakukan tracer study terhadap seluruh alumni universitas widya tridarma pontianak termasuk program studi informatika setiap tahunnya sejak terbentuknya lembaga pusat karir dan alumni pada tahun 2019. dokumen laporan keikutsertaan lomba . beberapa prestasi mahasiswa program studi informatika yang terdata mengikuti perlombaan baik individu maupun tim di tingkat daerah dan nasional . dokumen publikasi dosen 3 tahun terakhir dan dokumen kumpulan artikel ilmiah . publikasi yang dilakukan oleh dosen program studi informatika selama 3 tahun terakhir ( 2019 2021 ) yang terpublikasi pada jurnal terakreditasi maupun yang belum terakreditasi secara nasional . dokumen penelitian mahasiswa ( skripsi ) tahun 2019 2021. topik penulisan skripsi sudah cukup beragam diteliti oleh mahasiswa program studi informatika . sebagian skripsi mahasiswa dilampirkan sebagai contoh pada link di atas . dokumen jurnal nasional ber issn yang memuat hasil penelitian mahasiswa . hasil penulisan ilmiah mahasiswa program studi informatika yang sudah diterbitkan pada jurnal nasional ber issn masyarakat .",
+        "nilai_asli": "3"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "pada pelaksanan tidak lengkap karena tidak semua ada informasi pelaksnaan standar ( 1 ) pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) tidak ada informasi , standar ( 2 ) , rata rata indeks prestasi kumulatif , yaitu telah mencapai 3.0 , sesuai dengan bukti tabel 9.1 indeks prestasi kumulatif lulusan ( laporan kinerja program studi hal 11 ) standar ( 3 ) , prestasi mahasiswa tidak ada informasi standar ( 4 ) , kelulusan tepat waktu , yaitu adanya penurunan jumlah lulusan setiap tahunnya dengan bukti tabel 9.2 kelulusan tepat waktu ( laporan kinerja program studi hal 11 ) standar ( 5 ) , pelacakan dan perekaman data lulusan , yaitu tidak dijelaskan secara tegas , dan hanya melampirkan daftar formulir pelaksanaan tracer study 2019 2021 pada laporan evaluasi diri hal 55. kemudian standar ( 6 ) , rata rata masa tunggu , yaitu masa tunggu lulusan kurang dari 3 bulan sesuai dengan bukti tabel 9.4 rata rata masa tunggu lulusan untuk bekerja pertama kali ( laporan kinerja program studi hal 12 ) dan standar ( 7 ) , kesesuaian bidang kerja dengan bidang program studi dari 147 lulusan terdapat 44 lulusan yang sesuai dengan bidang informatika ( laporan kinerja program studi hal 12 ) . bukti bukti yang lengkap dan sahih perlu dilihat pada saat asesmen kecukupan .",
+        "nilai_asli": "3.3"
+      },
+      "status_utama_konsistensi_ak": "TIDAK_KONSISTEN",
+      "status_sub_kategori_ak": "KOMEN_DAN_NILAI_BERBEDA",
+      "penjelasan_sistem_ak": "Dari analisis, kedua asesor memberikan komentar yang berbeda secara substansial mengenai pelaksanaan dan pemenuhan aspek C9.2.A. Asesor 1 lebih fokus pada dokumentasi dan kegiatan yang sudah dilakukan, sementara Asesor 2 lebih kritis terhadap kekurangan informasi dan ketidaklengkapan data. Nilai yang diberikan oleh kedua asesor, meskipun tidak terlalu jauh berbeda, menunjukkan adanya perbedaan penilaian terhadap kualitas pelaksanaan yang dijelaskan. Kedua asesor tampaknya memiliki pandangan yang berbeda tentang seberapa baik aspek-aspek tersebut telah dilaksanakan, yang mengarah pada perbedaan nilai.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "3.15",
+        "alasan_rekomendasi_nilai": "Nilai disarankan 3.15 merupakan rata-rata dari nilai yang diberikan oleh kedua asesor, mengingat kedua asesor memberikan pandangan yang berbeda namun masih dalam rentang yang wajar. Nilai ini mencerminkan penilaian yang lebih seimbang antara kekuatan dan kelemahan dalam pelaksanaan aspek C9.2.A."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "22122414170011102755201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "pemenuhan capaian pembelajaran lulusan dalam memastikan seluruh mahasiswa yang diluluskan telah memenuhi semua capaian pembelajaran lulusan yang ditetapkan pada program studi maka diberlakukan aturan sebagai berikut 1 ) mahasiswa yang dapat menjalani yudisium kelulusan adalah mahasiswa yang telah mengikuti serta lulus mata kuliah wajib dan mata kuliah pilihan . 2 ) mahasiswa yang menjalani yudisium maksimal boleh memiliki dua buah nilai d pada mata kuliah di luar mata kuliah pada tabel . 3 ) rata rata indeks prestasi kumulatif lulusan adalah lebih dari 3,00. berdasarkan data yudisium tiga tahun terakhir , rata rata indeks prestasi kumulatif yang dicapai lulusan pada tahun 2020,2021 , dan 2022 berturut turut adalah 3,03 3,19 dan 3,16. hal ini menunjukkan bahwa mahasiswa lulusan rata rata telah memenuhi capaian pembelajaran lulusan yang ditetapkan prodi . rata rata indeks prestasi kumulatif rata rata indeks prestasi kumulatif lulusan tiga tahun terakhir telah melampaui target dari ik . rata rata indeks prestasi kumulatif mengalami kenaikan yang cukup baik dari tahun 2020 ke 2021 , sedangkan pada tahun 2021 ke 2022 terjadi penurunan rata rata indeks prestasi kumulatif namun tidak terlalu signifikan . secara keseluruhan , rata rata indeks prestasi kumulatif lulusan menunjukkan tren positif . 3.prestasi mahasiswa akademik michelle setiyanti juara 1 lomba mobile apps . non akademik christian rheinard sadeko monopoli championship tekken 7 , tim basket imu cup 2019 , tim basket khatulistiwa putra cup 2019 , tim basket kompetisi bem fh untan 2022 , tim basket pandawa cup 2022. kelulusan tepat waktu rata rata lama studi mahasiswa tiga tahun terakhir belum mencapai target ik yang ditetapkan yaitu 4.50 tahun , namun terlihat bahwa rata rata lama studi mahasiswa menunjukkan tren negative yang berarti semakin baik setiap tahunnya . pelacakan dan perekaman data lulusan lulusan yang berhasil dilacak dan direkam dalam tiga tahun terakhir terlihat telah melampaui target . target yang digunakan merupakan target dari standar nasional dikti karena uwdp maupun unit pengelola program studi belum memiliki kebijakan atau standar tentang target capaian lulusan yang berhasil dilacak dan direkam . waktu tunggu lulusan waktu tunggu lulusan terlihat mengalami kenaikan hingga melewati target yang ditetapkan uwdp pada mahasiswa lulusan tahun 2020 yang dilacak pada 2021 , dan mengalami penurunan waktu tunggu pada mahasiswa lulusan tahun 2021 yang dilacak pada 2022. tren secara keseluruhan masih menunjukkan penurunan waktu tunggu yang berarti semakin baik karena waktu tunggu kurang dari target yang ditetapkan . kesesuaian bidang kerja dengan program studi kesesuaian bidang kerja dengan program studi tiga tahun terakhir belum mencapai target yang ditetapkan oleh prodi dan tren secara keseluruhan terlihat mengalami penurunan . karya dosen/mahasiswa yang mendapat hak kekayaan intelektual uwdp maupun unit pengelola program studi dan prodi belum memiliki kebijakan maupun standar mutu terkait hak kekayaan intelektual sehingga dalam tiga tahun terakhir tidak terdapat karya dosen/mahasiswa yang mendapat hak kekayaan intelektual .",
+      "nilai_al_asli": "3.15",
+      "status_relevansi_komentar_al": "CUKUP_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL secara umum mencakup sejumlah besar poin kunci dari Keterangan Aspek Utama, termasuk capaian pembelajaran lulusan, IPK, prestasi mahasiswa, kelulusan tepat waktu, pelacakan dan perekaman data lulusan, dan kesesuaian bidang kerja. Namun, beberapa area seperti karya dosen/mahasiswa yang mendapat hak kekayaan intelektual tidak dibahas secara memadai. Meskipun komentar menyediakan data dan tren yang relevan, beberapa poin seperti detail implementasi kebijakan dan standar mutu terkait hak kekayaan intelektual kurang diberikan. Oleh karena itu, komentar dianggap cukup relevan karena membahas sebagian besar poin kunci tetapi tidak semua dengan detail yang cukup.",
+      "analisis_terhadap_nilai_al_asli": "Nilai 3.15 yang diberikan dalam Asesmen Lapangan (AL) tampaknya mencerminkan penilaian yang cukup akurat berdasarkan cakupan dan kedalaman analisis yang disediakan dalam komentar AL. Nilai ini menunjukkan bahwa ada kekuatan dalam beberapa area tetapi juga ruang untuk perbaikan dalam aspek lain, sesuai dengan analisis relevansi komentar.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": "3.15",
+        "alasan_rekomendasi_nilai": "Berdasarkan analisis, nilai 3.15 yang asli tampaknya tepat mengingat bahwa komentar AL cukup relevan dengan sebagian besar poin kunci yang dibahas secara memadai. Meskipun ada beberapa kekurangan dalam detail dan cakupan penuh semua poin kunci, secara keseluruhan, penilaian ini mencerminkan kinerja yang baik tetapi dengan ruang untuk perbaikan."
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+===================================================================================
+CONTOH PEMANGGILAN ANALISIS DENGAN PROMPT V4
+Jenis Analisis: 'AK_DAN_AL'
+Usulan: 23011017165703100757201, Aspek: C9.2.A
+===================================================================================
+
+--- HASIL ANALISIS LENGKAP AKHIR (JSON) DENGAN PROMPT V4 ---
+{
+  "nomor_usulan_analisis": "23011017165703100757201",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "23011017165703100757201",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "rata rata indeks prestasi kumulatif lulusan prodi sistem informasi adalah 3.67 pada tahun 2021 ( ter...",
+    "nilai_ak1_input": "3.5",
+    "komen_ak2_input": "keterlaksanaan pendidikan 1 ) pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ...",
+    "nilai_ak2_input": "2.75",
+    "komen_al_input": "keterlaksanaan pendidikan 1 ) pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ...",
+    "nilai_al_input": "3.25"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "23011017165703100757201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "rata rata indeks prestasi kumulatif lulusan prodi sistem informasi adalah 3.67 pada tahun 2021 ( tersebut ). terkait masa studi lulusan prodi sistem informasi, sebanyak 14 orang dari 24 orang lulusan dapat menyelesaikan studi maksimal 4 tahun atau sebanyak 58,3 lulus tepat waktu. prodi secara mandiri juga melakukan proses tracer studi dengan menggunakan kuesioner online link tracer study dan link pengguna lulusan sudah mendapatkan data tracer study sebanyak 10 lulusan. 80 menyatakan bekerja sesuai bidang ilmu seperti bekerja sebagai programmer, it developer, dan database admin. sebanyak 7 orang (70) menyatakan memperoleh pekerjaan kurang dari atau sama dengan 5 bulan.",
+        "nilai_asli": "3.5"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "keterlaksanaan pendidikan 1) pemenuhan capaian pembelajaran lulusan (capaian pembelajaran lulusan) untuk mengetahui pemenuhan capaian pembelajaran lulusan dapat diukur berdasarkan indeks prestasi kumulatif rata rata lulusan. rata rata indeks prestasi kumulatif lulusan prodi sistem informasi adalah 3.67 pada tahun 2021 (tersebut). terkait masa studi lulusan prodi sistem informasi, sebanyak 14 orang dari 24 orang lulusan dapat menyelesaikan studi maksimal 4 tahun atau sebanyak 58,3 lulus tepat waktu., rata rata indeks prestasi kumulatif, prestasi mahasiswa, kelulusan tepat waktu, pelacakan dan perekaman data 2) lulusan, rata rata masa tunggu pelaksanaan studi penelusuran lulusan (tracer study) dilakukan secara rutin tiap tahun dengan menggunakan instrumen kuesioner dan berkoordinasi dengan buka. prodi secara mandiri juga melakukan proses tracer studi dengan menggunakan kuesioner online link tracer study dan link pengguna lulusan, 3) kesesuaian bidang kerja dengan bidang program studi hingga laporan evaluasi diri ini disusun, prodi sudah mendapatkan data tracer study sebanyak 10 lulusan. 80 menyatakan bekerja sesuai bidang ilmu seperti bekerja sebagai programmer, it developer, dan database admin. jenis pekerjaan ini sudah sesuai dengan profil lulusan prodi sistem informasi. sebanyak 7 orang (70) menyatakan memperoleh pekerjaan kurang dari atau sama dengan 5 bulan.,4) karya dosen/mahasiswa yang mendapat hak kekayaan intelektual sudah ada 5 penelitian yang mendapat hak kekayaan intelektual dan 1 program kreativitas mahasiswa yang mendapat hak kekayaan intelektual.",
+        "nilai_asli": "2.75"
+      },
+      "status_utama_konsistensi_ak": "TIDAK_KONSISTEN",
+      "status_sub_kategori_ak": "KOMEN_SAMA_NILAI_BERBEDA",
+      "penjelasan_sistem_ak": "Kedua asesor memberikan komentar yang sangat mirip, menggambarkan kinerja dan hasil dari prodi sistem informasi dengan fokus pada indeks prestasi kumulatif, kelulusan tepat waktu, pelacakan dan perekaman data lulusan, serta kesesuaian bidang kerja. Namun, nilai yang diberikan oleh kedua asesor berbeda secara signifikan (3.5 vs 2.75), yang menunjukkan adanya ketidaksesuaian dalam penilaian meskipun substansi komentar sangat mirip. Perbedaan ini mungkin disebabkan oleh interpretasi yang berbeda terhadap data yang sama atau penekanan pada aspek tertentu yang berbeda antara kedua asesor.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "3.0-3.25",
+        "alasan_rekomendasi_nilai": "Nilai yang disarankan adalah rata-rata dari nilai yang diberikan oleh kedua asesor, mengingat kedua asesor memiliki pandangan yang serupa tentang kinerja program studi tetapi memberikan penilaian yang berbeda. Nilai ini dianggap mewakili konsensus yang lebih adil antara dua evaluasi."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "23011017165703100757201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "keterlaksanaan pendidikan 1 ) pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) untuk mengetahui pemenuhan capaian pembelajaran lulusan dapat diukur berdasarkan indeks prestasi kumulatif rata rata lulusan . rata rata indeks prestasi kumulatif lulusan prodi sistem informasi adalah 3.67 pada tahun 2021 ( tersebut ) . terkait masa studi lulusan prodi sistem informasi , sebanyak 14 orang dari 24 orang lulusan dapat menyelesaikan studi maksimal 4 tahun atau sebanyak 58,3 lulus tepat waktu. , rata rata indeks prestasi kumulatif , prestasi mahasiswa , kelulusan tepat waktu , pelacakan dan perekaman data 2 ) lulusan , rata rata masa tunggu pelaksanaan studi penelusuran lulusan ( tracer study ) dilakukan secara rutin tiap tahun dengan menggunakan instrumen kuesioner dan berkoordinasi dengan buka . prodi secara mandiri juga melakukan proses tracer studi dengan menggunakan kuesioner online link tracer study dan link pengguna lulusan , 3 ) kesesuaian bidang kerja dengan bidang program studi hingga laporan evaluasi diri ini disusun , prodi sudah mendapatkan data tracer study sebanyak 10 lulusan . 80 menyatakan bekerja sesuai bidang ilmu seperti bekerja sebagai programmer , it developer , dan database admin . jenis pekerjaan ini sudah sesuai dengan profil lulusan prodi sistem informasi . sebanyak 7 orang ( 70 ) menyatakan memperoleh pekerjaan kurang dari atau sama dengan 5 bulan.,4 ) karya dosen/mahasiswa yang mendapat hak kekayaan intelektual sudah ada 5 penelitian yang mendapat hak kekayaan intelektual dan 1 program kreativitas mahasiswa yang mendapat hak kekayaan intelektual .",
+      "nilai_al_asli": "3.25",
+      "status_relevansi_komentar_al": "CUKUP_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL mencakup sebagian besar poin kunci dari Keterangan Aspek Utama, seperti pemenuhan capaian pembelajaran lulusan, indeks prestasi kumulatif, kelulusan tepat waktu, pelacakan dan perekaman data lulusan, kesesuaian bidang kerja, dan karya dosen/mahasiswa. Namun, beberapa aspek seperti detail karya intelektual dan data spesifik dari pelacakan lulusan kurang dieksplorasi secara mendalam. Meskipun demikian, komentar menyediakan cukup bukti dan deskripsi untuk menunjukkan pemenuhan standar yang diharapkan.",
+      "analisis_terhadap_nilai_al_asli": "Nilai 3.25 yang diberikan pada AL tampaknya konsisten dengan tingkat relevansi dan kedalaman pembahasan yang disediakan dalam komentar AL. Komentar tersebut mencakup sebagian besar aspek yang diharapkan, meskipun ada ruang untuk peningkatan dalam detail dan kedalaman analisis untuk beberapa poin.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": "3.25",
+        "alasan_rekomendasi_nilai": "Berdasarkan analisis, nilai 3.25 tampaknya tepat mengingat tingkat relevansi dan kualitas pembahasan dalam komentar AL. Komentar tersebut berhasil menangani sebagian besar poin kunci dengan cukup baik, meskipun ada beberapa kekurangan dalam detail dan kedalaman untuk beberapa aspek."
+      }
+    }
+  }
+}

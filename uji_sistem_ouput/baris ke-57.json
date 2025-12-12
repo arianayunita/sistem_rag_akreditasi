@@ -1,0 +1,60 @@
+
+===================================================================================
+CONTOH PEMANGGILAN ANALISIS DENGAN PROMPT V4
+Jenis Analisis: 'AK_DAN_AL'
+Usulan: 22040514020107106955201, Aspek: C9.2.A
+===================================================================================
+
+--- HASIL ANALISIS LENGKAP AKHIR (JSON) DENGAN PROMPT V4 ---
+{
+  "nomor_usulan_analisis": "22040514020107106955201",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "22040514020107106955201",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "pemenuhan capaian pembelajaran lulusan diukur terhadap factor tingkat penguasaan , kemanfaatan , dan...",
+    "nilai_ak1_input": "3.5",
+    "komen_ak2_input": "pelaksanaan a. capaian pembelajaran lulusan penjelasan kurang memadai b. rata rata indeks prestasi k...",
+    "nilai_ak2_input": "3.5",
+    "komen_al_input": "pemenuhan capaian pembelajaran lulusan diukur terhadap factor tingkat penguasaan , kemanfaatan , dan...",
+    "nilai_al_input": "3.5"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "22040514020107106955201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "pemenuhan capaian pembelajaran lulusan diukur terhadap factor tingkat penguasaan, kemanfaatan, dan pengembangan ilmu pengetahuan. indeks prestasi kumulatif rata rata dalm 3 tahun terakhir (128 wisudawan) 2019 3,27 2020 3,34 2021 indeks prestasi kumulatif 3,54. prestasi mahasiswa di bidang akademik 8 nasional. prestasi non akademik 2 internasional, 3 nasional. kelulusan tepat waktu 52 mahasiswa dengan rata rata masa studi 4,43 tahun. tracer study 3 tahun terakhir 101 dari 125 lulusan. kepuasan pengguna lulusan 80. masa tunggu bekerja 2,6 bulan. kesesuaian bidang kerja dengan bidang program studi 88 dari 101. karya dtpr/mahasiswa yang mendapat hak kekayaan intelektual 3 tahun terakhir 6. asesmen lapangan cek hak kekayaan intelektual",
+        "nilai_asli": "3.5"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "pelaksanaan a. capaian pembelajaran lulusan penjelasan kurang memadai b. rata rata indeks prestasi kumulatif ok, melampaui indikator kinerja utama yang ditetapkan. perlu disertai bukti sahih c. prestasi mahasiswa terdapat 11 mahasiswa, perlu dibandingkan dengan penetapan (dikonfirmasi saat asesmen lapangan) d. kelulusan tepat waktu 52 mahasiswa (brp persen ada gap penetapan) lengkapi bukti sahih e. kesesuaian bidang kerja lengkapi dengan bukti sahih f. hak kekayaan intelektual perlu konfirmasi dengan penetapan",
+        "nilai_asli": "3.5"
+      },
+      "status_utama_konsistensi_ak": "KONSISTEN",
+      "status_sub_kategori_ak": "KOMEN_BERBEDA_NILAI_SAMA",
+      "penjelasan_sistem_ak": "Kedua asesor memberikan nilai yang sama (3.5) namun substansi komentar mereka berbeda. Asesor pertama lebih fokus pada pencapaian dan data kuantitatif yang mendukung penilaian, sementara asesor kedua lebih kritis terhadap kekurangan bukti dan penjelasan yang memadai. Meskipun kedua asesor sepakat pada nilai yang sama, perbedaan dalam fokus dan substansi komentar mereka menunjukkan bahwa mereka menilai aspek yang sama dengan perspektif yang berbeda.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "3.5",
+        "alasan_rekomendasi_nilai": "Nilai 3.5 tampaknya mencerminkan konsensus antara dua asesor meskipun mereka memiliki pendekatan yang berbeda dalam evaluasi mereka. Nilai ini mencerminkan kinerja yang baik dengan beberapa area yang memerlukan perbaikan dan validasi lebih lanjut, seperti yang dicatat oleh kedua asesor."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "22040514020107106955201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "pemenuhan capaian pembelajaran lulusan diukur terhadap factor tingkat penguasaan, kemanfaatan, dan pengembangan ilmu pengetahuan. indeks prestasi kumulatif rata rata dalm 3 tahun terakhir (128 wisudawan) 2019 3,27 2020 3,34 2021 indeks prestasi kumulatif 3,54. indeks prestasi kumulatif sudah melampaui indikator kinerja utama. prestasi mahasiswa di bidang akademik 8 nasional. prestasi non akademik 2 internasional, 3 nasional. kelulusan tepat waktu 52 mahasiswa dengan rata rata masa studi 4,43 tahun. tracer study 3 tahun terakhir 101 dari 125 lulusan. kepuasan pengguna lulusan 80. masa tunggu bekerja 2,6 bulan. kesesuaian bidang kerja dengan bidang program studi 88 dari 101. karya dtpr/mahasiswa yang mendapat hak kekayaan intelektual 3 tahun terakhir 6. bukti pemenuhan capaian pembelajaran lulusan melalui pemetaan capaian pembelajaran lulusan mata kuliah capaian pembelajaran mata kuliah, tetapi belum tersedia informasi mengenai instrumen hasil pemenuhan capaian pembelajaran lulusan.",
+      "nilai_al_asli": "3.5",
+      "status_relevansi_komentar_al": "SANGAT_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL secara efektif membahas poin-poin kunci dari Keterangan Aspek Utama, mencakup pemenuhan capaian pembelajaran, IPK, prestasi mahasiswa, kelulusan tepat waktu, pelacakan dan perekaman data lulusan, masa tunggu, kesesuaian bidang kerja, dan karya intelektual. Komentar ini memberikan data spesifik dan terperinci yang mendukung setiap aspek, menunjukkan pemahaman yang mendalam dan penilaian yang akurat terhadap aspek-aspek tersebut. Komentar ini juga mencerminkan penggunaan data yang sahih dan relevan untuk menilai kinerja aspek yang dinilai.",
+      "analisis_terhadap_nilai_al_asli": "Nilai 3.5 yang diberikan dalam Asesmen Lapangan (AL) tampak konsisten dengan komentar yang diberikan. Komentar tersebut menunjukkan pemenuhan yang baik terhadap standar yang diharapkan, dengan bukti yang cukup untuk mendukung penilaian tersebut.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": "3.5",
+        "alasan_rekomendasi_nilai": "Berdasarkan analisis terhadap komentar AL dan pemenuhan terhadap poin kunci dari Keterangan Aspek Utama, nilai 3.5 tampak tepat dan mencerminkan penilaian yang akurat terhadap kinerja aspek yang dinilai. Komentar AL memberikan bukti yang cukup dan spesifik yang mendukung penilaian ini."
+      }
+    }
+  }
+}

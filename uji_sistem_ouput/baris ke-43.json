@@ -1,0 +1,59 @@
+===================================================================================
+CONTOH PEMANGGILAN ANALISIS DENGAN PROMPT V4
+Jenis Analisis: 'AK_DAN_AL'
+Usulan: 22062814284906105457201, Aspek: C9.2.A
+===================================================================================
+
+--- HASIL ANALISIS LENGKAP AKHIR (JSON) DENGAN PROMPT V4 ---
+{
+  "nomor_usulan_analisis": "22062814284906105457201",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "22062814284906105457201",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "berdasarkan monitoring yang dilakukan setiap akhir semester hingga mahasiswa lulus , dapat dilihat b...",
+    "nilai_ak1_input": "3.5",
+    "komen_ak2_input": "penjelasan tentang pelaksanaan kebijakan , standar , indikator kinerja utama , dan indikator kinerja...",
+    "nilai_ak2_input": "3.5",
+    "komen_al_input": "berdasarkan monitoring yang dilakukan setiap akhir semester hingga mahasiswa lulus , dapat dilihat b...",
+    "nilai_al_input": "3.75"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "22062814284906105457201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "berdasarkan monitoring yang dilakukan setiap akhir semester hingga mahasiswa lulus, dapat dilihat bahwa 100 lulusan ps telah menyelesaikan mata kuliah dengan nilai minimum c. sedangkan, lulusan ps dengan nilai minimum mata kuliah b sebanyak 88. berdasarkan data tersebut dapat dilihat bahwa lulusan ps telah memenuhi capaian pembelajaran lulusan. pada tersebut rata rata indeks prestasi kumulatif lulusan berada pada 3,52. berdasarkan data tersebut maka dapat dilihat bahwa rata rata indeks prestasi kumulatif lulusan telah melampaui target perguruan tinggi. pada tersebut diperoleh total 20 prestasi dengan jumlah prestasi nasional sebanyak 12 prestasi dan dalam lingkup lokal/wilayah sebanyak 8 prestasi. adapun jenis prestasi yang telah diperoleh pada tersebut diantaranya. prestasi dalam lingkup nasional intermediae information technology competition (itc), pekan ilmiah dan smart inotek. prestasi dalam lingkup wilayah/lokal copa amikom dan peksima. a rata rata masa studi untuk mahasiswa persentase sebesar 64,89 mahasiswa program studi sistem informasi lulus tepat waktu (masa studi 4 tahun) dengan rata rata masa studi lulusan adalah 3 tahun, 9 bulan, 19 hari terhitung dari mahasiswa masuk hingga dinyatakan lulus. selain itu, sekitar 59 mahasiswa lulus tepat waktu dengan masa studi 3,5 tahun. persentase dari 205 jumlah lulusan pada tahun 2021 yang dapat terlacak menggunakan sistem tracer study sebesar 35,59.. rata rata waktu tunggu lulusan 3 tahun terakhir adalah 5,98 bulan. ada 5 jenis sertifikasi internasional pilihan yang dapat diikuti mahasiswa yaitu red hat system administration (rh124), certified artificial intelligence associate (caia), foresec certified network security (fcns), foresec certified computer hacking (fcch) dan foresec certified forensic expert (fcfe). persentase penilaian pengguna lulusan dengan minimal penilaian baik adalah 74,83. pengakuan hak kekayaan intelektual pada tersebut sebanyak 5 hak kekayaan intelektual.",
+        "nilai_asli": "3.5"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "penjelasan tentang pelaksanaan kebijakan, standar, indikator kinerja utama, dan indikator kinerja tambahan yang berkaitan dengan luaran dan capaian tridarma perguruan tinggi sebagaimana di tabel 9.1, tabel 9.2, tabel 9.3, tabel 9.4, tabal 9.5, dengan cakupan yang jelas",
+        "nilai_asli": "3.5"
+      },
+      "status_utama_konsistensi_ak": "KONSISTEN",
+      "status_sub_kategori_ak": "KOMEN_BERBEDA_NILAI_SAMA",
+      "penjelasan_sistem_ak": "Kedua asesor memberikan nilai yang sama (3.5) namun substansi komentar mereka berbeda. Asesor pertama memberikan detail yang luas mengenai capaian pembelajaran, prestasi, dan pelacakan data lulusan, sementara asesor kedua lebih fokus pada kebijakan dan standar tanpa detail spesifik mengenai pelaksanaan atau hasil. Meskipun keduanya memberikan nilai yang sama, perbedaan dalam fokus dan detail komentar menunjukkan bahwa mereka mungkin menilai aspek yang berbeda dari program atau memiliki interpretasi yang berbeda tentang apa yang paling penting untuk dinilai.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "3.5",
+        "alasan_rekomendasi_nilai": "Nilai 3.5 tampaknya mencerminkan konsensus antara kedua asesor meskipun perbedaan dalam fokus komentar mereka. Nilai ini didukung oleh data yang disajikan oleh asesor pertama yang menunjukkan capaian yang baik dalam berbagai indikator. Oleh karena itu, nilai ini dianggap representatif dan tidak perlu penyesuaian."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "22062814284906105457201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "berdasarkan monitoring yang dilakukan setiap akhir semester hingga mahasiswa lulus, dapat dilihat bahwa 100 lulusan ps telah menyelesaikan mata kuliah dengan nilai minimum c. sedangkan, lulusan ps dengan nilai minimum mata kuliah b sebanyak 88. berdasarkan data tersebut dapat dilihat bahwa lulusan ps telah memenuhi capaian pembelajaran lulusan. pada tersebut rata rata indeks prestasi kumulatif lulusan berada pada 3,52. berdasarkan data tersebut maka dapat dilihat bahwa rata rata indeks prestasi kumulatif lulusan telah melampaui target perguruan tinggi. pada tersebut diperoleh total 20 prestasi dengan jumlah prestasi nasional sebanyak 12 prestasi dan dalam lingkup lokal/wilayah sebanyak 8 prestasi. adapun jenis prestasi yang telah diperoleh pada tersebut diantaranya. prestasi dalam lingkup nasional intermediae information technology competition (itc), pekan ilmiah dan smart inotek. prestasi dalam lingkup wilayah/lokal copa amikom dan peksima. a rata rata masa studi untuk mahasiswa persentase sebesar 64,89 mahasiswa program studi sistem informasi lulus tepat waktu (masa studi 4 tahun) dengan rata rata masa studi lulusan adalah 3 tahun, 9 bulan, 19 hari terhitung dari mahasiswa masuk hingga dinyatakan lulus. selain itu, sekitar 59 mahasiswa lulus tepat waktu dengan masa studi 3,5 tahun. persentase dari 205 jumlah lulusan pada tahun 2021 yang dapat terlacak menggunakan sistem tracer study sebesar 35,59. rata rata waktu tunggu lulusan 3 tahun terakhir adalah 5,98 bulan. ada 5 jenis sertifikasi internasional pilihan yang dapat diikuti mahasiswa yaitu red hat system administration (rh124), certified artificial intelligence associate (caia), foresec certified network security (fcns), foresec certified computer hacking (fcch) dan foresec certified forensic expert (fcfe). persentase penilaian pengguna lulusan dengan minimal penilaian baik adalah 74,83. pengakuan hak kekayaan intelektual pada tersebut sebanyak 5 hak kekayaan intelektual. bukti lengkap dan dilaksanakan.",
+      "nilai_al_asli": 3.75,
+      "status_relevansi_komentar_al": "SANGAT_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL secara mendetail dan spesifik membahas semua poin kunci dari Keterangan Aspek Utama, termasuk capaian pembelajaran lulusan, IPK, prestasi mahasiswa, kelulusan tepat waktu, pelacakan dan perekaman data lulusan, masa tunggu, kesesuaian bidang kerja, dan karya intelektual. Setiap aspek didukung dengan data konkret dan observasi yang relevan, menunjukkan pemenuhan yang baik terhadap standar yang diharapkan.",
+      "analisis_terhadap_nilai_al_asli": "Nilai 3.75 yang diberikan dalam Asesmen Lapangan sangat konsisten dengan kualitas dan kedalaman komentar yang diberikan. Komentar tersebut menunjukkan pemenuhan yang sangat baik terhadap kriteria yang diharapkan, dengan bukti yang sahih dan lengkap.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": 3.75,
+        "alasan_rekomendasi_nilai": "Berdasarkan analisis mendalam terhadap komentar dan pemenuhan terhadap poin-poin kunci, nilai 3.75 adalah representasi yang akurat dari kinerja dan pemenuhan kriteria yang diharapkan. Komentar AL menunjukkan pemahaman yang sangat baik tentang aspek-aspek yang dinilai dan menyediakan bukti yang cukup untuk mendukung penilaian ini."
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+===================================================================================
+CONTOH PEMANGGILAN ANALISIS DENGAN PROMPT V4
+Jenis Analisis: 'AK_DAN_AL'
+Usulan: 22081216591801313057201, Aspek: C9.2.A
+===================================================================================
+
+--- HASIL ANALISIS LENGKAP AKHIR (JSON) DENGAN PROMPT V4 ---
+{
+  "nomor_usulan_analisis": "22081216591801313057201",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "22081216591801313057201",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "berdasarkan dari informasi grafik lulusan diketahui rata rata indeks prestasi kumulatif lulusan pada...",
+    "nilai_ak1_input": "2",
+    "komen_ak2_input": "pada bagian ini ps menyajikan beberapa data , antara lain 1 ) tidak ada data terkait capaian pembela...",
+    "nilai_ak2_input": "1.7",
+    "komen_al_input": "pada tahun 2020 program studi sistem informasi stmik imki dinyatakan tidak terakreditasi oleh ban pe...",
+    "nilai_al_input": "1"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "22081216591801313057201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "berdasarkan dari informasi grafik lulusan diketahui rata rata indeks prestasi kumulatif lulusan pada tahun 2018 adalah 3,33 , tahun 2019 adalah 3,42 dan tahun 2020 nilai indeks prestasi kumulatif 3,49. rata rata lama studi program studi sistem informasi stmik itmi medan adalah 4 tahun capaian prestasi non akademik uang diikuti mahasiswa program studi sistem informasi stmik itmi medan pada tahun 2018 2019 meraih prestasi dengan menjuarai 4perlombaan seperti peringkat ii olah raga basket pada lomba hut republik indonesia gelaran aptisi wilayah i sumatera utara , peringkat i olah raga badminton pada piala gubernur dki jakarta /gbk , peringkat iii olah raga badminton pada kejuaran bulu tangkis victori open 4 bogor jawa barat , peringkat i olah raga badminton pada kejuaran bulu tangkis kota ( kejur kot ) pbsii jakarta selatan belum ada bukti yang disertakan",
+        "nilai_asli": "2"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "pada bagian ini ps menyajikan beberapa data , antara lain 1 ) tidak ada data terkait capaian pembelajaran lulusan 2 ) rata rata indeks prestasi kumulatif untuk 3 tahun ( 3,33 3,42 3,49 ) tidak dilengkapi bukti yang sahih 3 ) prestasi mahasiswa dalam bidang akademik sejumlah 4 prestasi , sedangkan untuk bidang non akademik sejumlah 5 prestasi , tidak dilengkapi bukti yang sahih 4 ) kelulusan tepat waktu dinyatakan lulus tepat waktu , tidak dilengkapi bukti yang sahih 5 ) pelacakan dan perekaman data lulusan tidak dijelaskan mekanisme pelacakan dan perekamannya seperti apa 6 ) rata rata masa tunggu tersajikan pada gambar 9.3 tidak dilengkapi bukti yang sahih 6 ) kesesuaian bidang kerja dengan bidang ps nya , hanya ada sekitar 8,3 yang memiliki kesesuaian bidang kerjanya tidak dilengkapi bukti yang sahih 7 ) karya dosen/mahasiswa yang mendapat hak kekayaan intelektual , disebutkan ada 5 judul buku ber international standard book number tapi informasinya tidak komprehensif termasuk tidak dilampirkan bukti sahihnya , perlu minta buktinya",
+        "nilai_asli": "1.7"
+      },
+      "status_utama_konsistensi_ak": "TIDAK_KONSISTEN",
+      "status_sub_kategori_ak": "KOMEN_DAN_NILAI_BERBEDA",
+      "penjelasan_sistem_ak": "Kedua asesor memberikan komentar yang berfokus pada kekurangan bukti yang sahih untuk mendukung data yang disajikan. Asesor pertama memberikan nilai 2, sementara asesor kedua memberikan nilai yang lebih rendah, 1.7, dengan penjelasan yang lebih detail mengenai kekurangan bukti pada berbagai aspek. Perbedaan substansi komentar dan nilai menunjukkan ketidaksesuaian dalam penilaian, yang mengindikasikan adanya inkonsistensi dalam evaluasi antar asesor.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "1.85",
+        "alasan_rekomendasi_nilai": "Nilai disarankan 1.85 sebagai nilai tengah antara dua penilaian asesor, mengingat kedua asesor sepakat pada kekurangan bukti yang sahih namun memberikan penilaian yang sedikit berbeda. Nilai ini mencerminkan kebutuhan untuk peningkatan substansial dalam penyajian bukti yang sahih dalam laporan."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "22081216591801313057201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "pada tahun 2020 program studi sistem informasi stmik imki dinyatakan tidak terakreditasi oleh ban perguruan tinggi, sehingga unit pengelola program studi belum melakukan evaluasi terkait kelulusan karena dalam rentang waktu tersebut unit pengelola program studi belum meluluskan mahasiswa maupun menerbitkan ijazah. untuk capaian pembelajaran lulusan juga tidak dapat dilaksanakan karena prodi belum mengimplementasikan kurikulum obe pada proses kbm nya",
+      "nilai_al_asli": "1",
+      "status_relevansi_komentar_al": "TIDAK_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL tidak membahas secara memadai atau relevan terhadap poin-poin kunci dari Keterangan Aspek Utama yang mencakup aspek-aspek seperti capaian pembelajaran lulusan, IPK, prestasi mahasiswa, kelulusan tepat waktu, dan lain-lain. Komentar hanya menjelaskan bahwa program studi tidak terakreditasi dan belum mengimplementasikan kurikulum yang relevan, tanpa memberikan data atau bukti yang mendukung tentang aspek-aspek yang seharusnya dievaluasi. Ini menunjukkan bahwa komentar AL gagal membahas poin-poin kunci yang diharapkan.",
+      "analisis_terhadap_nilai_al_asli": "Nilai yang diberikan sebesar 1 tampaknya mencerminkan kekurangan signifikan dalam pemenuhan aspek-aspek kunci yang diharapkan. Namun, nilai ini juga menunjukkan bahwa ada pengakuan terhadap kekurangan serius dalam implementasi dan dokumentasi yang diperlukan.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": "1",
+        "alasan_rekomendasi_nilai": "Nilai yang direkomendasikan tetap 1, mengingat komentar AL secara signifikan tidak relevan dengan poin-poin kunci yang diharapkan dari aspek C9.2.A. Komentar tersebut tidak memberikan bukti atau data yang cukup untuk menilai pemenuhan aspek-aspek penting yang diharapkan, sehingga nilai rendah ini mencerminkan kekurangan dalam pemenuhan standar yang diharapkan."
+      }
+    }
+  }
+}

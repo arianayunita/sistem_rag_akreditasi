@@ -1,0 +1,59 @@
+===================================================================================
+CONTOH PEMANGGILAN ANALISIS DENGAN PROMPT V4
+Jenis Analisis: 'AK_DAN_AL'
+Usulan: 22051413251207104257401, Aspek: C9.2.A
+===================================================================================
+
+--- HASIL ANALISIS LENGKAP AKHIR (JSON) DENGAN PROMPT V4 ---
+{
+  "nomor_usulan_analisis": "22051413251207104257401",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "22051413251207104257401",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "( 1 ) ada data indeks prestasi kumulatif lulusan selama 3 tahun , yakni dari tersebut 2 sampai terse...",
+    "nilai_ak1_input": "3.5",
+    "komen_ak2_input": "dalam kurun waktu 3 tahun ( 2018 sampai dengan 2020 ) indeks prestasi kumulatif lulusan relatif baik...",
+    "nilai_ak2_input": "3",
+    "komen_al_input": "rata rata masa studi 3 tahun . rata rata masa tunggu lulusan 2,5 bulan , dalam bidang infokom 62,5 d...",
+    "nilai_al_input": "3.75"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "22051413251207104257401",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "(1) ada data indeks prestasi kumulatif lulusan selama 3 tahun, yakni dari tersebut 2 sampai tersebut. pada tersebut (2020/2021) ada lulusan sebanyak 13 orang, dengan indeks prestasi kumulatif terendah 2.77 dan tertinggi 3.90. (2) prestasi bidang akademik juara 3 kompetisi tingkat nasional smart inotek kategori website/si tingkat mahasiswa vokasi tahun 2020 juara 1 pakandayu charismatic brain buzz tingkat pelajar dan mahasiswa se kota madiun 2019 tahun 2019 atas nama selena armina program kreativitas mahasiswa kewirausahaan lolos pendanaan tahun 2020 10 besar nominator bidang teknologi informasi dan informasi dalam inotek award tahun 2019 mahasiswa menulis publikasi dalam seminar nasional informasi (senasif) tahun 2019. (3) prestasi non akademik juara 1 lomba futsal tingkat universitas pada oktober 2018 juara 1 lomba futsal tingkat universitas pada oktober 2019 juara 1 lomba voli tingkat universitas pada oktober 2018. juara 3 lomba panahan tingkat universitas pada oktober 2019 (4) ada data kelulusan tepat waktu, yang untuk tahun 2017/2018 sebanyak 10 orang. data alumni yang terekam tahun 2018/2019 adalah 4 orang (5) pengguna lulusan ada 15 perusahaan yang menjadi tempat kerja dari sejumlah lulusan prodi mi (ada data hasil survei ke pengguna lulusan) (6) hasil penelitian dosen yang mendapat hak kekayaan intelektual dari hasil penelitian berjumlah 7 buah, dan dari program kreativitas mahasiswa berjumlah 1 buah perlu cek data",
+        "nilai_asli": "3.5"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "dalam kurun waktu 3 tahun (2018 sampai dengan 2020) indeks prestasi kumulatif lulusan relatif baik, dengan rata rata 3,43 3,26 3,40. telah menghasilkan prestasi bidang akademik 1 kali tingkat nasional, yaitu smart inotek kategori website/si tahun 2020 atas nama pebri ramadan dan yuda febrih asrawinata. untuk prestasi bidang non akademik juga telah di hasilkan sebanyak 6 kali. dengan tingkat nasional 1 tingkat wilayah 1 dan internal perguruan tinggi 4. rata rata masa studi 3 tahun. rata rata masa tunggu lulusan 2,5 bulan, dalam bidang infokom 62,5 dan non infokom 37,5. karya dosen yang memperoleh hak atas kekayaan intelektual ada 8.",
+        "nilai_asli": "3"
+      },
+      "status_utama_konsistensi_ak": "TIDAK_KONSISTEN",
+      "status_sub_kategori_ak": "Komentar Sama, Nilai Berbeda",
+      "penjelasan_sistem_ak": "Kedua asesor memberikan komentar yang mendukung data yang disajikan, namun terdapat perbedaan nilai yang signifikan (0.5 pada skala 4). Asesor pertama memberikan detail lebih banyak tentang prestasi dan data kelulusan, sedangkan asesor kedua lebih fokus pada rata-rata IPK dan prestasi akademik dan non-akademik. Meskipun kedua asesor menyajikan data yang serupa, perbedaan dalam penekanan dan detail mungkin telah mempengaruhi penilaian mereka.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "3.25",
+        "alasan_rekomendasi_nilai": "Nilai disarankan 3.25 sebagai nilai tengah antara dua penilaian asesor, mengingat kedua asesor menyajikan data yang serupa tetapi dengan penekanan yang berbeda. Nilai ini mencerminkan konsensus dan mengakomodasi kedua perspektif."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "22051413251207104257401",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "rata rata masa studi 3 tahun. rata rata masa tunggu lulusan 2,5 bulan, dalam bidang infokom 62,5 dan non infokom 37,5. ditunjukkan rekapitulasi tracer. karya dosen yang memperoleh hak atas kekayaan intelektual ada 7. ditunjukkan surat pencatatan ciptaan dari kemenkumham.",
+      "nilai_al_asli": "3.75",
+      "status_relevansi_komentar_al": "CUKUP_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL membahas beberapa poin kunci dari Keterangan Aspek Utama seperti rata-rata masa studi, rata-rata masa tunggu, dan karya dosen yang memperoleh hak atas kekayaan intelektual. Namun, beberapa aspek penting seperti prestasi mahasiswa, kelulusan tepat waktu, dan kesesuaian bidang kerja dengan bidang program studi tidak dibahas secara eksplisit atau mendalam. Ini menunjukkan bahwa sementara beberapa poin kunci ditangani, ada aspek penting yang kurang dibahas, yang menempatkan komentar ini dalam kategori 'Cukup Relevan'.",
+      "analisis_terhadap_nilai_al_asli": "Nilai 3.75 yang diberikan dalam Asesmen Lapangan tampaknya mencerminkan penilaian yang cukup positif terhadap beberapa aspek yang dibahas. Namun, mengingat beberapa poin kunci tidak dibahas secara memadai, nilai ini mungkin sedikit terlalu tinggi jika mempertimbangkan kekurangan dalam pembahasan poin-poin kunci tersebut.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": "3.5",
+        "alasan_rekomendasi_nilai": "Rekomendasi nilai 3.5 lebih mencerminkan kualitas pembahasan yang 'Cukup Relevan' dari komentar AL terhadap poin-poin kunci. Meskipun ada beberapa aspek yang dibahas dengan baik, kekurangan dalam membahas aspek lain seperti prestasi mahasiswa dan kesesuaian bidang kerja menunjukkan bahwa penurunan nilai sedikit dapat dibenarkan."
+      }
+    }
+  }
+}

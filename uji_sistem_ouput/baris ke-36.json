@@ -1,0 +1,59 @@
+===================================================================================
+CONTOH PEMANGGILAN ANALISIS DENGAN PROMPT V4
+Jenis Analisis: 'AK_DAN_AL'
+Usulan: 22082411410900501890345, Aspek: C9.2.A
+===================================================================================
+
+--- HASIL ANALISIS LENGKAP AKHIR (JSON) DENGAN PROMPT V4 ---
+{
+  "nomor_usulan_analisis": "22082411410900501890345",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "22082411410900501890345",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "pemenuhan capaian pembelajaran lulusan berdasarkan data pada tabel kuantitatif sebagai hasil monitor...",
+    "nilai_ak1_input": "4",
+    "komen_ak2_input": "penjelasan tentang pelaksanaan kebijakan , standar , indikator kinerja utama , dan indikator kinerja...",
+    "nilai_ak2_input": "3.5",
+    "komen_al_input": "pemenuhan capaian pembelajaran lulusan berdasarkan data pada tabel kuantitatif sebagai hasil monitor...",
+    "nilai_al_input": "3.75"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "22082411410900501890345",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "pemenuhan capaian pembelajaran lulusan berdasarkan data pada tabel kuantitatif sebagai hasil monitoring berkala, rata rata indeks prestasi kumulatif dari 3 tahun berturut2 adalah 3,39 3,36 3,47 sehingga rata rata melampaui target 3,25 prestasi mahasiswa (akademik) ada 19, 3 diantaranya internasional yaitu creativity station (pusan national university) di tahun 2020 dan 2021 dengan predikat 1st place (winner), international covid center (huawei) berhasil mendapatkan predikat winning category appgalery rising star award, lainnya nasional. kelulusan tepat waktu 4.22 tahun (sebagian kecil mahasiswa lulus di awal tahun ke 5) pelacakan dan perekaman data lulusan pelacakan dan perekaman data lulusan, pelaksanaan dilakukan terpusat oleh ukarni namun program studi teknik geologi juga melakukan kegiatan tersebut untuk membantu memudahkan pelacakan, dalam 3 tahun terlacak 61 lulusan. rata rata masa tunggu 3,09 bulan dari 61 lulusan, tersebut 2 hingga tersebut 4. kesesuaian bidang kerja dengan bidang prodi (tabel 9.5 laporan kinerja program studi) 95,5 yang diambil dari hasil studi penelusuran lulusan. karya dosen tetap penghitung rasio n mahasiwa yang mendapat hak kekayaan intelektual ada 10.",
+        "nilai_asli": "4"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "penjelasan tentang pelaksanaan kebijakan, standar, indikator kinerja utama, dan indikator kinerja tambahan yang berkaitan dengan luaran dan capaian tridarma perguruan tinggi sebagaimana tabel laporan kinerja program studi tabel 9.1 indeks prestasi kumulatif lulusan 3 tahun terakhir, tabel 9.2 kelulusan tepat waktu, tabel 9.3 kepuasan pengguna lulusan, tabel 9.4 rata rata masa tunggu lulusan untuk bekerja pertama kali, tabel 9.5 kesesuaian bidang kerja lulusan. keterlaksanaan capaian pembelajaran lulusan terlihat pada tabel 9.1 indeks prestasi kumulatif lulusan 3 tahun terakhir, tabel 9.2 kelulusan tepat waktu, tabel 9.3 kepuasan pengguna lulusan, tabel 9.4 rata rata masa tunggu lulusan untuk bekerja pertama kali, tabel 9.5 kesesuaian bidang kerja lulusan yang sahih dan lengkap.",
+        "nilai_asli": "3.5"
+      },
+      "status_utama_konsistensi_ak": "TIDAK_KONSISTEN",
+      "status_sub_kategori_ak": "KOMEN_SAMA_NILAI_BERBEDA",
+      "penjelasan_sistem_ak": "Kedua asesor memberikan komentar yang sangat mirip dalam hal substansi, fokus pada capaian pembelajaran, prestasi mahasiswa, dan kesesuaian bidang kerja. Namun, nilai yang diberikan berbeda (4 vs 3.5), yang menunjukkan adanya ketidaksesuaian dalam penilaian meskipun substansi komentar sangat mirip. Perbedaan nilai ini mungkin disebabkan oleh interpretasi yang berbeda terhadap data yang sama atau penekanan yang berbeda pada aspek tertentu dari data.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "3.75",
+        "alasan_rekomendasi_nilai": "Nilai rata-rata dari kedua asesor (3.75) tampaknya paling tepat mengingat kedua asesor memiliki pandangan yang sangat mirip tentang kinerja program studi tetapi memberikan nilai yang sedikit berbeda. Nilai ini mencerminkan konsensus dan mengakomodasi perbedaan penilaian kecil antara kedua asesor."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "22082411410900501890345",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "pemenuhan capaian pembelajaran lulusan berdasarkan data pada tabel kuantitatif sebagai hasil monitoring berkala, rata rata indeks prestasi kumulatif dari 3 tahun berturut2 adalah 3,39 3,36 3,47 sehingga rata rata melampaui target 3,25 prestasi mahasiswa (akademik) ada 19, 3 diantaranya internasional yaitu creativity station (pusan national university) di tahun 2020 dan 2021 dengan predikat 1st place (winner), international covid center (huawei) berhasil mendapatkan predikat winning category appgalery rising star award, lainnya nasional. kelulusan tepat waktu 4.22 tahun (sebagian kecil mahasiswa lulus di awal tahun ke 5) pelacakan dan perekaman data lulusan pelacakan dan perekaman data lulusan, pelaksanaan dilakukan terpusat oleh ukarni namun program studi teknik geologi juga melakukan kegiatan tersebut untuk membantu memudahkan pelacakan, dalam 3 tahun terlacak 61 lulusan. rata rata masa tunggu 3,09 bulan dari 61 lulusan, tersebut 2 hingga tersebut 4. kesesuaian bidang kerja dengan bidang prodi (tabel 9.5 laporan kinerja program studi) 95,5 yang diambil dari hasil studi penelusuran lulusan. karya dosen tetap penghitung rasio n mahasiwa yang mendapat hak kekayaan intelektual ada 9.",
+      "nilai_al_asli": 3.75,
+      "status_relevansi_komentar_al": "SANGAT_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL secara efektif membahas semua poin kunci dari Keterangan Aspek Utama, termasuk pemenuhan capaian pembelajaran lulusan, rata-rata IPK, prestasi mahasiswa, kelulusan tepat waktu, pelacakan dan perekaman data lulusan, rata-rata masa tunggu, kesesuaian bidang kerja dengan bidang program studi, dan karya dosen/mahasiswa yang mendapat hak kekayaan intelektual. Setiap poin dibahas secara spesifik dan didukung dengan data kuantitatif yang konkret, menunjukkan pemahaman yang mendalam dan observasi lapangan yang teliti.",
+      "analisis_terhadap_nilai_al_asli": "Nilai 3.75 yang diberikan pada Asesmen Lapangan (AL) baru ini konsisten dengan tingkat detail dan kedalaman pembahasan yang ditunjukkan dalam komentar AL. Komentar tersebut menunjukkan pemenuhan yang baik terhadap standar yang ditetapkan dalam Keterangan Aspek Utama, sehingga nilai tersebut tampak tepat dan mencerminkan kualitas asesmen yang tinggi.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": 3.75,
+        "alasan_rekomendasi_nilai": "Berdasarkan analisis yang mendalam terhadap komentar AL dan pemenuhan poin kunci yang sangat relevan, nilai 3.75 adalah representasi yang akurat dari kualitas asesmen yang dilakukan. Komentar AL secara efektif menangani semua aspek yang diperlukan dengan bukti yang kuat dan analisis yang mendalam, mendukung nilai yang tinggi."
+      }
+    }
+  }
+}

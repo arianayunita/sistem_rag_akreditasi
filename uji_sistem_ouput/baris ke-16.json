@@ -1,0 +1,59 @@
+===================================================================================
+CONTOH PEMANGGILAN ANALISIS DENGAN PROMPT V4
+Jenis Analisis: 'AK_DAN_AL'
+Usulan: 22120814025700500356401, Aspek: C9.2.A
+===================================================================================
+
+--- HASIL ANALISIS LENGKAP AKHIR (JSON) DENGAN PROMPT V4 ---
+{
+  "nomor_usulan_analisis": "22120814025700500356401",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "22120814025700500356401",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "rata rata indeks prestasi kumulatif lulusan pada tersebut adalah 3,21 , tersebut 1 adalah 3,23 dan t...",
+    "nilai_ak1_input": "4",
+    "komen_ak2_input": "( 1 ) kurikulum ps telah ditinjau ulang pada maret tahun 2021 untuk memperbaiki kurikulum tahun 2018...",
+    "nilai_ak2_input": "3.5",
+    "komen_al_input": "rata rata indeks prestasi kumulatif lulusan pada tersebut adalah 3,21 , tersebut 1 adalah 3,23 dan t...",
+    "nilai_al_input": "4"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "22120814025700500356401",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "rata rata indeks prestasi kumulatif lulusan pada tersebut adalah 3,21, tersebut 1 adalah 3,23 dan tersebut 2 yaitu 3.21. ada 4 prestasi bidang infokom, yaitu 2 prestasi pada tingkat nasional berupa program kreativitas mahasiswa dan 2 prestasi tingkat lokal yaitu pada kejuaraan it fest ki 2021. prestasi pada bidang non infokom, ada 4 kejuaraan nasional dan 1 kejuaran lokal. rata rata masa studi lulusan 3.012 tahun. telah dilakukan pelacakan dan perekaman data lulusan oleh unit career development center (carrier development center). sejak tahun 2020, pelacakan dan perekaman data lulusan dilakukan melalui website sebagai berikut keterlaksanaan pelacakan dan perekaman alumni adalah 81,7 (2019), 76,3 (2020), dan 75,3 (2021). hasil tracer sebagai berikut rata rata waktu tunggu lulusan adalah 3 bulan (2018/2019), 3 bulan (2019/2020) dan 4 bulan (2020/2021). kesesuaian bidang kerja lulusan tahun lulus 2018/2019 adalah 88,7, tahun lulus 2019/2020 87,8, dan tahun lulus 2020/2021 adalah 88,6. jumlah hak kekayaan intelektual dosen tetap penghitung rasio adalah 41.",
+        "nilai_asli": "4"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "(1) kurikulum ps telah ditinjau ulang pada maret tahun 2021 untuk memperbaiki kurikulum tahun 2018. pada proses peninjauan kurikulum, pemenuhan capaian pembelajaran lulusan dianalisis sebagai dasar dalam peninjauan kurikulum sebelumnya dengan 14 poin perubahan (diperlukan bukti pendukung). (2) tabel 9.1 laporan kinerja program studi menunjukan ketercapaian target indeks prestasi kumulatif lulusan dalam pembelajaran. (3) prestasi mahasiswa 2 prestasi nasional berupa program kreativitas mahasiswa dan 2 lokal di bidang infokom. ada 4 nasional dan 1 berupa prestasi lokal untuk non infokom selama 3 tahun terakhir (perlu bukti pendukung) (4) tabel 9.3 pada laporan kinerja program studi menunjukan tingkat kelulusan tepat waktu adalah 3,012 tahun. (5) keterlaksanaan pelacakan dan perekaman alumni adalah 81,7 (2019), 76,3 (2020), dan 75,3 (2021) yang melampaui target yang telah ditetapkan sebesar 53. (6) rata rata masa tunggu lulusan adalah adalah 3 bulan (2018/2019), 3 bulan (2019/2020) dan 4 bulan (2020/2021) yang mendekati target sebesar 3 bulan. (7) dilaporkan kesesuaian bidang pekerjaan yang sesuai target sebesar 80. datanya adalah 2018/2019 sebesar 88,7, pada 2019/2020 87,8, dan 2020/2021 adalah 88,6. (8) dosen tetap penghitung rasio tercatat memiliki hak kekayaan intelektual belum memenuhi target yang telah ditetapkan (63 hak atas kekayaan intelektual) dimana laporan menunjukan 41 lama 3 tahun terakhir dari 25 dosen tetap penghitung rasio.",
+        "nilai_asli": "3.5"
+      },
+      "status_utama_konsistensi_ak": "TIDAK_KONSISTEN",
+      "status_sub_kategori_ak": "Komentar Sama, Nilai Berbeda",
+      "penjelasan_sistem_ak": "Kedua asesor memberikan komentar yang sangat mirip mengenai aspek-aspek yang sama seperti prestasi mahasiswa, pelacakan dan perekaman data lulusan, kesesuaian bidang kerja, dan hak kekayaan intelektual. Namun, nilai yang diberikan berbeda (4 dan 3.5). Perbedaan ini mungkin disebabkan oleh interpretasi yang berbeda terhadap pencapaian target dan keberhasilan dalam beberapa aspek. Asesor pertama mungkin melihat hasil yang lebih positif atau memiliki ekspektasi yang lebih rendah terhadap target yang harus dicapai, sedangkan asesor kedua mungkin lebih kritis atau memiliki ekspektasi yang lebih tinggi.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "3.75",
+        "alasan_rekomendasi_nilai": "Nilai 3.75 merupakan rata-rata dari nilai yang diberikan oleh kedua asesor, yang mencerminkan konsensus antara pandangan positif dan kritis terhadap pencapaian program studi dalam aspek yang dinilai."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "22120814025700500356401",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "rata rata indeks prestasi kumulatif lulusan pada tersebut adalah 3,21 , tersebut 1 adalah 3,23 dan tersebut 2 yaitu 3.21. ada 4 prestasi bidang infokom , yaitu 2 prestasi pada tingkat nasional berupa program kreativitas mahasiswa dan 2 prestasi tingkat lokal yaitu pada kejuaraan it fest ki 2021. prestasi pada bidang non infokom , ada 4 kejuaraan nasional dan 1 kejuaran lokal . rata rata masa studi lulusan 3.012 tahun . telah dilakukan pelacakan dan perekaman data lulusan oleh unit career development center ( carrier development center ) . sejak tahun 2020 , pelacakan dan perekaman data lulusan dilakukan melalui website sebagai berikut keterlaksanaan pelacakan dan perekaman alumni adalah 81,7 ( 2019 ) , 76,3 ( 2020 ) , dan 75,3 ( 2021 ) . hasil tracer sebagai berikut rata rata waktu tunggu lulusan adalah 4 bulan ( 2018/2019 ) , 3 bulan ( 2019/2020 ) dan 3 bulan ( 2020/2021 ) . kesesuaian bidang kerja lulusan tahun lulus 2018/2019 adalah 88,7 , tahun lulus 2019/2020 87,8 , dan tahun lulus 2020/2021 adalah 88,6. jumlah hak kekayaan intelektual dosen tetap penghitung rasio adalah 41 .",
+      "nilai_al_asli": "4",
+      "status_relevansi_komentar_al": "SANGAT_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL secara efektif membahas semua poin kunci yang tercantum dalam Keterangan Aspek Utama. Komentar tersebut menyediakan data spesifik dan terperinci mengenai indeks prestasi kumulatif, prestasi mahasiswa di bidang infokom dan non-infokom, masa studi, pelacakan dan perekaman data lulusan, waktu tunggu lulusan, kesesuaian bidang kerja, dan hak kekayaan intelektual. Semua poin ini dijelaskan dengan data numerik yang mendukung, menunjukkan pemahaman yang baik tentang aspek-aspek yang dinilai dan konsistensi dengan standar yang diharapkan.",
+      "analisis_terhadap_nilai_al_asli": "Nilai 4 yang diberikan dalam Asesmen Lapangan (AL) mencerminkan tingkat pemenuhan yang tinggi terhadap standar yang ditetapkan dalam Keterangan Aspek Utama. Komentar AL memberikan bukti yang cukup dan spesifik untuk setiap poin kunci, yang mendukung penilaian tinggi ini.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": "4",
+        "alasan_rekomendasi_nilai": "Berdasarkan analisis yang mendalam terhadap komentar AL dan pemenuhan terhadap poin kunci yang diharapkan, nilai 4 sepenuhnya sesuai. Komentar AL memberikan bukti yang konkret dan spesifik untuk setiap poin kunci, mendukung penilaian tinggi ini dan menunjukkan pemenuhan yang sangat baik terhadap standar yang diharapkan."
+      }
+    }
+  }
+}

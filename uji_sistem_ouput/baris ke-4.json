@@ -1,0 +1,59 @@
+===================================================================================
+CONTOH PEMANGGILAN ANALISIS DENGAN PROMPT V4
+Jenis Analisis: 'AK_DAN_AL'
+Usulan: 23011211165800102256201, Aspek: C9.2.A
+===================================================================================
+
+--- HASIL ANALISIS LENGKAP AKHIR (JSON) DENGAN PROMPT V4 ---
+{
+  "nomor_usulan_analisis": "23011211165800102256201",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "23011211165800102256201",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "informasi tentang keluasan dan kedalaman materi dituliskan dalam rencana pembelajaran semester , rpm...",
+    "nilai_ak1_input": "3",
+    "komen_ak2_input": "standar dan iku/ikt yang ditetapkan telah dilaksanakan . cakupan materi dari aspek keluasan atau kes...",
+    "nilai_ak2_input": "3",
+    "komen_al_input": "informasi tentang keluasan dan kedalaman materi dituliskan dalam rencana pembelajaran semester , rpm...",
+    "nilai_al_input": "3.75"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "23011211165800102256201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "informasi tentang keluasan dan kedalaman materi dituliskan dalam rencana pembelajaran semester, rpm, dan dalam seluruh instrumen soal dan penilaian matakuliah direncanakan dan dituangkan dalam rencana pembelajaran semester serta diinformasikan kepada mahasiswa. hasil tracer study menggambarkan bahwa lebih dari setenggah (63,83) lulusan telah memperoleh pekerjaan pertama dalam masa tunggu 0-6 bulan. 95,18 lulusan prodi sistem komputer mempunyai status bekerja atau melanjutkan studi. indeks prestasi kumulatif rata-rata lulusan 3,18. jumlah lulusan tepat waktu meningkat. ada 20 prestasi akademik mahasiswa dalam 2 tahun terakhir dan 3 prestasi non akademik.",
+        "nilai_asli": "3"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "standar dan iku/ikt yang ditetapkan telah dilaksanakan. cakupan materi dari aspek keluasan atau keserbacakupan (breadth) dan kedalaman (depth) silabus kurikulum prodi sistem komputer diuraikan dalam seluruh matakuliah yang diukur dalam persentase bobot materi. sebagai contoh, suatu topik dalam satu pertemuan menyumbang 10 materi matakuliah, kemudian diuraikan persentase materi yang memenuhi aspek keluasan maupun persentase materi yang memenuhi aspek kedalaman. demikian seterusnya dalam setiap topik, sehingga dari 100 materi dalam suatu matakuliah akan diperoleh persentase materi yang mencakup aspek keluasan dan kedalaman. tingkat kedalaman berkaitan dengan analisis kesulitan sehingga untuk menganalisis kedalaman materi, dilakukan analisis kesulitan. informasi tentang keluasan dan kedalaman materi dituliskan dalam rencana pembelajaran semester, rpm, dan dalam seluruh instrumen soal dan penilaian matakuliah direncanakan dan dituangkan dalam rencana pembelajaran semester serta diinformasikan kepada mahasiswa. silabus kurikulum prodi rekayasa sistem komputer mencakup aspek keserbacakupan yang seimbang dengan aspek kedalaman, dilihat dari cakupan dan tingkat kesulitan materi. metode kedua untuk analisis pemenuhan capaian pembelajaran lulusan ditinjau dari capaian luaran atau lulusan prodi sistem komputer yang tercermin dari informasi lulusan dikumpulkan melalui kajian pelacakan alumni (tracer study) dan umpan balik pengguna lulusan melalui survey. hasil tracer study dengan rate response 85 (tabel laporan kinerja program studi 9.4) menggambarkan bahwa lebih dari setenggah (63,83) lulusan telah memperoleh pekerjaan pertama dalam masa tunggu 0-6 bulan. hasil pelacakan ini juga memperlihatkan bahwa 95,18 lulusan prodi sistem komputer mempunyai status bekerja atau melanjutkan studi. lulusan prodi sistem komputer bekerja tersebar di berbagai sektor yang relevan dengan ilmu komputer, pada perusahaan multinasional, nasional maupun berwirausaha (tabel 9.5 laporan kinerja program studi)",
+        "nilai_asli": "3"
+      },
+      "status_utama_konsistensi_ak": "KONSISTEN",
+      "status_sub_kategori_ak": "KONSISTEN_KOMENTAR_NILAI_SAMA",
+      "penjelasan_sistem_ak": "Kedua asesor memberikan nilai yang sama (3) dengan komentar yang mendukung dan berkualitas baik. Komentar kedua asesor menunjukkan pemahaman yang mendalam tentang aspek keluasan dan kedalaman materi serta pemenuhan capaian pembelajaran lulusan, dengan data yang konsisten mengenai prestasi mahasiswa, kelulusan tepat waktu, dan hasil tracer study. Kedua asesor secara efektif mengintegrasikan hasil kajian pelacakan alumni dan umpan balik pengguna lulusan dalam penilaian mereka, yang menunjukkan konsistensi dalam evaluasi dan pemahaman yang baik tentang kriteria penilaian.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "3",
+        "alasan_rekomendasi_nilai": "Nilai 3 yang diberikan oleh kedua asesor didukung oleh komentar yang konsisten dan mendalam mengenai pemenuhan capaian pembelajaran lulusan, yang mencakup aspek keluasan dan kedalaman materi serta hasil tracer study yang memuaskan. Tidak ada indikasi bahwa nilai yang lebih tinggi atau lebih rendah diperlukan berdasarkan data yang disajikan."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "23011211165800102256201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "informasi tentang keluasan dan kedalaman materi dituliskan dalam rencana pembelajaran semester, rpm, dan dalam seluruh instrumen soal dan penilaian matakuliah direncanakan dan dituangkan dalam rencana pembelajaran semester serta diinformasikan kepada mahasiswa. realisasi pemenuhan capaian pembelajaran lulusan rata rata indeks prestasi kumulatif lulusan diatas 3.18 prestasi mahasiswa ada 20 prestasi akademik mahasiswa dalam 2 tahun terakhir dan 3 prestasi non akademik kelulusan tepat waktu 3/97 3.1 ( dihitung dari tersebut 3 angkut 2018 ) pelacakan dan perekaman data lulusan ada sistem tracerstudyalumni.untan.ac.id untuk angkatan 2013 keatas, sedangkan untuk alumni angkatan dibawah 2013 menggunakan gform. saat ini terlacak sebanyak 212 alumni dari 323 alumni rata rata masa tunggu 0 6 bulan kesesuaian bidang prodi 95.18",
+      "nilai_al_asli": "3.75",
+      "status_relevansi_komentar_al": "SANGAT_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL secara efektif dan mendalam membahas poin-poin kunci dari Keterangan Aspek Utama. Ini termasuk keluasan dan kedalaman materi, capaian pembelajaran lulusan, prestasi mahasiswa, kelulusan tepat waktu, pelacakan dan perekaman data lulusan, serta kesesuaian bidang kerja. Komentar ini memberikan bukti konkret seperti statistik kelulusan, prestasi, dan data pelacakan alumni, yang menunjukkan pemenuhan yang baik terhadap standar yang ditetapkan. Perbandingan dengan data historis juga menunjukkan bahwa komentar ini sejalan atau bahkan lebih detail dalam beberapa aspek dibandingkan dengan penilaian sebelumnya.",
+      "analisis_terhadap_nilai_al_asli": "Nilai 3.75 yang diberikan dalam Asesmen Lapangan (AL) baru ini konsisten dengan tingkat detail dan kualitas pembahasan yang disajikan dalam komentar AL. Nilai ini mencerminkan pemenuhan yang baik terhadap poin-poin kunci yang diharapkan dari aspek C9.2.A.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": "3.75",
+        "alasan_rekomendasi_nilai": "Berdasarkan analisis mendalam terhadap komentar AL dan pemenuhan terhadap poin-poin kunci dari Keterangan Aspek Utama, nilai 3.75 dianggap tepat dan mencerminkan kualitas dan kelengkapan pembahasan yang disajikan. Komentar AL menunjukkan pemahaman yang baik dan implementasi yang efektif dari aspek-aspek yang diharapkan, dengan bukti yang kuat dan relevan."
+      }
+    }
+  }
+}

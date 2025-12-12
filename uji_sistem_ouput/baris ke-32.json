@@ -1,0 +1,59 @@
+===================================================================================
+CONTOH PEMANGGILAN ANALISIS DENGAN PROMPT V4
+Jenis Analisis: 'AK_DAN_AL'
+Usulan: 22090814474906100157201, Aspek: C9.2.A
+===================================================================================
+
+--- HASIL ANALISIS LENGKAP AKHIR (JSON) DENGAN PROMPT V4 ---
+{
+  "nomor_usulan_analisis": "22090814474906100157201",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "22090814474906100157201",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "tersedia bukti yang sangat lengkap mengenai ketercapaian indeks prestasi kumulatif sesuai dengan lkp...",
+    "nilai_ak1_input": "3.7",
+    "komen_ak2_input": "unit pengelola program studi dan ps telah melaksanakan upaya pemenuhan capaian pembelajaran lulusan ...",
+    "nilai_ak2_input": "3.5",
+    "komen_al_input": "unit pengelola program studi dan ps telah melaksanakan upaya pemenuhan capaian pembelajaran lulusan ...",
+    "nilai_al_input": "3.7"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "22090814474906100157201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "tersedia bukti yang sangat lengkap mengenai ketercapaian indeks prestasi kumulatif sesuai dengan lkpd, 3 tahun terakhir saat tersebut (2020/2021) 3,69, tersebut 1 (2019/2020) 3,62, dan tersebut 2 (2018/2019) 3,53. terdapat prestasi mahasiswa prestasi akademik maupun non akademik 5 prestasi lokal, 5 tingkat nasional dan 2 mahasiswa tingkat internasional. ketepatan waktu lulusan 55.99 pelacakan 3,73 pada tersebut 4, 4,11 pada tersebut 3 dan 2,92 pada tersebut 2. laporan tracer pada kesesuaian bidang kerja 63,41 lulusan bekerja pada perusahaan nasional, 31,71 bekerja pada perusahaan multinasional/internasional, dan 4,88 berwirausaha.",
+        "nilai_asli": "3.7"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "unit pengelola program studi dan ps telah melaksanakan upaya pemenuhan capaian pembelajaran lulusan, rata rata indeks prestasi kumulatif, prestasi mahasiswa, kelulusan tepat waktu, pelacakan dan perekaman data lulusan, rata rata masa tunggu, kesesuaian bidang kerja dengan bidang program studi, karya dosen/mahasiswa yang mendapat hak kekayaan intelektual melalui mekanisme rapat program studi (catatan bukti diperlukan) sehingga menjamin kecakupan dan kedalaman analisis yang menggunakan nilai dan indeks prestasi kumulatif mahasiswa sebagai basis datanya. hasil dari analisis digunakan sebagai dasar untuk peningkatan capaian pembelajaran lulusan, pemutakhiran kurikulum, pengembangan model pembelajaran dan peningkatan kualitas pengajaran dosen.",
+        "nilai_asli": "3.5"
+      },
+      "status_utama_konsistensi_ak": "KONSISTEN",
+      "status_sub_kategori_ak": "Komentar Sama, Nilai Berbeda",
+      "penjelasan_sistem_ak": "Kedua asesor memberikan komentar yang mendukung kualitas tinggi dari program studi dalam memenuhi capaian pembelajaran lulusan, dengan bukti yang kuat dan analisis mendalam. Namun, terdapat perbedaan nilai yang diberikan (3.7 vs 3.5), yang mungkin disebabkan oleh penekanan yang sedikit berbeda pada aspek tertentu seperti kebutuhan bukti tambahan yang ditekankan oleh Asesor AK Tipe 2. Meskipun demikian, kedua komentar tersebut sangat mendukung dan konsisten dalam menggambarkan kualitas program studi.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "3.6",
+        "alasan_rekomendasi_nilai": "Nilai 3.6 direkomendasikan sebagai nilai konsensus yang mencerminkan penilaian yang sangat baik dari kedua asesor, dengan pertimbangan bahwa Asesor AK Tipe 2 meminta bukti tambahan yang bisa sedikit mempengaruhi penilaian keseluruhan."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "22090814474906100157201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "unit pengelola program studi dan ps telah melaksanakan upaya pemenuhan capaian pembelajaran lulusan, rata rata indeks prestasi kumulatif, prestasi mahasiswa, kelulusan tepat waktu, pelacakan dan perekaman data lulusan, rata rata masa tunggu, kesesuaian bidang kerja dengan bidang program studi, karya dosen/mahasiswa yang mendapat hak kekayaan intelektual melalui mekanisme rapat program studi sehingga menjamin kecakupan dan kedalaman analisis yang menggunakan nilai dan indeks prestasi kumulatif mahasiswa sebagai basis datanya. hasil dari analisis digunakan sebagai dasar untuk peningkatan capaian pembelajaran lulusan, pemutakhiran kurikulum, pengembangan model pembelajaran dan peningkatan kualitas pengajaran dosen. tersedia bukti yang sangat lengkap mengenai ketercapaian indeks prestasi kumulatif sesuai dengan lkpd, 3 tahun terakhir saat tersebut (2020/2021) 3,69, tersebut 1 (2019/2020) 3,62, dan tersebut 2 (2018/2019) 3,53. terdapat prestasi mahasiswa prestasi akademik maupun non akademik 5 prestasi lokal, 5 tingkat nasional dan 2 mahasiswa tingkat internasional. ketepatan waktu lulusan 55.99 pelacakan 3,73 pada tersebut 4, 4,11 pada tersebut 3 dan 2,92 pada tersebut 2. laporan tracer pada kesesuaian bidang kerja 63,41 lulusan bekerja pada perusahaan nasional, 31,71 bekerja pada perusahaan multinasional/internasional, dan 4,88 berwirausaha.",
+      "nilai_al_asli": "3.7",
+      "status_relevansi_komentar_al": "SANGAT_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL secara efektif mencakup semua poin kunci yang diidentifikasi dari Keterangan Aspek Utama. Komentar ini memberikan data spesifik dan terperinci mengenai indeks prestasi kumulatif, prestasi mahasiswa di berbagai tingkatan, kelulusan tepat waktu, pelacakan dan perekaman data lulusan, serta kesesuaian bidang kerja. Komentar ini juga mencakup bukti yang sangat lengkap dan spesifik, yang menunjukkan pemenuhan poin kunci dengan baik. Komentar ini juga mencerminkan upaya yang dilakukan untuk peningkatan berkelanjutan, yang sesuai dengan standar yang diharapkan.",
+      "analisis_terhadap_nilai_al_asli": "Nilai 3.7 yang diberikan pada Asesmen Lapangan (AL) baru ini konsisten dengan tingkat detail dan kecukupan pembahasan yang disajikan dalam komentar. Komentar tersebut menunjukkan pemenuhan yang sangat baik terhadap poin-poin kunci yang diharapkan, yang mendukung nilai yang tinggi.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": "3.7",
+        "alasan_rekomendasi_nilai": "Berdasarkan analisis yang mendalam terhadap komentar AL dan pemenuhan terhadap poin kunci yang diharapkan, nilai 3.7 dianggap tepat dan mencerminkan kualitas dan kecukupan upaya yang dilakukan oleh unit pengelola program studi dalam memenuhi dan melampaui standar yang diharapkan."
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+
+===================================================================================
+CONTOH PEMANGGILAN ANALISIS DENGAN PROMPT V4
+Jenis Analisis: 'AK_DAN_AL'
+Usulan: 22090822350304202255202, Aspek: C9.2.A
+===================================================================================
+
+--- HASIL ANALISIS LENGKAP AKHIR (JSON) DENGAN PROMPT V4 ---
+{
+  "nomor_usulan_analisis": "22090822350304202255202",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "22090822350304202255202",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "rata rata indeks prestasi kumulatif lulusan untuk 3 tahun terakhir 3.36 ( jumlah lulusan untuk 3 tah...",
+    "nilai_ak1_input": "3",
+    "komen_ak2_input": "pengusul menuliskan beberapa kegiatan pada narasi sebagai berikut . a. program aplikasi tukang dagan...",
+    "nilai_ak2_input": "2.5",
+    "komen_al_input": "rata rata indeks prestasi kumulatif lulusan untuk 3 tahun terakhir 3.36 ( jumlah lulusan untuk 3 tah...",
+    "nilai_al_input": "3.5"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "22090822350304202255202",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "rata rata indeks prestasi kumulatif lulusan untuk 3 tahun terakhir 3.36 ( jumlah lulusan untuk 3 tahun terakhir 157 ), rata rata masa studi selama 4 tahun terakhir 4.38 dan jumlah do 105. rata rata waktu tunggu lulusan 1 3 bulan ( dari 163 lulusan yang terlacak ). kesesuaian bidang kerja lulusan 46.6. prestasi mahasiswa akademik, yaitu juara 2 it kreatif cimahi apps challenge pemerintah kota cimahi tahun 2017.",
+        "nilai_asli": "3"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "pengusul menuliskan beberapa kegiatan pada narasi sebagai berikut. a. program aplikasi tukang dagang yang meraih prestasi di tiga perlombaan yang berbeda yaitu juara 2 it kreatif cimahi apps challenge pemerintah kota cimahi tahun 2017, 1st runner up big creativion apps challenge tahun 2017 dan best e commerce apps telkom hackathon tahun 2018. b. best and worth branding business running pada ajang the 7th ambasador of business edupreneur universitas pendidikan indonesia 2019. c. duta wifi pada ajang google world wifi 2019. tidak ada penjelasan lebih lanjut terkait butir di atas. dokumen keterlaksanaan pemenuhan capaian pembelajaran lulusan dan sebagainya tidak diketemukan dalam dokumen pengusulan (led/lkps), lampiran, dan juga tidak ada link yang menuju ke dokumen dokumen tersebut. akan dikonfirmasi saat asesmen lapangan.",
+        "nilai_asli": "2.5"
+      },
+      "status_utama_konsistensi_ak": "TIDAK_KONSISTEN",
+      "status_sub_kategori_ak": "Komentar dan Nilai Berbeda",
+      "penjelasan_sistem_ak": "Kedua asesor memberikan komentar yang berbeda secara substansial mengenai kualitas dan kelengkapan dokumentasi serta prestasi yang dicapai. Asesor 1 lebih fokus pada data kuantitatif dan prestasi akademik, sementara Asesor 2 menyoroti kekurangan dalam dokumentasi dan variasi prestasi yang lebih luas. Perbedaan ini mencerminkan ketidaksesuaian dalam penilaian yang diberikan, yang menunjukkan ketidaksesuaian dalam interpretasi dan penilaian terhadap kriteria yang sama.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "2.75",
+        "alasan_rekomendasi_nilai": "Nilai disarankan 2.75 sebagai nilai tengah antara dua penilaian yang diberikan oleh asesor, mengingat kedua asesor memberikan perspektif yang valid namun berbeda. Nilai ini mencerminkan kompromi antara penilaian positif dan kritik terhadap dokumentasi dan kelengkapan data."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "22090822350304202255202",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "rata rata indeks prestasi kumulatif lulusan untuk 3 tahun terakhir 3.36 ( jumlah lulusan untuk 3 tahun terakhir 157 ), rata rata masa studi selama 4 tahun terakhir 4.38 dan jumlah do 105. rata rata waktu tunggu lulusan 1 3 bulan ( dari 163 lulusan yang terlacak ). kesesuaian bidang kerja lulusan 46.6. prestasi mahasiswa bidang akademik, yaitu juara 2 it kreatif cimahi apps challenge pemerintah kota cimahi tahun 2017. foto foto dokumentasi prestasi dapat ditunjukkan.",
+      "nilai_al_asli": 3.5,
+      "status_relevansi_komentar_al": "CUKUP_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL mencakup beberapa poin kunci dari Keterangan Aspek Utama seperti rata-rata IPK, prestasi mahasiswa, rata-rata masa tunggu, dan kesesuaian bidang kerja. Namun, beberapa aspek seperti pelacakan dan perekaman data lulusan, kelulusan tepat waktu, dan karya dosen/mahasiswa yang mendapat hak kekayaan intelektual tidak dibahas secara eksplisit atau mendalam. Komentar AL memberikan informasi yang cukup untuk beberapa poin tetapi tidak secara komprehensif untuk semua aspek yang diharapkan.",
+      "analisis_terhadap_nilai_al_asli": "Nilai 3.5 yang diberikan dalam AL tampaknya mencerminkan bahwa sebagian besar aspek penting telah dibahas dengan cukup baik, meskipun tidak sempurna. Nilai ini konsisten dengan tingkat relevansi 'CUKUP_RELEVAN' yang menunjukkan bahwa sebagian besar tetapi tidak semua poin kunci dibahas dengan memadai.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": "3.5",
+        "alasan_rekomendasi_nilai": "Berdasarkan analisis, nilai 3.5 tampaknya tepat mengingat bahwa AL telah membahas sebagian besar poin kunci dengan cukup baik. Meskipun ada beberapa kekurangan dalam kedalaman dan kelengkapan pembahasan untuk beberapa poin, keseluruhan pembahasan dan bukti yang disajikan mendukung nilai ini."
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+===================================================================================
+CONTOH PEMANGGILAN ANALISIS DENGAN PROMPT V4
+Jenis Analisis: 'AK_DAN_AL'
+Usulan: 22091017014107108055202, Aspek: C9.2.A
+===================================================================================
+
+--- HASIL ANALISIS LENGKAP AKHIR (JSON) DENGAN PROMPT V4 ---
+{
+  "nomor_usulan_analisis": "22091017014107108055202",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "22091017014107108055202",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "luaran dan capaian tridarma pada laporan kinerja program studi sudah dituliskan . tabel 9.1 tentang ...",
+    "nilai_ak1_input": "3",
+    "komen_ak2_input": "luaran dan capaian tridarma pada laporan kinerja program studi sudah dituliskan . tabel 9.1 tentang ...",
+    "nilai_ak2_input": "2.5",
+    "komen_al_input": "luaran dan capaian tridarma pada laporan kinerja program studi sudah dituliskan . tabel 9.1 tentang ...",
+    "nilai_al_input": "3"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "22091017014107108055202",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "luaran dan capaian tridarma pada laporan kinerja program studi sudah dituliskan. tabel 9.1 tentang indeks prestasi kumulatif lulusan (sesuai laporan kinerja program studi) sudah ada, tabel 9.2 kelulusan tepat waktu (sesuai laporan kinerja program studi) sudah ada, tabel 9.3 kepuasan lulusan pengguna (sesuai laporan kinerja program studi) sudah ada, tabel 9.4 rata rata masa tunggu lulusan untuk bekerja pertama kali dan tabel 9.5 kesesuaian bidang kerja lulusan sudah ada. dokumen terkait tabel 9.1 sampai dengan 9.5 belum dituliskan dalam laporan evaluasi diri (dokumen akan dicek pada saat asesmen lapangan).",
+        "nilai_asli": "3"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "luaran dan capaian tridarma pada laporan kinerja program studi sudah dituliskan. tabel 9.1 tentang indeks prestasi kumulatif lulusan (sesuai laporan kinerja program studi) sudah ada, tabel 9.2 kelulusan tepat waktu (sesuai laporan kinerja program studi) sudah ada, tabel 9.3 kepuasan lulusan pengguna (sesuai laporan kinerja program studi) sudah ada, tabel 9.4 rata rata masa tunggu lulusan untuk bekerja pertama kali dan tabel 9.5 kesesuaian bidang kerja lulusan sudah ada. dokumen terkait tabel 9.1 sampai dengan 9.5 belum dituliskan dalam laporan evaluasi diri (dokumen akan dicek pada saat asesmen lapangan).",
+        "nilai_asli": "2.5"
+      },
+      "status_utama_konsistensi_ak": "TIDAK_KONSISTEN",
+      "status_sub_kategori_ak": "Komentar Sama, Nilai Berbeda",
+      "penjelasan_sistem_ak": "Kedua asesor memberikan komentar yang sangat mirip, menunjukkan bahwa mereka sepakat mengenai keberadaan dan isi dari tabel-tabel yang relevan serta pengecekan dokumen yang akan dilakukan di lapangan. Namun, nilai yang diberikan berbeda (3 vs 2.5), yang menunjukkan adanya perbedaan dalam penilaian atau interpretasi terhadap informasi yang sama. Perbedaan ini mungkin disebabkan oleh perbedaan dalam penilaian ketatnya kriteria atau pengalaman subjektif asesor terhadap aspek-aspek tertentu yang dinilai.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "2.75",
+        "alasan_rekomendasi_nilai": "Nilai 2.75 direkomendasikan sebagai nilai tengah antara dua penilaian asesor, mengingat kedua asesor sepakat pada substansi tetapi memberikan nilai yang sedikit berbeda. Nilai ini mencerminkan konsensus dan mengakomodasi perbedaan penilaian antar asesor."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "22091017014107108055202",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "luaran dan capaian tridarma pada laporan kinerja program studi sudah dituliskan. tabel 9.1 tentang indeks prestasi kumulatif lulusan (sesuai laporan kinerja program studi) sudah ada, tabel 9.2 kelulusan tepat waktu (sesuai laporan kinerja program studi) sudah ada, tabel 9.3 kepuasan lulusan pengguna (sesuai laporan kinerja program studi) sudah ada, tabel 9.4 rata rata masa tunggu lulusan untuk bekerja pertama kali dan tabel 9.5 kesesuaian bidang kerja lulusan sudah ada. dokumen terkait tabel 9.1 sampai dengan 9.5 belum dituliskan dalam laporan evaluasi diri",
+      "nilai_al_asli": 3,
+      "status_relevansi_komentar_al": "CUKUP_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL mencakup sejumlah besar poin kunci dari Keterangan Aspek Utama, termasuk indeks prestasi kumulatif, kelulusan tepat waktu, kepuasan lulusan, masa tunggu, dan kesesuaian bidang kerja. Namun, beberapa aspek seperti prestasi mahasiswa dan karya dosen/mahasiswa yang mendapat hak kekayaan intelektual tidak dibahas secara spesifik. Komentar AL memberikan informasi yang cukup tentang keberadaan data tetapi tidak menyediakan analisis mendalam atau bukti konkret dari lapangan, yang mengurangi kedalaman relevansi.",
+      "analisis_terhadap_nilai_al_asli": "Nilai 3 pada AL menunjukkan bahwa aspek-aspek kunci telah diidentifikasi dan didokumentasikan dengan cukup baik, meskipun ada kekurangan dalam detail dan analisis mendalam. Nilai ini tampaknya konsisten dengan tingkat detail dan cakupan yang disediakan dalam komentar AL.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": "3",
+        "alasan_rekomendasi_nilai": "Berdasarkan analisis, nilai 3 tampaknya tepat mengingat komentar AL yang mencakup sebagian besar poin kunci tetapi dengan kedalaman dan detail yang terbatas. Rekomendasi ini didasarkan pada pemenuhan poin kunci yang cukup namun tidak sepenuhnya mendalam atau didukung oleh bukti konkret."
+      }
+    }
+  }
+}

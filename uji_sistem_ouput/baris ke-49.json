@@ -1,0 +1,59 @@
+===================================================================================
+CONTOH PEMANGGILAN ANALISIS DENGAN PROMPT V4
+Jenis Analisis: 'AK_DAN_AL'
+Usulan: 22051210091906102055201, Aspek: C9.2.A
+===================================================================================
+
+--- HASIL ANALISIS LENGKAP AKHIR (JSON) DENGAN PROMPT V4 ---
+{
+  "nomor_usulan_analisis": "22051210091906102055201",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "22051210091906102055201",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "keterlaksanaan kebijakan kompetensi lulusan dicapai melalui kurikulum yang dicantumkan buku pedoman ...",
+    "nilai_ak1_input": "3.5",
+    "komen_ak2_input": "target capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) dapat terpenuhi dengan baik din...",
+    "nilai_ak2_input": "3.5",
+    "komen_al_input": "keterlaksanaan kebijakan kompetensi lulusan dicapai melalui kurikulum yang dicantumkan buku pedoman ...",
+    "nilai_al_input": "3.5"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "22051210091906102055201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "keterlaksanaan kebijakan kompetensi lulusan dicapai melalui kurikulum yang dicantumkan buku pedoman akademik fakultas teknik, metode pembelajaran dituangkan dalam rencana pembelajaran semester, evaluasi pembelajaran dalam dokumen nilai uts dan uas serta sumber daya manusia dan sarana prasarana yang mendukung pembelajaran bagi mahasiswa. program studi berhasil melakukan pemenuhan standar capaian pembelajaran lulusan, rata rata indeks prestasi kumulatif mahasiswa dapat dicapai di atas 3,50. prestasi mahasiswa dalam kegiatan non akademik baik di dalam maupun di luar kampus salah satunya menjadi juara 3 di ajang lomba acoustic competition pada tahun 2019 di universitas sebelas maret, surakarta. mayoritas mahasiswa dapat lulus tepat waktu (4 tahun), dan program studi secara reguler melakukan pelacakan dan perekaman data lulusan melalui tools yang dipasang di html//uks.ac.id. mengenai rata rata masa tunggu di bawah 6 bulan sebagian besar lulusan bekerja sesuai dengan bidang program studinya. laporan evaluasi diri telah mengungkapkan keterlaksanaan dengan efektif namun belum disertai bukti yang sahih.",
+        "nilai_asli": "3.5"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "target capaian pembelajaran lulusan (capaian pembelajaran lulusan) dapat terpenuhi dengan baik dinyatakan cepatnya adaptasi lulusan teknik informatika untuk bekerja sesuai keilmuannya. lulus tepat waktu (4 tahun) rata rata indeks prestasi kumulatif diatas 3,50. kampus secara rutin melakukan pelacakan dan perekaman data lulusan melalui tools yang dipasang di program studi secara reguler melakukan review mengenai rata rata masa tunggu, untuk memastikan bahwa sebagian besar lulusan mendapatkan pekerjaan yang sesuai dengan bidang program studinya. program studi membuat review tentang peningkatan karya dtpr/mahasiswa yang mendapat hak kekayaan intelektual. target tercapai. bukti bukti akan dilihat pada saat asesmen lapangan.",
+        "nilai_asli": "3.5"
+      },
+      "status_utama_konsistensi_ak": "KONSISTEN",
+      "status_sub_kategori_ak": "KOMEN_BERBEDA_NILAI_SAMA",
+      "penjelasan_sistem_ak": "Kedua asesor memberikan nilai yang sama (3.5) namun substansi komentar mereka berbeda dalam hal detail dan fokus. Asesor pertama lebih fokus pada implementasi kebijakan dan prestasi non-akademik, sedangkan asesor kedua lebih menekankan pada adaptasi lulusan dan peningkatan karya intelektual. Meskipun kedua asesor sepakat pada beberapa aspek seperti kelulusan tepat waktu dan pelacakan data, perbedaan dalam fokus dan detail komentar menunjukkan bahwa mereka mungkin memiliki perspektif yang berbeda dalam menilai aspek yang sama. Hal ini menunjukkan konsistensi dalam nilai tetapi perbedaan dalam komentar.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "3.5",
+        "alasan_rekomendasi_nilai": "Nilai 3.5 yang diberikan oleh kedua asesor tampaknya mencerminkan konsensus yang kuat mengenai kinerja program studi dalam memenuhi capaian pembelajaran lulusan. Meskipun ada perbedaan dalam fokus komentar, kedua asesor sepakat pada hasil akhir yang positif, yang mendukung nilai ini."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "22051210091906102055201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "keterlaksanaan kebijakan kompetensi lulusan dicapai melalui kurikulum yang dicantumkan buku pedoman akademik fakultas teknik, metode pembelajaran dituangkan dalam rencana pembelajaran semester, evaluasi pembelajaran dalam dokumen nilai uts dan uas serta sumber daya manusia dan sarana prasarana yang mendukung pembelajaran bagi mahasiswa. program studi berhasil melakukan pemenuhan standar capaian pembelajaran lulusan, rata rata indeks prestasi kumulatif mahasiswa dapat dicapai di atas 3,50. prestasi mahasiswa dalam kegiatan non akademik baik di dalam maupun di luar kampus salah satunya menjadi juara 3 di ajang lomba acoustic competition pada tahun 2019 di universitas sebelas maret, surakarta. mayoritas mahasiswa dapat lulus tepat waktu (4 tahun), dan program studi secara reguler melakukan pelacakan dan perekaman data lulusan melalui tools yang dipasang di html//uks.ac.id. mengenai rata rata masa tunggu di bawah 6 bulan sebagian besar lulusan bekerja sesuai dengan bidang program studinya. bukti bukti yang mendukung ketercapaian pemenuhan capaian pembelajaran lulusan dari nilai mahasiswa pogalcatvnjyzu2fwz8p5rs/viewuspsharing pelacakan dan perekaman data lulusan hasil pelacakan lulusan data masa tunggu lulusan",
+      "nilai_al_asli": 3.5,
+      "status_relevansi_komentar_al": "SANGAT_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL secara efektif dan mendalam membahas semua poin kunci dari Keterangan Aspek Utama. Setiap aspek seperti pemenuhan capaian pembelajaran, IPK, prestasi mahasiswa, kelulusan tepat waktu, pelacakan dan perekaman data, serta kesesuaian bidang kerja, telah dijelaskan dengan detail dan didukung oleh bukti konkret. Komentar ini mencerminkan pemahaman yang baik tentang kebutuhan dan standar yang diharapkan, serta menunjukkan bukti yang relevan untuk mendukung klaimnya.",
+      "analisis_terhadap_nilai_al_asli": "Nilai 3.5 yang diberikan pada AL sesuai dengan tingkat detail dan kualitas pembahasan yang tinggi dalam komentar. Nilai ini mencerminkan pemenuhan yang baik terhadap standar yang diharapkan dan konsistensi dalam pelaksanaan kebijakan dan praktik yang mendukung capaian pembelajaran lulusan.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": "3.5",
+        "alasan_rekomendasi_nilai": "Berdasarkan analisis yang mendalam terhadap komentar AL dan konsistensi dengan nilai asli, nilai 3.5 direkomendasikan karena mencerminkan secara akurat kualitas dan efektivitas pelaksanaan kebijakan pendidikan yang dijelaskan. Komentar AL menunjukkan pemenuhan yang sangat baik terhadap semua poin kunci yang diharapkan, dengan bukti yang mendukung."
+      }
+    }
+  }
+}

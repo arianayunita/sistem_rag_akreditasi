@@ -1,0 +1,59 @@
+===================================================================================
+CONTOH PEMANGGILAN ANALISIS DENGAN PROMPT V4
+Jenis Analisis: 'AK_DAN_AL'
+Usulan: 22093016241100100855002, Aspek: C9.2.A
+===================================================================================
+
+--- HASIL ANALISIS LENGKAP AKHIR (JSON) DENGAN PROMPT V4 ---
+{
+  "nomor_usulan_analisis": "22093016241100100855002",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "22093016241100100855002",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "belum ada lulusan",
+    "nilai_ak1_input": "2",
+    "komen_ak2_input": "pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) program doktor dapat diraih ...",
+    "nilai_ak2_input": "2",
+    "komen_al_input": "belum ada lulusan pada angkatan ke 1 sudah mempunyai draf untuk seminar hasil .",
+    "nilai_al_input": "2.25"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "22093016241100100855002",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "belum ada lulusan",
+        "nilai_asli": "2"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "pemenuhan capaian pembelajaran lulusan (capaian pembelajaran lulusan) program doktor dapat diraih melalui syarat kelulusan. syarat kelulusan untuk program by course dan by research ditunjukkan pada laporan evaluasi diri tabel 2.c.7. belum terlaksana (belum ada lulusan) rata rata indeks prestasi kumulatif belum terlaksana (belum ada lulusan) prestasi mahasiswa kelulusan tepat waktu belum terlaksana (belum ada lulusan) pelacakan dan perekaman data lulusan melalui website untuk ps belum terlaksana (belum ada lulusan). rata rata masa tunggu belum terlaksana (belum ada lulusan) kesesuaian bidang kerja dengan bidang ps belum terlaksana (belum ada lulusan) karya dosen tetap penghitung rasio (tanpa mahasiswa) yang mendapat hak kekayaan intelektual (data pada laporan kinerja program studi) sebanyak 71 untuk penelitian bidang infokom dan 7 untuk program kreativitas mahasiswa bidang infokom.",
+        "nilai_asli": "2"
+      },
+      "status_utama_konsistensi_ak": "KONSISTEN",
+      "status_sub_kategori_ak": "KOMEN_BERBEDA_NILAI_SAMA",
+      "penjelasan_sistem_ak": "Kedua asesor memberikan nilai yang sama (2) namun substansi komentar mereka berbeda. Asesor pertama hanya memberikan komentar singkat bahwa 'belum ada lulusan' tanpa detail lebih lanjut, sementara Asesor kedua memberikan penjelasan yang lebih rinci mengenai berbagai aspek yang belum terlaksana karena belum adanya lulusan. Meskipun kedua asesor sepakat pada nilai yang sama, perbedaan dalam kedalaman dan detail komentar menunjukkan bahwa mereka mungkin memiliki perspektif atau penekanan yang berbeda dalam menilai. Namun, kedua komentar tersebut mendukung nilai yang diberikan, yang menunjukkan bahwa program tersebut masih dalam tahap awal dan banyak aspek yang belum dapat dinilai sepenuhnya.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "2",
+        "alasan_rekomendasi_nilai": "Nilai 2 tampaknya tepat mengingat kedua asesor sepakat dan komentar mereka mendukung penilaian bahwa program masih dalam tahap awal dengan banyak aspek yang belum terlaksana. Nilai ini mencerminkan keadaan program yang belum menghasilkan lulusan dan oleh karena itu banyak kriteria penilaian belum dapat diukur."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "22093016241100100855002",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "belum ada lulusan pada angkatan ke 1 sudah mempunyai draf untuk seminar hasil",
+      "nilai_al_asli": 2.25,
+      "status_relevansi_komentar_al": "KURANG_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL hanya menyebutkan bahwa belum ada lulusan dan hanya ada draf untuk seminar hasil, yang tidak cukup menjawab atau merefleksikan poin-poin kunci dari Keterangan Aspek Utama seperti capaian pembelajaran lulusan, IPK, prestasi mahasiswa, dan lain-lain. Komentar ini hanya menyentuh sangat sedikit dari poin-poin kunci yang diharapkan, sehingga relevansinya terbatas.",
+      "analisis_terhadap_nilai_al_asli": "Nilai 2.25 yang diberikan tampaknya mencerminkan pengakuan atas beberapa upaya minimal dalam persiapan (seperti draf seminar hasil), namun mengingat kurangnya pembahasan terhadap poin-poin kunci dan data yang substansial, nilai ini mungkin terlalu tinggi mengingat kurangnya informasi yang relevan dan substantif.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": "1.5",
+        "alasan_rekomendasi_nilai": "Rekomendasi nilai ini didasarkan pada pengamatan bahwa komentar AL tidak cukup membahas poin-poin kunci dari aspek yang dinilai. Meskipun ada upaya minimal yang diakui, kurangnya data substantif dan diskusi mendalam tentang poin-poin kunci mengarah pada penurunan nilai yang disarankan."
+      }
+    }
+  }
+}

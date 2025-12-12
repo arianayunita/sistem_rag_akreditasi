@@ -1,0 +1,59 @@
+===================================================================================
+CONTOH PEMANGGILAN ANALISIS DENGAN PROMPT V4
+Jenis Analisis: 'AK_DAN_AL'
+Usulan: 22041809473800101055201, Aspek: C9.2.A
+===================================================================================
+
+--- HASIL ANALISIS LENGKAP AKHIR (JSON) DENGAN PROMPT V4 ---
+{
+  "nomor_usulan_analisis": "22041809473800101055201",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "22041809473800101055201",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "capaian indeks prestasi kumulatif lulusan 3 tahun terakhir ( tabel 9.1 ) tahun tersebut 2 jumlah lul...",
+    "nilai_ak1_input": "3",
+    "komen_ak2_input": "pelaksanaan kegiatan terkait luaran dan capaian sudah dipaparkan dalam dokumen laporan evaluasi diri...",
+    "nilai_ak2_input": "3",
+    "komen_al_input": "capaian indeks prestasi kumulatif lulusan 3 tahun terakhir ( tabel 9.1 ) tahun tersebut 2 jumlah lul...",
+    "nilai_al_input": "3"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "22041809473800101055201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "capaian indeks prestasi kumulatif lulusan 3 tahun terakhir (tabel 9.1) tahun tersebut 2 jumlah lulusan 14, indeks prestasi kumulatif rata rata 3,45 tahun tersebut 1 jumlah lulusan 38, indeks prestasi kumulatif rata rata 3,34 tahun tersebut jumlah lulusan 18, indeks prestasi kumulatif rata rata 3,45 rata rata masa studi (tabel 9.2) mahasiswa angkatan tersebut 6 jumlah lulusan 18, rata rata masa studi 4,87 tahun. mahasiswa angkatan tersebut 5 jumlah lulusan 18, rata rata masa studi 4,51 tahun. mahasiswa angkatan tersebut 4 jumlah lulusan 4, rata rata masa studi 4,04 tahun. mahasiswa angkatan tersebut 3 jumlah lulusan 6, rata rata masa studi 3,83 tahun. kepuasan pengguna lulusan (tabel 9.3) secara umum tinggi (sangat baik), kecuali pada kemampuan berbahasa inggris, di level baik. rata rata masa tunggu lulusan untuk mendapatkan pekerjaan pertama 1,19 bulan. kesesuaian bidang kerja lulusan 20 infokom, 8 non infokom. lingkup tempat kerja 5 internasional, 15 nasional, 5 daerah.",
+        "nilai_asli": "3"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "pelaksanaan kegiatan terkait luaran dan capaian sudah dipaparkan dalam dokumen laporan evaluasi diri sepertinya tidak sinkron dengan program studi yang diakresi, dimana pada gambar 41 menunjukkan jumlah dan indeks prestasi kumulatif lulusan sangat kecil dan rendah. pada tahun 2021 jumlah lulusan 18 dan jumlah mahasiswa masuk setiap tahun 60 an mahasiswa, dan juga lama studi minimal 3.15 tahun apakah memungkinkan program sarjana lulus 3 tahun pada grafik dalam gambar 43 berbeda lagi data lulusan, dan capaian lainnya seperti jumlah dosen/mahasiswa yang mendapat hak kekayaan intelektual belum dilaporkan secara lengkap. semua dokumen pelaksanaan akan di klarifikasi pada saat kunjungan asesmen lapangan.",
+        "nilai_asli": "3"
+      },
+      "status_utama_konsistensi_ak": "TIDAK_KONSISTEN",
+      "status_sub_kategori_ak": "KOMEN_BERBEDA_NILAI_SAMA",
+      "penjelasan_sistem_ak": "Kedua asesor memberikan nilai yang sama (3) namun substansi komentar mereka sangat berbeda. Asesor pertama lebih fokus pada data kuantitatif dan hasil yang positif, sementara asesor kedua menyoroti ketidaksesuaian dan kekurangan dalam laporan yang bisa mempengaruhi validitas data. Kedua komentar ini, meskipun sama-sama memberikan nilai 3, tidak mendukung satu sama lain dalam substansi dan fokusnya, yang menunjukkan ketidaksesuaian dalam penilaian.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "2.5-3.0",
+        "alasan_rekomendasi_nilai": "Nilai disarankan diberikan dalam rentang 2.5-3.0 untuk mencerminkan perbedaan pendapat asesor dan untuk lebih akurat menggambarkan kondisi program studi yang dinilai. Rentang ini memberikan ruang untuk pertimbangan lebih lanjut berdasarkan klarifikasi yang akan dilakukan selama kunjungan asesmen lapangan."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "22041809473800101055201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "capaian indeks prestasi kumulatif lulusan 3 tahun terakhir ( tabel 9.1 ) tahun tersebut 2 jumlah lulusan 14 , indeks prestasi kumulatif rata rata 3,45 tahun tersebut 1 jumlah lulusan 38 , indeks prestasi kumulatif rata rata 3,34 tahun tersebut jumlah lulusan 18 , indeks prestasi kumulatif rata rata 3,45 rata rata masa studi ( tabel 9.2 ) mahasiswa angkatan tersebut 6 jumlah lulusan 18 , rata rata masa studi 4,87 tahun . mahasiswa angkatan tersebut 5 jumlah lulusan 18 , rata rata masa studi 4,51 tahun . mahasiswa angkatan tersebut 4 jumlah lulusan 4 , rata rata masa studi 4,04 tahun . mahasiswa angkatan tersebut 3 jumlah lulusan 6 , rata rata masa studi 3,83 tahun . kepuasan pengguna lulusan ( tabel 9.3 ) secara umum tinggi ( sangat baik ) , kecuali pada kemampuan berbahas inggris , di level baik . rata rata masa tunggu lulusan untuk mendapatkan pekerjaan pertama 1,19 bulan . kesesuaian bidang kerja lulusan 20 infokom , 8 non infokom . lingkup tempat kerja 5 internasional , 15 nasional , 5 daerah .",
+      "nilai_al_asli": "3",
+      "status_relevansi_komentar_al": "SANGAT_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL secara detail dan spesifik membahas poin-poin kunci dari Keterangan Aspek Utama, termasuk capaian indeks prestasi kumulatif, rata-rata masa studi, kepuasan pengguna lulusan, rata-rata masa tunggu, dan kesesuaian bidang kerja. Komentar ini juga didukung oleh data konkret seperti jumlah lulusan, rata-rata IPK, dan distribusi tempat kerja, yang menunjukkan pemenuhan yang baik terhadap standar yang diharapkan.",
+      "analisis_terhadap_nilai_al_asli": "Nilai 3 yang diberikan pada Asesmen Lapangan (AL) baru ini konsisten dengan tingkat detail dan relevansi komentar yang diberikan. Komentar tersebut menunjukkan pemenuhan yang baik terhadap kriteria yang diharapkan, yang mendukung nilai tersebut.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": "3",
+        "alasan_rekomendasi_nilai": "Berdasarkan analisis terhadap komentar AL yang sangat relevan dan mendetail, serta konsistensi dengan nilai asli yang diberikan, nilai 3 dianggap tepat dan mencerminkan kualitas pemenuhan terhadap aspek yang dinilai."
+      }
+    }
+  }
+}

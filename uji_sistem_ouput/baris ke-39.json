@@ -1,0 +1,41 @@
+{
+"nomor_usulan_analisis":"C9.2.A"
+"nomor_aspek_analisis":"22072912272304107157401"
+"jenis_analisis_diminta":"AK_DAN_AL"
+"analisis_ak_llm_baru":{
+"analisis_ak_baru":{
+"nomor_usulan_analisis":"C9.2.A"
+"nomor_aspek_analisis":"22072912272304107157401"
+"data_asesor_1_input":{
+"komentar_asli":"terlaksananya pemenuhan a. capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) 80 , b. rata rata indeks prestasi kumulatif 3.12 , c. prestasi mahasiswa 0.7 , d. kelulusan tepat waktu 40 , e. pelacakan dan perekaman data lulusan 5 , f. rata rata masa tunggu 5 bulan , g. kesesuaian bidang kerja dengan bidang program studi 87 , h. karya dosen/mahasiswa yang mendapat hak kekayaan intelektual disertai 10 judul . bukti perlu diverifikasi saat visitasi ."
+"nilai_asli":"3.5"
+}
+"data_asesor_2_input":{
+"komentar_asli":"tidak fokus menjelaskan apa yang diminta oleh borang"
+"nilai_asli":"3"
+}
+"status_utama_konsistensi_ak":"TIDAK_KONSISTEN"
+"status_sub_kategori_ak":"Komentar dan Nilai Berbeda"
+"penjelasan_sistem_ak":"Asesor AK Tipe 1 memberikan komentar yang rinci mengenai pemenuhan berbagai aspek pendidikan dan memberikan nilai 3.5, yang menunjukkan kecukupan yang cukup baik namun dengan catatan bahwa bukti perlu diverifikasi. Sementara itu, Asesor AK Tipe 2 memberikan komentar yang sangat umum dan tidak spesifik, menyatakan bahwa penjelasan tidak fokus, dengan nilai 3. Perbedaan substansial dalam komentar dan nilai yang diberikan oleh kedua asesor menunjukkan ketidaksesuaian dalam penilaian, yang mengarah pada status 'TIDAK_KONSISTEN' dan sub-kategori 'Komentar dan Nilai Berbeda'."
+"rekomendasi_nilai_ak_sistem":{
+"nilai_disarankan":"3.25"
+"alasan_rekomendasi_nilai":"Nilai rata-rata dari kedua asesor adalah 3.25. Nilai ini dianggap sebagai kompromi yang wajar, mengingat perbedaan dalam penilaian dan komentar. Nilai ini mencerminkan kecukupan yang cukup baik dengan catatan untuk verifikasi lebih lanjut."
+}
+}
+}
+"analisis_al_llm_baru":{
+"analisis_al_baru":{
+"nomor_usulan_analisis":"C9.2.A"
+"nomor_aspek_analisis":"22072912272304107157401"
+"komentar_al_asli":"terlaksananya pemenuhan a. capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) target 80 , tercapai 82 b. rata rata indeks prestasi kumulatif target 3.12 , ketercapaianya 3.20 c. prestasi mahasiswa target 0.7 , ketercapaian 0.3 d. kelulusan tepat waktu target 40 , ketercapaian 35 e. pelacakan dan perekaman data lulusan target 5 , ketercapaian20 f. rata rata masa tunggu target 5 bulan , ketercapaian5 g. kesesuaian bidang kerja dengan bidang program studi target 87 , ketercapaian 87 h. karya dosen/mahasiswa yang mendapat hak kekayaan intelektual disertai target 3 , tercapai 10 bukti sudah diverifikasi saat visitasi"
+"nilai_al_asli":3.5
+"status_relevansi_komentar_al":"SANGAT_RELEVAN"
+"penjelasan_sistem_al":"Komentar AL secara efektif dan terperinci membahas semua poin kunci yang diuraikan dalam Keterangan Aspek Utama. Setiap poin kunci tidak hanya disebutkan, tetapi juga diberikan data kuantitatif yang menunjukkan pencapaian atau ketidakpencapaian target yang ditetapkan. Misalnya, capaian pembelajaran lulusan ditargetkan 80 dan tercapai 82, menunjukkan keberhasilan dalam aspek ini. Komentar ini juga didukung oleh bukti yang telah diverifikasi selama visitasi, memberikan validitas lebih pada data yang disampaikan. Perbandingan dengan data historis menunjukkan peningkatan dalam dokumentasi dan verifikasi data, yang sebelumnya sering kali menjadi area yang memerlukan perbaikan dalam penilaian sejenis."
+"analisis_terhadap_nilai_al_asli":"Nilai 3.5 yang diberikan dalam Asesmen Lapangan (AL) tampak konsisten dengan tingkat detail dan keakuratan dalam komentar AL. Komentar ini menunjukkan pemenuhan yang baik terhadap standar yang diharapkan, dengan bukti yang diverifikasi, yang mendukung nilai yang relatif tinggi ini."
+"rekomendasi_nilai_al_sistem":{
+"nilai_disarankan":3.5
+"alasan_rekomendasi_nilai":"Berdasarkan analisis terhadap komentar AL yang sangat relevan dan mendetail serta konsistensi antara komentar dan nilai yang diberikan, nilai 3.5 disarankan untuk dipertahankan. Komentar AL menunjukkan pemenuhan yang baik terhadap semua poin kunci dengan bukti yang kuat dan verifikasi yang memadai."
+}
+}
+}
+}

@@ -1,0 +1,59 @@
+===================================================================================
+CONTOH PEMANGGILAN ANALISIS DENGAN PROMPT V4
+Jenis Analisis: 'AK_DAN_AL'
+Usulan: 23010615492208304857201, Aspek: C9.2.A
+===================================================================================
+
+--- HASIL ANALISIS LENGKAP AKHIR (JSON) DENGAN PROMPT V4 ---
+{
+  "nomor_usulan_analisis": "23010615492208304857201",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "23010615492208304857201",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "terlaksananya pemenuhan 1. capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) tidak ada p...",
+    "nilai_ak1_input": "2",
+    "komen_ak2_input": "ps memperlihatkan capaian pembelajaran pada setiap mata kuliah yang ditunjukan melalui nilai prestas...",
+    "nilai_ak2_input": "1.5",
+    "komen_al_input": "terlaksananya pemenuhan 1. capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) tidak ada p...",
+    "nilai_al_input": "2.5"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "23010615492208304857201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "terlaksananya pemenuhan 1. capaian pembelajaran lulusan (capaian pembelajaran lulusan) tidak ada pengukuran 2. rata rata indeks prestasi kumulatif 3,45 3. prestasi mahasiswa, 4. kelulusan tepat waktu 2/112 1,8 5. pelacakan dan perekaman data lulusan diperoleh data 20 responden dari 48 lulusan dalam tiga tahun terakhir 6. rata rata masa tunggu 3 bulan 7. kesesuaian bidang kerja dengan bidang program studi 44/55 8. karya dosen/mahasiswa yang mendapat hak kekayaan intelektual 0 cek data responden saat asesmen lapangan. yang benar 48 atau kah 55",
+        "nilai_asli": "2"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "ps memperlihatkan capaian pembelajaran pada setiap mata kuliah yang ditunjukan melalui nilai prestasi mahasiswa (indeks prestasi kumulatif) dengan rata rata 3.40 berdasarkan data indeks prestasi kumulatif lulusan di dokumen laporan kinerja program studi tabel 9.1. namun untuk masa penyelesaian studi berbeda dengan yang tercantum dalam dokumen laporan evaluasi diri hal. 85 yang menyatakan bahwa rata rata lulus dalam 8 semester sedangkan pada tabel 9.2 dalam dokumen laporan kinerja program studi menyatakan bahwa rata rata lulus dalam 9 semester (hal ini harus di konfirmasi saat asesmen lapangan). prestasi akademik mahasiswa masih belum dioptimalkan oleh ps namun prestasi mahasiswa di bidang non akademik telah diperoleh (perlu konfirmasi saat asesmen lapangan).",
+        "nilai_asli": "1.5"
+      },
+      "status_utama_konsistensi_ak": "TIDAK_KONSISTEN",
+      "status_sub_kategori_ak": "KOMEN_DAN_NILAI_BERBEDA",
+      "penjelasan_sistem_ak": "Kedua asesor memberikan komentar yang berbeda secara substansial dalam fokus dan kesimpulan mereka. Asesor pertama lebih fokus pada data kuantitatif dan kekurangan dalam pengukuran, sementara asesor kedua lebih menekankan pada perbedaan antara data yang dilaporkan dan dokumentasi serta prestasi non-akademik. Nilai yang diberikan juga berbeda, menunjukkan perbedaan penilaian yang signifikan antara kedua asesor terhadap aspek yang sama. Perbedaan ini menunjukkan ketidaksesuaian dalam penilaian dan interpretasi data yang diberikan.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "1.75",
+        "alasan_rekomendasi_nilai": "Nilai disarankan 1.75 sebagai nilai tengah antara dua penilaian asesor, mengingat adanya perbedaan signifikan dalam penilaian dan komentar mereka. Nilai ini mencerminkan rata-rata dari kedua penilaian, memberikan bobot yang sama kepada kedua perspektif."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "23010615492208304857201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "terlaksananya pemenuhan 1. capaian pembelajaran lulusan (capaian pembelajaran lulusan) tidak ada pengukuran 2. rata rata indeks prestasi kumulatif 3,45 3. prestasi mahasiswa akademik belum ada. prestasi non akademik futsal level wilayah, lomba vlog level wilayah, lomba pencak silat level wilayah. 4. kelulusan tepat waktu 2/112 1,8 5. pelacakan dan perekaman data lulusan diperoleh data 20 responden dari 48 lulusan dalam tiga tahun terakhir 6. rata rata masa tunggu 3 bulan 7. kesesuaian bidang kerja dengan bidang program studi 44/48 8. karya dosen dan mahasiswa yang mendapat hak kekayaan intelektual 0",
+      "nilai_al_asli": "2.5",
+      "status_relevansi_komentar_al": "CUKUP_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL membahas sejumlah poin kunci dari Keterangan Aspek Utama, namun tidak semua poin dibahas secara mendalam atau dengan bukti yang kuat. Misalnya, tidak ada pengukuran yang spesifik untuk capaian pembelajaran lulusan dan tidak ada karya intelektual yang tercatat. Namun, ada data yang cukup untuk rata-rata IPK, prestasi non-akademik, kelulusan tepat waktu, pelacakan data lulusan, dan kesesuaian bidang kerja. Komentar ini mencakup sekitar 50% - 75% dari poin kunci dengan kedalaman yang bervariasi.",
+      "analisis_terhadap_nilai_al_asli": "Nilai 2.5 yang diberikan dalam AL tampaknya mencerminkan adanya beberapa kelemahan dalam pemenuhan poin kunci, seperti kurangnya pengukuran untuk capaian pembelajaran dan tidak adanya karya intelektual. Namun, nilai ini juga mengakui adanya upaya dalam beberapa aspek lain seperti pelacakan lulusan dan kesesuaian bidang kerja.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": "2.5",
+        "alasan_rekomendasi_nilai": "Berdasarkan analisis, nilai 2.5 tampaknya sudah mencerminkan secara akurat kondisi yang dijelaskan dalam komentar AL. Meskipun ada kekurangan dalam beberapa area, ada juga aspek yang ditangani dengan cukup baik. Oleh karena itu, tidak ada perubahan nilai yang direkomendasikan saat ini."
+      }
+    }
+  }
+}

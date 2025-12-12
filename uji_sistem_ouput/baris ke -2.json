@@ -1,0 +1,59 @@
+===================================================================================
+CONTOH PEMANGGILAN ANALISIS DENGAN PROMPT V4
+Jenis Analisis: 'AK_DAN_AL'
+Usulan: 23011311354100101956402, Aspek: C9.2.A
+===================================================================================
+
+--- HASIL ANALISIS LENGKAP AKHIR (JSON) DENGAN PROMPT V4 ---
+{
+  "nomor_usulan_analisis": "23011311354100101956402",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "23011311354100101956402",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "penentuan capaian pembelajaran sikap dan keterampilan umum dijabarkan pada standar nasional pergurua...",
+    "nilai_ak1_input": "3.5",
+    "komen_ak2_input": "unit pengelola program studi menyajikan luaran dan capaian terkait pembelajaran meliputi ( i ) keter...",
+    "nilai_ak2_input": "4",
+    "komen_al_input": "unit pengelola program studi menyajikan luaran dan capaian terkait pembelajaran meliputi ( i ) keter...",
+    "nilai_al_input": "3.8"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "23011311354100101956402",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "penentuan capaian pembelajaran sikap dan keterampilan umum dijabarkan pada standar nasional perguruan tinggi no . 44 tahun 2015. matriks capaian pembelajaran lulusan prodi teknologi informasi disajikan sebagai pedoman dalam proses pendidikan mahasiswa selama menempuh program d3 teknologi informasi . pengukuran capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) sesuai dengan buku pedoman pengukuran capaian pembelajaran lulusan ( link ini kosong ) . pada tabel ada 2 capaian pembelajaran lulusan sikap , ada 2 capaian pembelajaran lulusan pengetahuan , ada 2 ketrampilan umum , ada 2 ketrampilan khusus . rata rata indeks prestasi kumulatif 3,55. karya dosen mendapat hak kekayaan intelektual dalam 3 tahun berturut2 ada 1,2,3 tersedia 2 sertifikat . survey kekuatan pengguna lulusan didominasi oleh sangat baik dan baik . jumlah mahasiswa berprestasi tingkat nasional 3 tahun berturut2 yaitu 22 , 17 , 31 dari prestasi 28,32,28 internasional 7,5,6 dari prestasi 7 . 10 , 6. tingkat kelulusan tepat waktu mahasiswa sebanyak 93 dengan rata rata masa studi sebesar 2 tahun 11 bulan 25 hari . lulusan yang terlacak tiap tahunnya rata rata adalah 70 . ( link gdrive kosong ) waktu tunggu lulusan dominan di 6 bulan yaitu 96 , 174 , 145 , 81 lulusan bekerja dan berwiraswasta berturut2 adalah 65 , 138 , 53 , 60 dan 32 , 51 , 130 , 46 kesesuaian bidang kerja untuk sangat erat 16 , 22 , 110 , 49 erat 28 , 132 , 18 , 35 .",
+        "nilai_asli": "3.5"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "unit pengelola program studi menyajikan luaran dan capaian terkait pembelajaran meliputi ( i ) keterlaksanaan capaian pembelajaran lulusan ( tabel 9.1 ) ( ii ) rata rata indeks prestasi kumulatif yang sangat tinggi diatas 3.5 ( tabel 9.2 ) ( iii ) prestasi mahasiswa ( tabel 9.3 , gambar 9.1 , dan gambar 9.2 ) ( iv ) kelulusan tepat waktu sebesar 92 ( gambar 9.3 ) ( v ) pelacakan dan perekaman data lulusan dengan 70 responden ( vi ) rata rata masa tunggu lulusan dengan besar diserap dalam rentang waktu 6 bulan ( tabel 9.4 ) ( vii ) data aktivitas lulusan ( tabel 9.5 , gambar 9.4 ) ( viii ) kesesuain bidang kerja pada level sangat erat cukup erat ( tabel 9.6 ) ( ix ) karya dosen dan mahasiswa yang mendapat hak kekayaan intelektual . seluruh data luaran yang disajikan oleh unit pengelola program studi dapat ditelusuri dengan dukungan bukti yang memadai . pada bagian ini unit pengelola program studi juga melengkapi dengan data survey terhadap pengguna lulusan yang menunjukan tingkat kepuasan yang tinggi",
+        "nilai_asli": "4"
+      },
+      "status_utama_konsistensi_ak": "TIDAK_KONSISTEN",
+      "status_sub_kategori_ak": "KOMEN_SAMA_NILAI_BERBEDA",
+      "penjelasan_sistem_ak": "Kedua asesor memberikan komentar yang sangat mendukung kualitas tinggi dari program studi, termasuk capaian pembelajaran, IPK, prestasi mahasiswa, kelulusan tepat waktu, dan kesesuaian bidang kerja. Namun, terdapat perbedaan signifikan dalam penilaian mereka (3.5 vs 4), yang menunjukkan ketidaksesuaian dalam penilaian meskipun substansi komentar sangat mirip. Perbedaan ini mungkin disebabkan oleh interpretasi yang berbeda terhadap data yang sama atau penekanan pada aspek yang berbeda dari program studi.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "3.75",
+        "alasan_rekomendasi_nilai": "Nilai 3.75 direkomendasikan sebagai nilai tengah antara dua penilaian asesor, mengingat kedua asesor memberikan ulasan yang sangat positif tetapi dengan penilaian yang sedikit berbeda. Nilai ini mencerminkan konsensus dan mengakomodasi pandangan kedua asesor."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "23011311354100101956402",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "unit pengelola program studi menyajikan luaran dan capaian terkait pembelajaran meliputi ( i ) keterlaksanaan capaian pembelajaran lulusan ( tabel 9.1 ) yang terdiri atas 1. sikap ( 2 butir ) yang mencakup ( a ) disiplin dan tanggung jawab seperti kehadiran tepat waktu , pengumpulan tugas sesuai deadline , ( b ) normal etika sebagai contoh sikap terhadap dosen , tidak melanggar aturan 2 , pengetahuan 2 butir asesmen lapangan teori tentang pengetahuan tek informasi dan penerapan tercapai berdasarkan ketrampilan penggunaan teknologi it 3. ketrampilan umum 2 butir asesmen lapangan mampu memecahkan masalah secara logis daan inovatif 4. ketrampilan khusus 2 butir asesmen lapangan mampu memberikan solusi dengan menerapkan tek informasi dan implementasinya berupa produk . ( ii ) rata rata indeks prestasi kumulatif yang sangat tinggi diatas 3.58 ( tabel 9.2 ) ( iii ) prestasi mahasiswa ( tabel 9.3 , gambar 9.1 , dan gambar 9.2 ) selama 3 tahun total prestasi nasional 16 , internasional 6 ( iv ) kelulusan tepat waktu sebesar 92 ( gambar 9.3 ) ( v ) pelacakan dan perekaman data lulusan sebesar 344/70849 responden ( vi ) rata rata masa tunggu lulusan dengan dominasi dalam rentang waktu 6 bulan ( tabel 9.4 ) sebesar 5,6 bulan ( vii ) data aktivitas lulusan ( tabel 9.5 ) sebagai pegawai 105 orang ( 52 ) , wiraswasta 41 orang ( 20 ) , melanjutkan kuliah 55 orang ( 27 ) ( viii ) kesesuain bidang kerja pada level sangat erat 85/237 36 , erat 55/23723 , cukup erat 76/23732 , kurang erat 13/2375 , tidak erat 8/2373 ( tabel 9.6 ) ( ix ) karya dosen dan mahasiswa yang mendapat hak kekayaan intelektual . seluruh data luaran yang disajikan oleh unit pengelola program studi dapat ditelusuri dengan dukungan bukti rekapitulasi data survey . pada bagian ini unit pengelola program studi juga melengkapi dengan data survey terhadap pengguna lulusan yang menunjukan tingkat kepuasan yang tinggi",
+      "nilai_al_asli": 3.8,
+      "status_relevansi_komentar_al": "SANGAT_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL secara mendetail dan spesifik membahas hampir semua poin kunci dari Keterangan Aspek Utama. Ini termasuk capaian pembelajaran lulusan, rata-rata IPK, prestasi mahasiswa, kelulusan tepat waktu, pelacakan dan perekaman data lulusan, rata-rata masa tunggu, kesesuaian bidang kerja, dan karya dosen/mahasiswa yang mendapat hak kekayaan intelektual. Komentar AL menyediakan data kuantitatif dan kualitatif yang mendukung, menunjukkan tingkat kepuasan yang tinggi dan kesesuaian dengan bidang kerja, serta mencakup detail tentang karya intelektual.",
+      "analisis_terhadap_nilai_al_asli": "Nilai 3.8 yang diberikan pada AL sangat konsisten dengan tingkat detail dan relevansi yang tinggi dari komentar AL. Nilai ini mencerminkan pemenuhan yang sangat baik terhadap standar yang ditetapkan dalam Keterangan Aspek Utama.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": 3.8,
+        "alasan_rekomendasi_nilai": "Berdasarkan analisis komprehensif terhadap komentar AL dan pemenuhan terhadap poin kunci dari Keterangan Aspek Utama, nilai 3.8 dianggap tepat dan mencerminkan kualitas dan relevansi data yang disajikan dalam komentar AL."
+      }
+    }
+  }
+}

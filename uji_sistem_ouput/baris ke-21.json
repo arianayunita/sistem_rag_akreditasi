@@ -1,0 +1,59 @@
+===================================================================================
+CONTOH PEMANGGILAN ANALISIS DENGAN PROMPT V4
+Jenis Analisis: 'AK_DAN_AL'
+Usulan: 22092610104400100657201, Aspek: C9.2.A
+===================================================================================
+
+--- HASIL ANALISIS LENGKAP AKHIR (JSON) DENGAN PROMPT V4 ---
+{
+  "nomor_usulan_analisis": "22092610104400100657201",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "22092610104400100657201",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "tidak ada sara perhitungan pemenuhan capaian pembelajaran lulusan tidak ada keterangan mengenai pres...",
+    "nilai_ak1_input": "3",
+    "komen_ak2_input": "perekaman dan pelacakan data lulusan ( kelengkapan dan sahih perlu dibuktikan saat asesmen lapangan ...",
+    "nilai_ak2_input": "2.5",
+    "komen_al_input": "pada universitas andalas , pelacakan alumni dilakukan oleh upt karir dan konseling secara online mel...",
+    "nilai_al_input": "4"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "22092610104400100657201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "tidak ada sara perhitungan pemenuhan capaian pembelajaran lulusan tidak ada keterangan mengenai prestasi mahasiswa (juara/peserta/panitia) lulusan tepat waktu hanya 17.5",
+        "nilai_asli": "3"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "perekaman dan pelacakan data lulusan (kelengkapan dan sahih perlu dibuktikan saat asesmen lapangan asesmen lapangan, karena link dokumen tidak dapat dibuka)",
+        "nilai_asli": "2.5"
+      },
+      "status_utama_konsistensi_ak": "TIDAK_KONSISTEN",
+      "status_sub_kategori_ak": "KOMEN_DAN_NILAI_BERBEDA",
+      "penjelasan_sistem_ak": "Kedua asesor memberikan komentar yang berfokus pada aspek yang berbeda dari penilaian, dengan Asesor 1 fokus pada pemenuhan capaian pembelajaran dan prestasi mahasiswa, sementara Asesor 2 lebih fokus pada pelacakan dan perekaman data lulusan. Kedua asesor juga memberikan nilai yang berbeda, menunjukkan adanya ketidaksesuaian dalam penilaian mereka terhadap aspek yang sama. Perbandingan dengan data historis menunjukkan bahwa variasi dalam penilaian sering terjadi, namun dalam kasus ini, perbedaan substansial dalam fokus dan nilai menunjukkan ketidaksesuaian yang signifikan.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "2.75",
+        "alasan_rekomendasi_nilai": "Nilai rata-rata dari kedua asesor (3 dan 2.5) adalah 2.75. Nilai ini dianggap mewakili konsensus yang lebih adil berdasarkan komentar yang diberikan, dengan mempertimbangkan kekurangan dalam pemenuhan capaian pembelajaran dan pelacakan data yang disebutkan oleh kedua asesor."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "22092610104400100657201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "pada universitas andalas, pelacakan alumni dilakukan oleh upt karir dan konseling secara online melalui alamat web. data lulusan dirangkum untuk kemudian dianalisis sebagai salah satu indikator terpenuhinya capaian pembelajaran lulusan yang sudah ditetapkan. rekap indeks prestasi kumulatif lulusan data prestasi mahasiswa data masa studi mahasiswa untuk penentuan kelulusan tepat waktu kelulusan tepat waktu alumni dengan tahun masuk tersebut 4 kelulusan tepat waktu alumni dengan tahun masuk tersebut 5 kelulusan tepat waktu alumni dengan tahun masuk tersebut 6 data rata rata masa tunggu lulusan waktu tunggu tahun lulus tersebut 2 waktu tunggu tahun lulus tersebut 3 waktu tunggu tahun lulus tersebut 4 data kesesuaian bidang kerja lulusan kesesuaian bidang kerja tahun lulus tersebut 2 kesesuaian bidang kerja tahun lulus tersebut 3 kesesuaian bidang kerja tahun lulus tersebut 4 karya buku drtp",
+      "nilai_al_asli": 4,
+      "status_relevansi_komentar_al": "SANGAT_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL secara mendalam dan spesifik membahas poin-poin kunci dari Keterangan Aspek Utama, termasuk pelacakan alumni, analisis data lulusan, indeks prestasi kumulatif, kelulusan tepat waktu, masa tunggu lulusan, dan kesesuaian bidang kerja. Setiap aspek dibahas dengan menyertakan data dan analisis yang relevan, menunjukkan pemahaman yang baik tentang kebutuhan aspek dan implementasinya di lapangan.",
+      "analisis_terhadap_nilai_al_asli": "Nilai 4 yang diberikan pada Asesmen Lapangan (AL) sangat konsisten dengan komentar yang diberikan. Komentar menunjukkan pemenuhan yang sangat baik terhadap poin-poin kunci yang diharapkan, dengan bukti dan analisis yang mendalam dan spesifik, yang mendukung penilaian tinggi ini.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": 4,
+        "alasan_rekomendasi_nilai": "Berdasarkan analisis mendalam terhadap komentar AL yang menunjukkan pemenuhan yang sangat baik terhadap semua poin kunci dengan bukti yang sahih dan relevan, nilai 4 adalah representasi yang tepat dari kualitas asesmen yang dilakukan."
+      }
+    }
+  }
+}

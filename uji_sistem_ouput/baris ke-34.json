@@ -1,0 +1,64 @@
+
+ 12 orang . tidak ada bukti rata rata waktu tunggu 6 18 bulan . dokumen pendiukung belum ada namun hasil pelacakan internal prodi via wag beberapa lulusan ada yang sudah mendapatkan pekerjaan dilembagakan maupun instansi yang mayoritas sesuai dengan keilmuannya it support . jumlah alumni/lulusan dalam 3 tahun terakhir 105. belum ada prestasi mahasiswa . terdapat 1 mahasiswa mendapatkan sertifikat pelatihan kompetensi tidak ada karya dosen atau mahasiswa yang mendapat hak kekayaan intelektual .",    
+    "nilai_al_input": "3"
+
+
+===================================================================================
+CONTOH PEMANGGILAN ANALISIS DENGAN PROMPT V4
+Jenis Analisis: 'AK_DAN_AL'
+Usulan: 22090107152209312556201, Aspek: C9.2.A
+===================================================================================
+
+--- HASIL ANALISIS LENGKAP AKHIR (JSON) DENGAN PROMPT V4 ---
+{
+  "nomor_usulan_analisis": "22090107152209312556201",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "22090107152209312556201",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "keterlaksanaan kebijakan , standar ( indikator kinerja utama , indikator kinerja tambahan ) terkait ...",
+    "nilai_ak1_input": "2.5",
+    "komen_ak2_input": "kurikulum prodi sistem computer disusun dengan memperhatikan capaian pembelajaran dengan profil lulu...",
+    "nilai_ak2_input": "2",
+    "komen_al_input": "kurikulum prodi sistem computer disusun dengan memperhatikan capaian pembelajaran dengan profil lulu...",
+    "nilai_al_input": "3"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "22090107152209312556201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "keterlaksanaan kebijakan, standar (indikator kinerja utama, indikator kinerja tambahan) terkait luaran dan capaian mencakup (a) pendidikan pemenuhan capaian pembelajaran lulusan, indeks prestasi kumulatif rerata, prestasi mahasiswa, kelulusan tepat waktu, pelacakan dan perekaman data lulusan, masa tunggu rerata, kesesuaian bidang kerja dengan bidang prodi, karya dosen/mahasiswa yang mendapat hak kekayaan intelektual dari tabel analisis capaian kinerja disebutkan bahwa capaian pembelajaran lulusan tercapai 100. data capaian lainnya yang tercantum pada tabel 9.4, 9.5 laporan kinerja program studi.",
+        "nilai_asli": "2.5"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "kurikulum prodi sistem computer disusun dengan memperhatikan capaian pembelajaran dengan profil lulusan dan jenjang kerangka kualifikasi nasional indonesia. pemetaan capaian pembelajaran, bahan kajian dan matakuliah, silabus, dan rencana pembelajaran semester tersusun dalam dokumen kurikulum prodi sistem komputer. tidak ada prestasi mahasiswa. rata rata indeks prestasi kumulatif berkisar antara 2,47 3,52 selama kurun waktu 2019 2022. lulus tepat waktu 3 tahun 11 bulan. do ada 12 orang. rata rata waktu tunggu 6 18 bulan. beberapa lulusan ada yang sudah mendapatkan pekerjaan dilembagakan maupun instansi yang mayoritas sesuai dengan keilmuannya it support. jumlah alumni/lulusan dalam 3 tahun terakhir 105. karya dosen atau mahasiswa yang mendapat hak kekayaan intelektual tidak ada.",
+        "nilai_asli": "2"
+      },
+      "status_utama_konsistensi_ak": "TIDAK_KONSISTEN",
+      "status_sub_kategori_ak": "KOMEN_DAN_NILAI_BERBEDA",
+      "penjelasan_sistem_ak": "Dari analisis internal, kedua asesor memberikan komentar yang berbeda secara substansial mengenai kinerja dan capaian program studi, dengan Asesor 1 lebih fokus pada pencapaian 100% pada beberapa indikator sementara Asesor 2 menyoroti beberapa kekurangan seperti tidak adanya prestasi mahasiswa dan karya intelektual. Nilai yang diberikan juga berbeda, menunjukkan ketidaksesuaian dalam penilaian. Perbandingan dengan data historis menunjukkan bahwa nilai dan komentar sering kali lebih konsisten, menunjukkan adanya kebutuhan untuk penyesuaian atau klarifikasi lebih lanjut dalam proses penilaian ini.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "2.25",
+        "alasan_rekomendasi_nilai": "Nilai disarankan 2.25 sebagai nilai tengah antara dua penilaian yang diberikan, mengingat adanya perbedaan substansial dalam penilaian dan komentar dari kedua asesor."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "22090107152209312556201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "kurikulum prodi sistem computer disusun dengan memperhatikan capaian pembelajaran dengan profil lulusan dan jenjang kerangka kualifikasi nasional indonesia. pemetaan capaian pembelajaran, bahan kajian dan matakuliah, silabus, dan rencana pembelajaran semester tersusun dalam dokumen kurikulum prodi sistem komputer rata rata indeks prestasi kumulatif berkisar antara 2,47 3,52 selama kurun waktu 2019 2022. lulus tepat waktu 3 tahun 11 bulan. do ada 12 orang. tidak ada bukti rata rata waktu tunggu 6 18 bulan. dokumen pendiukung belum ada namun hasil pelacakan internal prodi via wag beberapa lulusan ada yang sudah mendapatkan pekerjaan dilembagakan maupun instansi yang mayoritas sesuai dengan keilmuannya it support. jumlah alumni/lulusan dalam 3 tahun terakhir 105. belum ada prestasi mahasiswa. terdapat 1 mahasiswa mendapatkan sertifikat pelatihan kompetensi tidak ada karya dosen atau mahasiswa yang mendapat hak kekayaan intelektual.",
+      "nilai_al_asli": 3,
+      "status_relevansi_komentar_al": "CUKUP_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL mencakup beberapa poin kunci dari Keterangan Aspek Utama seperti capaian pembelajaran, indeks prestasi kumulatif, dan kesesuaian bidang kerja. Namun, beberapa aspek penting seperti prestasi mahasiswa dan karya kekayaan intelektual tidak dibahas secara memadai. Komentar ini juga kekurangan bukti konkret dan detail yang lebih mendalam untuk beberapa poin, seperti rata-rata masa tunggu dan dokumentasi pendukung, yang membuatnya hanya cukup relevan.",
+      "analisis_terhadap_nilai_al_asli": "Nilai 3 yang diberikan pada AL tampaknya agak tinggi mengingat beberapa kekurangan dalam detail dan bukti untuk poin kunci yang penting. Namun, nilai ini mungkin mencerminkan pengakuan terhadap upaya yang dilakukan dalam pemetaan dan dokumentasi kurikulum.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": "2.5",
+        "alasan_rekomendasi_nilai": "Rekomendasi nilai 2.5 didasarkan pada pemenuhan beberapa poin kunci namun dengan kekurangan dalam detail dan bukti yang konkret. Penurunan nilai ini diusulkan untuk mencerminkan kebutuhan akan peningkatan dalam dokumentasi dan pembahasan poin kunci yang lebih mendalam."
+      }
+    }
+  }
+}

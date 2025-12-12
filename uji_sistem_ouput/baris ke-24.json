@@ -1,0 +1,59 @@
+===================================================================================
+CONTOH PEMANGGILAN ANALISIS DENGAN PROMPT V4
+Jenis Analisis: 'AK_DAN_AL'
+Usulan: 22091418435804306355201, Aspek: C9.2.A
+===================================================================================
+
+--- HASIL ANALISIS LENGKAP AKHIR (JSON) DENGAN PROMPT V4 ---
+{
+  "nomor_usulan_analisis": "22091418435804306355201",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "22091418435804306355201",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "data yang disajikan pada tabel 3.1 laporan kinerja program studi dan beberapa tabel laporan kinerja ...",
+    "nilai_ak1_input": "3",
+    "komen_ak2_input": "telah dinarasikan bahwa pada tridarma pendidikan , terlihat bahwa proses pembelajaran telah dilaksan...",
+    "nilai_ak2_input": "2",
+    "komen_al_input": "dokumen kebijakan , standar , indikator kinerja utama dan indikator kinerja tambahan tidak dideskrip...",
+    "nilai_al_input": "2.25"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "22091418435804306355201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "data yang disajikan pada tabel 3.1 laporan kinerja program studi dan beberapa tabel laporan kinerja program studi lainnya, tercatat seluruh mahasiswa aktif pada ps teknik informatika sebanyak 938 orang, indeks prestasi kumulatif rata rata 3,4, kelulusan tepat waktu 4,45 tahun, 4,2 tahun, 4 tahun, 4 tahun, jumlah lulusan selama 3 tahun terakhir 104 orang, rata rata masa tunggu 5 bulan, 6 bulan, 6,2 bulan, dilakukan juga survei kepuasan pengguna yang melibatkan 62. dari 63 lulusan yang terlacak 34 orang (sesuai bidang infokom), 29 orang (non bidang infokom). prestasi akademik mahasiswa juara 2 web development tingkat nasional di universitas pendidikan indonesia bandung. beberapa prestasi non akademik juara 2 badminton putra (2018) tingkat wilayah, juara 2 mtq virtual nasional di lttq Fathullah universitas islam negeri jakarta. juara 1 international competition mtq activity unit univ. negeri surabaya (2021, tingkat internasional). tidak ada karya dtpr/mahasiswa yang mendapat hak kekayaan intelektual yang dilaporkan. konsistensi data dan dokumen perlu diklarifikasi saat asesmen lapangan.",
+        "nilai_asli": "3"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "telah dinarasikan bahwa pada tridarma pendidikan, terlihat bahwa proses pembelajaran telah dilaksanakan dengan baik oleh para dosen, ketersediaan rencana pembelajaran semester, rencana tugas mahasiswa, kehadiran dosen dan kehadiran mahasiswa sudah baik. selain itu, dari sisi indeks prestasi kumulatif selalu mengalami peningkatan dari tahun ke tahun. rata rata masa studi mahasiswa selama 4 tahun menunjukkan bahwa proses pembelajaran berlangsung dengan efisien. pada tabel 9.1. indeks prestasi kumulatif lulusan menunjukkan rata rata indeks prestasi kumulatif mengalami peningkatan dari 3,22 3,31 3,4. prestasi akademik ada 2 tingkat nasional, prestasi non akademik lokal/wilayah 2, dan nasional ada 6, internasional ada 1. tabel 9.2. kelulusan tepat waktu (rata rata 4 tahun). tabel 9.4. rata rata masa tunggu lulusan untuk bekerja pertama kali 5 5,2 6,2 (bulan). tabel 9.5. kesesuaian bidang kerja lulusan 10, 8, 16 (34 dari 63 lulusan yang terlacak). tabel 9.6 penelitian dan kegiatan pengabdian kepada masyarakat dari dosen tetap penghitung rasio 3 (dari 7 dosen tetap penghitung rasio). namun belum disertai dengan bukti sahih, link belum ada. sehingga saat asesmen lapangan akan dilakukan penggaliannya lebih lanjut.",
+        "nilai_asli": "2"
+      },
+      "status_utama_konsistensi_ak": "TIDAK_KONSISTEN",
+      "status_sub_kategori_ak": "KOMEN_SAMA_NILAI_BERBEDA",
+      "penjelasan_sistem_ak": "Kedua asesor memberikan komentar yang secara substansial serupa dalam menilai aspek-aspek seperti prestasi akademik, kelulusan tepat waktu, dan indeks prestasi kumulatif. Namun, nilai yang diberikan oleh asesor pertama adalah 3, sementara asesor kedua memberikan nilai 2. Perbedaan ini signifikan mengingat kedua asesor sepakat pada banyak poin kritis tetapi memberikan interpretasi yang berbeda terhadap pentingnya atau kecukupan bukti yang disajikan.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "2.5",
+        "alasan_rekomendasi_nilai": "Nilai 2.5 direkomendasikan sebagai nilai tengah antara penilaian asesor, mengingat kedua asesor sepakat pada banyak aspek tetapi berbeda dalam penilaian akhir mereka. Nilai ini mencerminkan konsensus yang lebih seimbang antara observasi positif dan kebutuhan untuk verifikasi lebih lanjut selama asesmen lapangan."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "22091418435804306355201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "dokumen kebijakan, standar, indikator kinerja utama dan indikator kinerja tambahan tidak dideskripsikan terkait pemenuhan aspek pendidikan. namun berdasarkan tabel 3.1 laporan kinerja program studi dan beberapa tabel laporan kinerja program studi lainnya, tercatat seluruh mahasiswa aktif pada ps teknik informatika sebanyak 938 orang, indeks prestasi kumulatif rata rata 3,4 (tersebut), kelulusan tepat waktu 4,45 tahun (tersebut 6), 4,2 tahun (tersebut 5), 4 tahun (tersebut 4), 4 tahun (tersebut 3), jumlah lulusan selama 3 tahun terakhir 104 orang, rata rata masa tunggu 5 bulan (tersebut 4), 6 bulan (tersebut 3), 6,2 bulan (tersebut 2), dilakukan juga survei kepuasan pengguna yang melibatkan 62. dari 63 lulusan yang terlacak 34 orang (sesuai bidang infokom), 29 orang (non bidang infokom). untuk hak kekayaan intelektual berjumlah 23 dari tahun 2021 2022.",
+      "nilai_al_asli": "2.25",
+      "status_relevansi_komentar_al": "CUKUP_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL membahas beberapa poin kunci dari Keterangan Aspek Utama seperti indeks prestasi kumulatif, kelulusan tepat waktu, rata-rata masa tunggu, dan kesesuaian bidang kerja. Namun, beberapa aspek penting seperti detail kebijakan pendidikan dan karya dosen/mahasiswa yang mendapat hak kekayaan intelektual tidak dijelaskan secara mendalam. Meskipun ada survei kepuasan pengguna dan data tentang hak kekayaan intelektual, tidak ada bukti konkret atau analisis mendalam yang disajikan.",
+      "analisis_terhadap_nilai_al_asli": "Nilai 2.25 mencerminkan bahwa ada beberapa kekurangan dalam pemenuhan aspek yang diharapkan, sesuai dengan analisis relevansi komentar yang cukup relevan. Komentar AL tidak sepenuhnya memadai untuk semua poin kunci, yang sesuai dengan nilai yang diberikan.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": "2.25",
+        "alasan_rekomendasi_nilai": "Nilai yang diberikan sebelumnya (2.25) dianggap sesuai berdasarkan analisis relevansi komentar AL yang cukup relevan. Komentar AL membahas beberapa poin kunci tetapi tidak semua, dan beberapa pembahasan kurang mendalam, yang mencerminkan nilai moderat yang diberikan."
+      }
+    }
+  }
+}

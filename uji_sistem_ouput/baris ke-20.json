@@ -1,0 +1,63 @@
+
+miliki lulusan sehingga ketercapaian capaian pembelajaran lulusan , rata rata indeks prestasi kumulatif , prestasi mahasiswa , kelulusan tepat waktu , pelacakan dan perekaman data lulusan , data masa tunggu , kesesuaian bidang kerja dengan bidang program studi , karya dosen/mahasiswa yang mendapat hak kekayaan intelektual belum dapat diukur . catatan indeks prestasi kumulatif mahasiswa yang sedang berjalan sebagai berikut . gasal3,36 , genap3,40 ( tugas akhir . 2020/2021 ) , gasal 3,37 , genap",
+    "nilai_al_input": "2.25"
+
+
+===================================================================================
+CONTOH PEMANGGILAN ANALISIS DENGAN PROMPT V4
+Jenis Analisis: 'AK_DAN_AL'
+Usulan: 22092913370208104058201, Aspek: C9.2.A
+===================================================================================
+
+--- HASIL ANALISIS LENGKAP AKHIR (JSON) DENGAN PROMPT V4 ---
+{
+  "nomor_usulan_analisis": "22092913370208104058201",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "22092913370208104058201",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "saat ini ps rpl belum memiliki lulusan sehingga ketercapaian capaian pembelajaran lulusan , rata rat...",
+    "nilai_ak1_input": "2",
+    "komen_ak2_input": "capaian indeks prestasi kumulatif mahasiswa yang sedang berjalan pada tahun akademik 2020/2021 gasal...",
+    "nilai_ak2_input": "2.5",
+    "komen_al_input": "saat ini ps rpl belum memiliki lulusan sehingga ketercapaian capaian pembelajaran lulusan , rata rat...",
+    "nilai_al_input": "2.25"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "22092913370208104058201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "saat ini ps rpl belum memiliki lulusan sehingga ketercapaian capaian pembelajaran lulusan, rata rata indeks prestasi kumulatif, prestasi mahasiswa, kelulusan tepat waktu, pelacakan dan perekaman data lulusan, data masa tunggu, kesesuaian bidang kerja dengan bidang program studi, karya dosen/mahasiswa yang mendapat hak kekayaan intelektual belum dapat diukur",
+        "nilai_asli": "2"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "capaian indeks prestasi kumulatif mahasiswa yang sedang berjalan pada tahun akademik 2020/2021 gasal 3,36 genap 3,40. tahun 2021/2022 gasal 3,37 genap data lain tidak tersedia karena masih 2 angkatan.",
+        "nilai_asli": "2.5"
+      },
+      "status_utama_konsistensi_ak": "TIDAK_KONSISTEN",
+      "status_sub_kategori_ak": "Komentar dan Nilai Berbeda",
+      "penjelasan_sistem_ak": "Kedua asesor memberikan komentar yang berbeda secara substansial mengenai ketercapaian capaian pembelajaran lulusan dan aspek terkait lainnya. Asesor 1 menekankan bahwa tidak ada data yang dapat diukur karena belum ada lulusan, sementara Asesor 2 memberikan data spesifik tentang IPK yang sedang berjalan tanpa menyebutkan ketiadaan lulusan. Nilai yang diberikan juga berbeda, menunjukkan adanya ketidaksesuaian dalam penilaian antara kedua asesor. Perbandingan dengan data historis menunjukkan bahwa ketidaksesuaian semacam ini sering terjadi ketika program studi baru dan belum memiliki lulusan.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "2.25",
+        "alasan_rekomendasi_nilai": "Nilai 2.25 merupakan rata-rata dari nilai yang diberikan oleh kedua asesor dan tampaknya mencerminkan kondisi program studi yang belum memiliki lulusan tetapi memiliki beberapa data IPK yang sedang berjalan. Nilai ini dianggap paling adil mengingat ketidakpastian dan keterbatasan data yang tersedia."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "22092913370208104058201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "saat ini ps rpl belum memiliki lulusan sehingga ketercapaian capaian pembelajaran lulusan, rata rata indeks prestasi kumulatif, prestasi mahasiswa, kelulusan tepat waktu, pelacakan dan perekaman data lulusan, data masa tunggu, kesesuaian bidang kerja dengan bidang program studi, karya dosen/mahasiswa yang mendapat hak kekayaan intelektual belum dapat diukur. catatan indeks prestasi kumulatif mahasiswa yang sedang berjalan sebagai berikut. gasal3,36, genap3,40 (tugas akhir. 2020/2021), gasal 3,37, genap",
+      "nilai_al_asli": "2.25",
+      "status_relevansi_komentar_al": "KURANG_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL menyatakan bahwa program studi belum memiliki lulusan, sehingga banyak aspek yang belum dapat diukur. Meskipun komentar ini relevan dengan situasi saat ini, ia hanya menyentuh permukaan dari apa yang diharapkan dari aspek C9.2.A. Komentar tersebut tidak memberikan informasi mendalam atau bukti konkret mengenai upaya yang dilakukan untuk memenuhi aspek-aspek yang belum dapat diukur. Hal ini menunjukkan bahwa hanya sebagian kecil dari poin kunci yang dibahas, dan itu pun dengan kualitas yang rendah.",
+      "analisis_terhadap_nilai_al_asli": "Nilai 2.25 yang diberikan tampaknya mencerminkan keterbatasan dalam pengukuran dan pencapaian aspek-aspek yang diharapkan. Meskipun nilai ini konsisten dengan komentar yang diberikan, komentar tersebut sendiri tidak cukup mendalam untuk memberikan pemahaman yang lebih luas tentang upaya yang dilakukan oleh program studi.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": "2.0",
+        "alasan_rekomendasi_nilai": "Mengingat komentar AL hanya menyentuh sebagian kecil dari poin kunci yang diharapkan dan tidak memberikan bukti atau penjelasan mendalam, nilai yang lebih rendah dari 2.25 mungkin lebih mencerminkan situasi saat ini. Nilai 2.0 disarankan karena mencerminkan keterbatasan dalam pencapaian dan pengukuran aspek-aspek penting, namun masih memberikan ruang untuk pengakuan bahwa beberapa data indeks prestasi kumulatif telah dicatat."
+      }
+    }
+  }

@@ -1,0 +1,60 @@
+
+===================================================================================
+CONTOH PEMANGGILAN ANALISIS DENGAN PROMPT V4
+Jenis Analisis: 'AK_DAN_AL'
+Usulan: 23011017343203201357201, Aspek: C9.2.A
+===================================================================================
+
+--- HASIL ANALISIS LENGKAP AKHIR (JSON) DENGAN PROMPT V4 ---
+{
+  "nomor_usulan_analisis": "23011017343203201357201",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "23011017343203201357201",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) berdasarkan data ...",
+    "nilai_ak1_input": "3.5",
+    "komen_ak2_input": "keterlaksanaan bagian ini diuraikan upps/ps sebagai berikut 1 ) pemenuhan capaian pembelajaran lulus...",
+    "nilai_ak2_input": "3.25",
+    "komen_al_input": "keterlaksanaan bagian ini diuraikan upps/ps sebagai berikut 1 ) pemenuhan capaian pembelajaran lulus...",
+    "nilai_al_input": "3.25"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "23011017343203201357201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) berdasarkan data , terdapat 45 , 46 , dan 43 lulusan saat tersebut 2 , tersebut 1 , dan tersebut . seluruh lulusan tersebut memperoleh nilai minimal c untuk mata kuliah aspek sikap , aspek pengetahuan rata rata indeks prestasi kumulatif rata tersebut 2 3.11. tersebut 1 3.35 dan tersebut 3,34. prestasi mahasiswa 2019 2 prestasi di tingkat nasional , 2020 1 prestasi di tingkat nasional , 2021 1 prestasi di tingkat internasional , prestasi non akademik 2020 1 prestasi di tingkat nasional yaitu kelulusan tepat waktu tersebut 6 4.4 tahun , tersebut 5 4.3 tahun , tersebut 4 4.1 tahun , dan tersebut 3 4 tahun . pelacakan dan perekaman data lulusan tersebut 4 ( 90.63 ) yang terlacak . tersebut 3 ( 85.45 ) . di tersebut 2 ( 90.7 ) . rata rata masa tunggu 4.6 bulan kesesuaian bidang kerja dengan bidang program studi tersebut 2 ( 86.4 ) . , tersebut 3 , ( 80.6 ) , tersebut 4 ( 65,51 ) . karya dosen/mahasiswa yang mendapat hak kekayaan intelektual 2019 3 hak kekayaan intelektual 2020 5 hak kekayaan intelektual .",
+        "nilai_asli": "3.5"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "keterlaksanaan bagian ini diuraikan upps/ps sebagai berikut 1 ) pemenuhan capaian pembelajaran lulusan untuk aspek sikap , pengetahuan , keterampilan khusus dan keterampilan umum adalah c. 2 ) rata rata indeks prestasi kumulatif lulusan pada tersebut 2 adalah 3,11. pada tersebut 1 adalah 3,35 dan tersebut adalah 3,34 . 3 ) prestasi akademik a ) tahun 2019 terdapat 2 prestasi di tingkat nasional yaitu juara 1 pada kompetisi ideafuse innovative ide exhibition untuk kategori ide teknologi yang diselenggarakan di medan . serta juara 3 untuk kompetisi debat crowd yang diselenggarakan oleh universitas negeri jakarta b ) tahun 2020 terdapat 1 prestasi di tingkat nasional yaitu memperoleh hibah pada kompetisi bisnis mahasiswa indonesia oleh ristekdikti c ) tahun 2021 terdapat 1 prestasi di tingkat internasional yaitu sebagai tim terfavorit ( category winner highest likes in social media ) pada venture challenge business plan yang diselenggarakan oleh universiti malaysia terengganu . prestasi non akademik tahun 2020 sejumlah 1 prestasi di tingkat nasional yaitu juara 1 pada kompetisi esport build your team and beat your enemy yang diselenggarakan oleh bem universitas islam negeri surabaya . 4 ) kelulusan tepat waktu tersebut 6 4,4 tahun , tersebut 54,3 tahun , tersebut 44,1 dan tersebut 34 tahun . terdapat 6 mahasiswa do berdasarkan tabel 9.2 laporan kinerja program studi . 5 ) pelacakan dan perekaman data lulusan kegiatan ini dilakukan oleh unit carrier and alumni . hasil tracer dalam bentuk laporan . data tracer terlacak pada tersebut 4 terdapat 29 dari 32 lulusan ( 90.63 ) , pada tersebut 3 terdapat 47 dari 55 lulusan ( 85.45 ) . di tersebut 2 , terdapat 27 dari 43 lulusan ( 90.7 ) . 6 ) rata rata masa tunggu lulusan mendapatkan pekerjaaan dalam 3 tahun terakhir adalah 4,6 bulan . ini sesuai dengan tabel 9.4 laporan kinerja program studi . 7 ) kesesuaian bidang kerja pada lulusan tersebut 2 terdapat 19 lulusan yang bekerja sesuai bidang ( 86.4 ) , tersebut 3 , terdapat 25 yang bekerja sesuai bidang ( 80.6 ) , dan lulusan tersebut 4 19 yang bekerja sesuai bidang ( 65,51 ) . ini sesuai dengan tabel 9.5 laporan kinerja program studi . 8 ) hak kekayaan intelektual tahun 20193 hak kekayaan intelektual , tahun 20202 hak kekayaan intelektual , tahun 20215 hak kekayaan intelektual . tidak dijelaskan hak kekayaan intelektual yang diperoleh dari karya dosen tetap penghitung rasio atau mahasiswa . keterlaksanaan ini memenuhi standar standar yang ditetapkan pada penetapan .",
+        "nilai_asli": "3.25"
+      },
+      "status_utama_konsistensi_ak": "TIDAK_KONSISTEN",
+      "status_sub_kategori_ak": "KOMEN_SAMA_NILAI_BERBEDA",
+      "penjelasan_sistem_ak": "Meskipun kedua asesor memberikan komentar yang sangat mirip dalam hal substansi, mencakup aspek yang sama seperti capaian pembelajaran, prestasi mahasiswa, kelulusan tepat waktu, pelacakan data lulusan, dan kesesuaian bidang kerja, nilai yang diberikan berbeda (3.5 vs 3.25). Perbedaan ini mungkin disebabkan oleh interpretasi yang berbeda mengenai standar atau penekanan pada aspek tertentu yang mungkin lebih dianggap penting oleh salah satu asesor. Kedua asesor memberikan deskripsi yang cukup rinci dan mendukung, namun nilai yang berbeda menunjukkan adanya inkonsistensi dalam penilaian atau penekanan pada faktor-faktor tertentu.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "3.375",
+        "alasan_rekomendasi_nilai": "Nilai disarankan 3.375 merupakan rata-rata dari nilai yang diberikan oleh kedua asesor, mengingat kedua asesor memberikan komentar yang sangat mirip dan mendetail, namun memberikan nilai yang sedikit berbeda. Nilai ini dianggap mewakili konsensus yang adil antara kedua penilaian."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "23011017343203201357201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "keterlaksanaan bagian ini diuraikan upps/ps sebagai berikut 1 ) pemenuhan capaian pembelajaran lulusan untuk aspek sikap , pengetahuan , keterampilan khusus dan keterampilan umum adalah c. 2 ) rata rata indeks prestasi kumulatif lulusan pada tersebut 2 adalah 3,11. pada tersebut 1 adalah 3,35 dan tersebut adalah 3,34 . 3 ) prestasi akademik a ) tahun 2019 terdapat 2 prestasi di tingkat nasional yaitu juara 1 pada kompetisi ideafuse innovative ide exhibition untuk kategori ide teknologi yang diselenggarakan di medan . serta juara 3 untuk kompetisi debat crowd yang diselenggarakan oleh universitas negeri jakarta b ) tahun 2020 terdapat 1 prestasi di tingkat nasional yaitu memperoleh hibah pada kompetisi bisnis mahasiswa indonesia oleh ristekdikti c ) tahun 2021 terdapat 1 prestasi di tingkat internasional yaitu sebagai tim terfavorit ( category winner highest likes in social media ) pada venture challenge business plan yang diselenggarakan oleh universiti malaysia terengganu . prestasi non akademik tahun 2020 sejumlah 1 prestasi di tingkat nasional yaitu juara 1 pada kompetisi esport build your team and beat your enemy yang diselenggarakan oleh bem universitas islam negeri surabaya . 4 ) kelulusan tepat waktu tersebut 6 4,4 tahun , tersebut 54,3 tahun , tersebut 44,1 dan tersebut 34 tahun . terdapat 6 mahasiswa do berdasarkan tabel 9.2 laporan kinerja program studi . 5 ) pelacakan dan perekaman data lulusan kegiatan ini dilakukan oleh unit carrier and alumni . hasil tracer dalam bentuk laporan . data tracer terlacak pada tersebut 4 terdapat 29 dari 32 lulusan ( 90.63 ) , pada tersebut 3 terdapat 47 dari 55 lulusan ( 85.45 ) . di tersebut 2 , terdapat 27 dari 43 lulusan ( 90.7 ) . 6 ) rata rata masa tunggu lulusan mendapatkan pekerjaaan dalam 3 tahun terakhir adalah 4,6 bulan . ini sesuai dengan tabel 9.4 laporan kinerja program studi . 7 ) kesesuaian bidang kerja pada lulusan tersebut 2 terdapat 19 lulusan yang bekerja sesuai bidang ( 86.4 ) , tersebut 3 , terdapat 25 yang bekerja sesuai bidang ( 80.6 ) , dan lulusan tersebut 4 19 yang bekerja sesuai bidang ( 65,51 ) . ini sesuai dengan tabel 9.5 laporan kinerja program studi . 8 ) hak kekayaan intelektual tahun 20193 hak kekayaan intelektual , tahun 20202 hak kekayaan intelektual , tahun 20215 hak kekayaan intelektual . tidak dijelaskan hak kekayaan intelektual yang diperoleh dari karya dosen tetap penghitung rasio atau mahasiswa . keterlaksanaan ini memenuhi standar standar yang ditetapkan pada penetapan .",
+      "nilai_al_asli": "3.25",
+      "status_relevansi_komentar_al": "SANGAT_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL secara efektif menangani sebagian besar poin kunci dari Keterangan Aspek Utama. Setiap aspek utama seperti pemenuhan capaian pembelajaran, rata-rata IPK, prestasi mahasiswa, kelulusan tepat waktu, pelacakan dan perekaman data lulusan, rata-rata masa tunggu, kesesuaian bidang kerja, dan karya kekayaan intelektual dibahas secara rinci dengan data spesifik dan relevan. Komentar ini menunjukkan pemahaman yang mendalam tentang aspek-aspek yang dinilai dan menyediakan bukti konkret yang mendukung penilaian.",
+      "analisis_terhadap_nilai_al_asli": "Nilai 3.25 yang diberikan dalam Asesmen Lapangan tampaknya konsisten dengan tingkat detail dan kualitas pembahasan yang disajikan dalam komentar. Komentar tersebut menunjukkan pemenuhan yang baik terhadap standar yang ditetapkan, meskipun ada beberapa area yang mungkin memerlukan penjelasan lebih lanjut seperti detail hak kekayaan intelektual.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": "3.5",
+        "alasan_rekomendasi_nilai": "Berdasarkan analisis komprehensif dari komentar AL, disarankan untuk meningkatkan nilai menjadi 3.5. Komentar tersebut menunjukkan pemenuhan yang sangat baik terhadap kriteria yang ditetapkan dengan bukti yang kuat dan detail yang cukup. Namun, peningkatan nilai ini didasarkan pada asumsi bahwa penjelasan lebih lanjut dan data tambahan dapat diberikan untuk aspek hak kekayaan intelektual yang kurang detail."
+      }
+    }
+  }
+}

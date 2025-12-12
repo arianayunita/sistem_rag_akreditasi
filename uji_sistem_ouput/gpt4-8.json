@@ -1,0 +1,58 @@
+ ===================================================================================
+  CONTOH PEMANGGILAN ANALISIS DENGAN PROMPT V4
+  Jenis Analisis: 'AK_DAN_AL'
+  Usulan: 23010921431104108655202, Aspek: C9.2.A
+===================================================================================
+
+{
+  "nomor_usulan_analisis": "23010921431104108655202",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "23010921431104108655202",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "terlaksana pemenuhan capaian pembelajaran lulusan berdasarkan indeks prestasi kumulatif diperoleh in...",
+    "nilai_ak1_input": "4",
+    "komen_ak2_input": "pelaksanaan capaian pembelajaran lulusan dengan rata rata indeks prestasi kumulatif pada tahun 2020 ...",
+    "nilai_ak2_input": "3.7",
+    "komen_al_input": "terlaksana pemenuhan capaian pembelajaran lulusan berdasarkan indeks prestasi kumulatif diperoleh in...",
+    "nilai_al_input": "3.85"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "23010921431104108655202",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "terlaksana pemenuhan capaian pembelajaran lulusan berdasarkan indeks prestasi kumulatif diperoleh informasi bahwa rata rata indeks prestasi kumulatif lulusan, pada tahun 2020 sebesar 3,49, dan pada tahun 2021 sebesar 3,31 2022 sebesar 3,43 rata rata indeks prestasi kumulatif dari tsts 2 adalah sebesar 3.41. rata rata indeks prestasi kumulatif lulusan tahun 20202022 melampaui indikator kinerja utama yang mengharuskan rata rata indeks prestasi kumulatif minimal 2.80. capaian prestasi mahasiswa a. bidang akademik, pada periode tahun 2018 2022 mahasiswa program studi teknik informatika telah menorehkan prestasi akademik yaitu berhasil mendapatkan penghargaan diantaranya juara 1 lomba membuat poster pada tahun 2021 selain itu mahasiswa juga beberapa kegiatan seperti mengikuti lomba re cloud challenge pada tahun 2022 bersama alibaba cloud. pada tingkat nasional, mahasiswa mengikuti kegiatan untuk mendapatkan sertifikasi mikrotik, sertifikasi kompetensi junior graphics designer serta sertifikasi kompetensi jaringan komputer.",
+        "nilai_asli": "4"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "pelaksanaan capaian pembelajaran lulusan dengan rata rata indeks prestasi kumulatif pada tahun 2020 sebesar 3,49, dan pada tahun 2021 sebesar 3,31 2022 sebesar 3,43, rata rata indeks prestasi kumulatif dari tersebut tersebut 2 adalah sebesar 3.41. rata rata indeks prestasi kumulatif lulusan tahun 2020 2022 melampaui indikator kinerja utama yang mengharuskan rata rata indeks prestasi kumulatif minimal 2.80. capaian prestasi mahasiswa. prestasi bidang akademik diperoleh tahun 2018 2022 mahasiswa ps teknologi informasi mendapatkan penghargaan diantaranya juara 1 lomba membuat poster pada tahun 2021.",
+        "nilai_asli": "3.7"
+      },
+      "status_utama_konsistensi_ak": "TIDAK_KONSISTEN",
+      "status_sub_kategori_ak": "Komentar Sama, Nilai Berbeda",
+      "penjelasan_sistem_ak": "Kedua asesor memberikan komentar yang sangat mirip mengenai capaian pembelajaran lulusan, prestasi mahasiswa, dan indeks prestasi kumulatif, dengan fokus yang sama pada prestasi akademik dan non-akademik serta kelulusan tepat waktu. Namun, nilai yang diberikan oleh Asesor AK Tipe 1 dan Asesor AK Tipe 2 berbeda (4 vs 3.7), yang menunjukkan adanya inkonsistensi dalam penilaian meskipun substansi komentar sangat mirip. Perbedaan ini mungkin disebabkan oleh interpretasi yang berbeda terhadap data yang sama atau penekanan yang berbeda pada aspek tertentu dari data.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "3.85",
+        "alasan_rekomendasi_nilai": "Nilai 3.85 merupakan rata-rata dari nilai yang diberikan oleh kedua asesor, mengingat kedua asesor memiliki pandangan yang sangat mirip mengenai kinerja aspek C9.2.A namun memberikan nilai yang sedikit berbeda. Nilai ini dianggap mewakili konsensus yang adil berdasarkan analisis yang disediakan oleh kedua asesor."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "23010921431104108655202",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "terlaksana pemenuhan capaian pembelajaran lulusan berdasarkan indeks prestasi kumulatif diperoleh informasi bahwa rata rata indeks prestasi kumulatif lulusan, pada tahun 2020 sebesar 3,49, dan pada tahun 2021 sebesar 3,31 2022 sebesar 3,43 rata rata indeks prestasi kumulatif dari tsts 2 adalah sebesar 3.41. rata rata indeks prestasi kumulatif lulusan tahun 20202022 melampaui indikator kinerja utama yang mengharuskan rata rata indeks prestasi kumulatif minimal 2.80. capaian prestasi mahasiswa a. bidang akademik, pada periode tahun 2018 2022 mahasiswa program studi teknik informatika telah menorehkan prestasi akademik yaitu berhasil mendapatkan penghargaan diantaranya juara 1 lomba membuat poster pada tahun 2021 selain itu mahasiswa juga beberapa kegiatan seperti mengikuti lomba re cloud challenge pada tahun 2022 bersama alibaba cloud. pada tingkat nasional, mahasiswa mengikuti kegiatan untuk mendapatkan sertifikasi mikrotik, sertifikasi kompetensi junior graphics designer serta sertifikasi kompetensi jaringan komputer. (link prestasi mahasiswa). b. bidang non akademik. pada periode tahun 20182022 mahasiswa ps teknik informatika telah menorehkan prestasi non akademik sebanyak 3 yaitu berhasilkan mendapatkan penghargaan juara 1 lomba puisi pada tahun 2022, juara 1 umum penulis terunik pada tahun 2021, juara 2 catur terunik pada tahun 2021, serta 100 besar putri inspirasi 2020. selain prestasi kompetisi tersebut mahasiswa fakultas teknik informatika juga aktif mengikuti beberapa kompetisi dan sertifikasi untuk meningkatkan minat, bakat dan skill berikut detail daftar prestasi mahasiswa beserta partisipasinya. (link prestasi mahasiswa). persentase kelulusan tepat waktu untuk angkatan 2015 yang lulus tahun 2019 adalah sebesar 85, untuk kelulusan tepat waktu untuk angkatan 2016 yang lulus tahun 2020 adalah sebesar 82.35 kelulusan tepat waktu untuk angkatan 2017 yang lulus tahun 2020 adalah sebesar 90 kelulusan tepat waktu untuk angkatan 2018 yang lulus tahun 2022 adalah sebesar 87.5 sehingga dapat disimpulkan bahwa persentase lulusan dari tahun 20192022 mencapai lebih dari melampaui indikator kinerja utama yang ditetapkan. tracer study ditargetkan kepada seluruh lulusan fakultas teknik universitas cendekia abditama dari tahun 2018 sampai dengan 2022. jumlah lulusan fakultas teknik pada periode tahun 2018 sampai tahun 2022 adalah 74 lulusan adapun persentase lulusan yang terlacak pada periode tahun tersebut adalah sebanyak 83.78 atau sekitar 61 responden. persentase lulusan yang terlacak cukup tinggi dengan minimal responden yang di tetapkan yaitu sebesar 50. masa tunggu lulusan dibawah 3 bulan adalah 67, 3 6 bulan sebesar 15, 6 bulan 1 tahun sebesar 11, dan lebih dari 1 tahun adalah sebanyak 5 persen dan langsung bekerja sebanyak 2. persentase kesesuaian bidang kerja pada periode 2018 2022 dengan responden 61 lulusan adalah sebesar 82 yang terbagi menjadi 3 yaitu tingkat kesesuaian rendah sebanyak 11, tingkat kesesuain sedang sebanyak 66 dan tingkat kesesuaian tinggi sebanyak 5 dan untuk persentase yang tidak sesuai bidang kerja adalah sebanyak 18.",
+      "nilai_al_asli": "3.85",
+      "status_relevansi_komentar_al": "SANGAT_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL secara efektif menangani sebagian besar poin kunci yang diuraikan dalam Keterangan Aspek Utama. Ini termasuk capaian pembelajaran lulusan, prestasi mahasiswa di bidang akademik dan non-akademik, kelulusan tepat waktu, pelacakan dan perekaman data lulusan, masa tunggu, dan kesesuaian bidang kerja. Komentar AL memberikan data kuantitatif dan contoh spesifik yang mendukung poin-poin ini, menunjukkan pemahaman yang mendalam dan observasi yang baik dari aspek-aspek yang dinilai.",
+      "analisis_terhadap_nilai_al_asli": "Nilai 3.85 yang diberikan dalam Asesmen Lapangan (AL) tampaknya konsisten dengan tingkat detail dan kualitas pembahasan yang disajikan dalam komentar AL. Komentar tersebut secara efektif mencakup dan mendukung poin-poin kunci dari Keterangan Aspek Utama dengan bukti yang cukup, yang menunjukkan pemenuhan yang baik terhadap standar yang diharapkan.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": "3.85",
+        "alasan_rekomendasi_nilai": "Berdasarkan analisis yang mendalam terhadap komentar AL dan konsistensi dengan nilai asli yang diberikan, nilai 3.85 dianggap tepat. Komentar AL secara efektif menangani dan mendukung poin-poin kunci dengan bukti yang relevan dan spesifik, mencerminkan evaluasi yang akurat dan objektif dari aspek yang dinilai."
+      }
+    }
+  }
+}

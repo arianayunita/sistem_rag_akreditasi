@@ -1,0 +1,59 @@
+===================================================================================
+CONTOH PEMANGGILAN ANALISIS DENGAN PROMPT V4
+Jenis Analisis: 'AK_DAN_AL'
+Usulan: 22091214360803104155201, Aspek: C9.2.A
+===================================================================================
+
+--- HASIL ANALISIS LENGKAP AKHIR (JSON) DENGAN PROMPT V4 ---
+{
+  "nomor_usulan_analisis": "22091214360803104155201",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "22091214360803104155201",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "terdapat informasi keterlaksanaan standar yang berkaitan dengan luaran dan capaian pendidikan , seba...",
+    "nilai_ak1_input": "3",
+    "komen_ak2_input": "pada bagian ini sudah ada uraian terkait dengan terlaksananya pemenuhan capaian pembelajaran lulusan...",
+    "nilai_ak2_input": "3",
+    "komen_al_input": "terdapat informasi keterlaksanaan standar yang berkaitan dengan luaran dan capaian pendidikan , seba...",
+    "nilai_al_input": "3.5"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "22091214360803104155201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "terdapat informasi keterlaksanaan standar yang berkaitan dengan luaran dan capaian pendidikan, sebagai berikut pemenuhan capaian pembelajaran lulusan jumlah lulusan pti (tersebut 2 sampai tersebut) 20 rerata indeks prestasi kumulatif (a) berdasarkan lulusan tiga tahun terakhir menurun 50 (tersebut 2 ke tersebut 1), dan naik 75 (tersebut 1 ke tersebut). (b) berdasarkan indeks prestasi kumulatif menjadi turun3.19 (tersebut 2 ke tersebut 1), dan naik3.38 (tersebut). prestasi mhswa sebanyak 5 jenis prestasi, antara lain juara lomba hackathon, dan paper bertema infokom pada it fest 2021 di tingkat lokal. kelulusan tepat waktu, yaitu tersebut 65,8, tersebut 525, tersebut 414,3, tersebut 33,1. rerata memiliki waktu tunggu pekerjaan pertama selama 2,28 bulan. kesesuaian bidang kerja 47,05 di area infokom, 52,95 di area non infokom, 41,17 di area multinasional/internasional, 35,29 di area nasional, 5,8 di area wirausaha. penilaian pengguna alumni, yaitu 52,7 sangat baik, 42,8 baik 3,2 cukup, dan 1 kurang.",
+        "nilai_asli": "3"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "pada bagian ini sudah ada uraian terkait dengan terlaksananya pemenuhan capaian pembelajaran lulusan (capaian pembelajaran lulusan), rata rata indeks prestasi kumulatif, prestasi mahasiswa, kelulusan tepat waktu, pelacakan dan perekaman data lulusan, rata rata masa tunggu, kesesuaian bidang kerja dengan bidang program studi, karya dosen/mahasiswa yang mendapat hak kekayaan intelektual. dokumen pendukung sudah disertakan.",
+        "nilai_asli": "3"
+      },
+      "status_utama_konsistensi_ak": "KONSISTEN",
+      "status_sub_kategori_ak": "Komentar Sama, Nilai Sama",
+      "penjelasan_sistem_ak": "Kedua asesor memberikan nilai yang sama (3) dengan komentar yang mendukung nilai tersebut. Asesor pertama memberikan detail yang lebih spesifik mengenai capaian dan luaran pendidikan, sementara asesor kedua lebih fokus pada ketersediaan dokumen pendukung. Meskipun ada perbedaan dalam detail, kedua asesor sepakat mengenai kualitas pemenuhan capaian pembelajaran lulusan, yang menunjukkan konsistensi dalam penilaian.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "3",
+        "alasan_rekomendasi_nilai": "Nilai 3 yang diberikan oleh kedua asesor didukung oleh komentar yang konsisten dan mendetail, menunjukkan pemenuhan yang baik terhadap standar yang diharapkan. Tidak ada indikasi yang cukup kuat untuk menyarankan perubahan nilai berdasarkan analisis data baru dan historis."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "22091214360803104155201",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "terdapat informasi keterlaksanaan standar yang berkaitan dengan luaran dan capaian pendidikan, sebagai berikut pemenuhan capaian pembelajaran lulusan jumlah lulusan pti (tersebut 2 sampai tersebut) 20 rerata indeks prestasi kumulatif (a) berdasarkan lulusan tiga tahun terakhir menurun 50 (tersebut 2 ke tersebut 1), dan naik 75 (tersebut 1 ke tersebut). (b) berdasarkan indeks prestasi kumulatif menjadi turun3.19 (tersebut 2 ke tersebut 1), dan naik3.38 (tersebut). prestasi mhswa sebanyak 5 jenis prestasi, antara lain juara lomba hackathon, dan paper bertema infokom pada it fest 2021 di tingkat lokal. kelulusan tepat waktu, yaitu tersebut 65,8, tersebut 525, tersebut 414,3, tersebut 33,1. rerata memiliki waktu tunggu pekerjaan pertama selama 2,28 bulan. kesesuaian bidang kerja 47,05 di area infokom, 52,95 di area non infokom, 41,17 di area multinasional/ internasional, 35,29 di area nasional, 5,8 di area wirausaha. penilaian pengguna alumni, yaitu 52,7 sangat baik, 42,8 baik 3,2 cukup, dan 1 kurang.",
+      "nilai_al_asli": "3.5",
+      "status_relevansi_komentar_al": "SANGAT_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL secara efektif membahas semua poin kunci yang tercantum dalam Keterangan Aspek Utama. Ini termasuk capaian pembelajaran lulusan, rata-rata IPK, prestasi mahasiswa, kelulusan tepat waktu, pelacakan dan perekaman data lulusan, rata-rata masa tunggu, kesesuaian bidang kerja dengan bidang program studi, dan karya dosen/mahasiswa yang mendapat hak kekayaan intelektual. Komentar AL memberikan data kuantitatif dan kualitatif yang mendukung, menunjukkan pemahaman mendalam tentang aspek-aspek yang dinilai dan konsistensi dengan data historis yang relevan.",
+      "analisis_terhadap_nilai_al_asli": "Nilai 3.5 yang diberikan dalam Asesmen Lapangan (AL) baru tampaknya konsisten dengan tingkat detail dan kualitas pembahasan dalam komentar AL. Komentar tersebut menunjukkan pemahaman yang baik dan pemenuhan terhadap standar yang diharapkan, yang mendukung nilai yang relatif tinggi.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": "3.5",
+        "alasan_rekomendasi_nilai": "Berdasarkan analisis mendalam terhadap komentar AL dan pemenuhan terhadap poin kunci dari Keterangan Aspek Utama, nilai 3.5 tampak tepat dan mencerminkan kualitas dan kelengkapan data yang disajikan dalam komentar AL. Komentar ini secara efektif mencakup semua aspek yang diharapkan dan memberikan bukti yang mendukung, sehingga tidak ada alasan untuk mengubah nilai ini."
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+===================================================================================
+CONTOH PEMANGGILAN ANALISIS DENGAN PROMPT V4
+Jenis Analisis: 'AK_DAN_AL'
+Usulan: 23011505052606200555202, Aspek: C9.2.A
+===================================================================================
+
+--- HASIL ANALISIS LENGKAP AKHIR (JSON) DENGAN PROMPT V4 ---
+{
+  "nomor_usulan_analisis": "23011505052606200555202",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "23011505052606200555202",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "keterlaksanaan pemenuhan capaian pembelajaran lulusan , rata rata indeks prestasi kumulatif , presta...",
+    "nilai_ak1_input": "3",
+    "komen_ak2_input": "pengukuran keterpenuhan 11 capaian pembelajaran lulusan sesuai dengan table 9.2.a1 dari target yang ...",
+    "nilai_ak2_input": "3",
+    "komen_al_input": "pengukuran keterpenuhan 11 capaian pembelajaran lulusan sesuai dengan table 9.2.a1 dari target yang ...",
+    "nilai_al_input": "2.75"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "23011505052606200555202",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "keterlaksanaan pemenuhan capaian pembelajaran lulusan, rata rata indeks prestasi kumulatif, prestasi mahasiswa, kelulusan tepat waktu, pelacakan dan perekaman data lulusan dijelaskan keterpenuhan 11 capaian pembelajaran lulusan sesuai dengan tabel 9.2.a1 (laporan evaluasi diri) dari target yang ditetapkan (100), semua terpenuhi. rata rata indeks prestasi kumulatif ps informatika akan memiliki lulusan angkatan 1 di meter genap 2022/2023. kebijakan rata rata indeks prestasi kumulatif lulusan juga tertulis pada dokumen no 03 standar lpmpi 011 dimana untuk lulusan sarjana ditetapkan indeks prestasi kumulatif lulusan sarjana indeks prestasi kumulatif 3,25. dari 7 mahasiswa yang akan lulus indeks prestasi kumulatif rata rata 3,56 (di atas target yang ditetapkan). prestasi mahasiswa ps informatika pada tugas akhir 2020/2021 internasional 1 prestasi, nasional 1 prestasi lokal 0 prestasi, tugas akhir 2021/2022 internasional 0 prestasi, nasional 10 prestasi lokal 2 prestasi. terdapat karya dtpr/mahasiswa yang mendapatkan hak kekayaan intelektual 17. pelacakan dan perekaman data lulusan menggunakan angket tracer study melalui google form dan dapat diakses melalui web karya dtpr/mahasiswa yang mendapat hak kekayaan intelektual 13 yang dapat dilihat di link sedangkan mahasiswa juga berperan aktif berkolaborasi dengan dosen pembimbing dalam mendapatkan hak kekayaan intelektual. terdapat 4 hak kekayaan intelektual hasil kolaborasi tersebut. bukti penunjang terkait yang disampaikan tidak tersedia. cek saat asesmen lapangan",
+        "nilai_asli": "3"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "pengukuran keterpenuhan 11 capaian pembelajaran lulusan sesuai dengan table 9.2.a1 dari target yang ditetapkan (100), semua terpenuhi (mhn dibuktikan bagaimana cara mengukur capaian pembelajaran lulusan) rata rata indeks prestasi kumulatif untuk angkatan pertama yang akan lulus 2022/2023 adalah 100 sesuai target pada tahun 2020 sebanyak 2 prestasi dari target prodi. 2021 sebanyak 12 prestasi (beberapa prestasi perlu dibuktikan) realisasi capaian kelulusan tepat waktu belum ada karena prodi baru perekaman dan pelacakan lulusan belum ada karena prodi baru capaian waktu tunggu lulusan belum ada karena prodi baru capaian kesesuaian bidang kerja belum ada karena prodi baru capaian karya dosen/mahasiswa yang mendapat hak kekayaan intelektual ada 17 semua item sudah terlaksana dan lengkap",
+        "nilai_asli": "3"
+      },
+      "status_utama_konsistensi_ak": "TIDAK_KONSISTEN",
+      "status_sub_kategori_ak": "KOMEN_BERBEDA_NILAI_SAMA",
+      "penjelasan_sistem_ak": "Kedua asesor memberikan nilai yang sama (3) namun substansi komentar mereka sangat berbeda. Asesor pertama memberikan detail yang lebih spesifik dan menyebutkan beberapa bukti, sementara asesor kedua lebih fokus pada kekurangan bukti dan validasi dari data yang disajikan. Kedua asesor sepakat bahwa semua item terlaksana, namun asesor kedua menekankan pada kebutuhan bukti yang lebih kuat, terutama mengenai cara mengukur capaian pembelajaran lulusan dan validitas prestasi yang diklaim.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "2.75 - 3.0",
+        "alasan_rekomendasi_nilai": "Nilai antara 2.75 dan 3.0 direkomendasikan berdasarkan analisis yang menunjukkan bahwa meskipun ada bukti keterlaksanaan, masih ada kebutuhan signifikan untuk verifikasi dan validasi lebih lanjut dari bukti yang disajikan. Nilai ini mencerminkan kinerja yang baik namun dengan catatan penting bahwa perlu ada peningkatan dalam penyajian dan validasi data."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "23011505052606200555202",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "pengukuran keterpenuhan 11 capaian pembelajaran lulusan sesuai dengan table 9.2.a1 dari target yang ditetapkan (100), namun cara mengukur capaian pembelajaran lulusan belum secara gamblang dipahami oleh unit pengelola program studi rata rata indeks prestasi kumulatif untuk angkatan pertama yang akan lulus 2022/2023 adalah 100 sesuai target pada tahun 2020 sebanyak 2 prestasi dari target prodi. 2021 sebanyak 12 prestasi (beberapa bukti menunjukkan bukan prestasi) realisasi capaian kelulusan tepat waktu belum ada karena prodi baru perekaman dan pelacakan lulusan belum ada karena prodi baru capaian waktu tunggu lulusan belum ada karena prodi baru capaian kesesuaian bidang kerja belum ada karena prodi baru capaian karya dosen/mahasiswa yang mendapat hak kekayaan intelektual ada 17 semua item sudah terlaksana cukup lengkap (beberapa tidak lengkap karena prodi baru)",
+      "nilai_al_asli": 2.75,
+      "status_relevansi_komentar_al": "KURANG_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL tidak secara memadai membahas poin-poin kunci dari Keterangan Aspek Utama. Meskipun menyebutkan beberapa aspek seperti capaian pembelajaran lulusan, IPK, dan karya intelektual, banyak aspek penting seperti pelacakan dan perekaman data lulusan, kesesuaian bidang kerja, dan kelulusan tepat waktu tidak dijelaskan secara mendalam atau didukung dengan bukti yang kuat. Komentar tersebut juga menunjukkan kekurangan dalam pemahaman mengenai pengukuran capaian pembelajaran lulusan. Dibandingkan dengan data historis, terlihat bahwa aspek-aspek kunci sering kali dibahas lebih detail dan dengan bukti yang lebih konkret dalam usulan-usulan sebelumnya.",
+      "analisis_terhadap_nilai_al_asli": "Nilai 2.75 yang diberikan dalam Asesmen Lapangan tampaknya mencerminkan bahwa ada beberapa upaya untuk memenuhi standar yang ditetapkan, namun masih banyak kekurangan dalam pelaksanaan dan dokumentasi yang diperlukan. Nilai ini konsisten dengan pengamatan bahwa komentar AL tidak sepenuhnya relevan dengan kriteria yang diharapkan.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": "2.5",
+        "alasan_rekomendasi_nilai": "Berdasarkan analisis, nilai 2.5 disarankan karena meskipun ada beberapa upaya untuk memenuhi standar, komentar AL menunjukkan bahwa pemahaman dan pelaksanaan masih belum optimal. Kekurangan dalam detail dan bukti untuk beberapa poin kunci menunjukkan bahwa penilaian lebih rendah mungkin lebih tepat untuk mencerminkan kualitas asesmen yang dilakukan."
+      }
+    }
+  }
+}

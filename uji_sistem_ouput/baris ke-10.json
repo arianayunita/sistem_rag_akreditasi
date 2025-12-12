@@ -1,0 +1,60 @@
+
+===================================================================================
+CONTOH PEMANGGILAN ANALISIS DENGAN PROMPT V4
+Jenis Analisis: 'AK_DAN_AL'
+Usulan: 23010513251506103057401, Aspek: C9.2.A
+===================================================================================
+
+--- HASIL ANALISIS LENGKAP AKHIR (JSON) DENGAN PROMPT V4 ---
+{
+  "nomor_usulan_analisis": "23010513251506103057401",
+  "nomor_aspek_analisis": "C9.2.A",
+  "jenis_analisis_diminta": "AK_DAN_AL",
+  "input_data_baru_preview": {
+    "nomor_usulan_input": "23010513251506103057401",
+    "nomor_aspek_input": "C9.2.A",
+    "keterangan_aspek_input": "pendidikan pemenuhan capaian pembelajaran lulusan ( capaian pembelajaran lulusan ) , rata rata ipk ,...",
+    "komen_ak1_input": "program studi manajemen informatika telah memiliki dokumen kurikulum yang memuat profil lulusan dan ...",
+    "nilai_ak1_input": "3",
+    "komen_ak2_input": "dilaporkan bahwa capaian pembelajaran lulusan diukur berdasarkan indeks prestasi kumulatif lulusan.l...",
+    "nilai_ak2_input": "3.4",
+    "komen_al_input": "program studi manajemen informatika telah memiliki dokumen kurikulum yang memuat profil lulusan dan ...",
+    "nilai_al_input": "3.5"
+  },
+  "analisis_ak_llm_baru": {
+    "analisis_ak_baru": {
+      "nomor_usulan_analisis": "23010513251506103057401",
+      "nomor_aspek_analisis": "C9.2.A",
+      "data_asesor_1_input": {
+        "komentar_asli": "program studi manajemen informatika telah memiliki dokumen kurikulum yang memuat profil lulusan dan capaian pembelajaran lulusan mencakup sikap, pengetahuan, ketrampilan umum dan ketrampilan khusus sesuai kerangka kualifikasi nasional indonesia (kerangka kualifikasi nasional indonesia) (dok.9.26). 1) capaian pembelajaran lulusan diukur berdasarkan indeks prestasi kumulatif lulusan, lulusan prodi manajemen informatika uniq mempunyai indeks prestasi kumulatif rata rata 3,00 selama tiga tahun terakhir. rata rata indeks prestasi kumulatif pada tersebut mengalami peningkatan dari tersebut 1 yaitu dari 3,51 meningkat menjadi 3,65 sedangkan secara keseluruhan rata rata indeks prestasi kumulatif selama tiga tahun yaitu 3,58. 2) raihan prestasi mahasiswa dalam 3 tahun 1) lomba ui/ux design competition, juara 2, nasional, 2) festifal teknologi jateng 2022, juara 1, 3) festifal teknlogi jateng 2022, juara 2. 3) jumlah kelulusan tepat waktu mahasiswa tersebut 4 sebanyak 5 mahasiswa, tersebut 3 sebanyak 11 mahasiswa dan pada tersebut 2 sebanyak 9 mahasiswa. presentase kelulusan tepat waktu 3 tahun terakhir sebesar 40,7. 4) tracer study dilaksanakan setiap 1 tahun sekali, terakhir dilaksanakan pada tahun 2022, hasil pelacakan dan perekaman data lulusan mulai tersebut 4 sampai tersebut 2 sebesar 79.4, tidak dijelaskan secara rinci hasilnya, 5) rata rata masa tunggu kerja lulusan prodi mi adalah 4,5 bulan, 6) dari hasil pelacakan, terdapat lulusan yang bekerja sesuai bidang infokom di sebesar 82, sisanya bekerja sebagai wirausaha bidang infokom maupun non infokom. 7) jumlah karya yang telah mendapatkan hak kekayaan intelektual sejumlah 11. lebih dari 90 karya dosen / mahasiswa adalah di bidang infokom.",
+        "nilai_asli": "3"
+      },
+      "data_asesor_2_input": {
+        "komentar_asli": "dilaporkan bahwa capaian pembelajaran lulusan diukur berdasarkan indeks prestasi kumulatif lulusan.lulusan prodi manajemen informatika uniq mempunyai indeks prestasi kumulatif rata rata 3,00 selama tiga tahun terakhir. rata rata indeks prestasi kumulatif pada tersebut mengalami peningkatan dari tersebut 1 yaitu dari 3,51 meningkat menjadi 3,65 sedangkan secara keseluruhan rata rata indeks prestasi kumulatif selama tiga tahun yaitu 3,58. rata rata indeks prestasi kumulatif yang didapat telah melampaui standar yang ditetapkan universitas yaitu 3,3. selain itu dicatat juga bahwa jumlah kelulusan tepat waktu mahasiswa tersebut 4 sebanyak 5 mahasiswa, tersebut 3 sebanyak 11 mahasiswa dan pada tersebut 2 sebanyak 9 mahasiswa. presentase kelulusan tepat waktu 3 tahun terakhir sebesar 40,7. berikutnya dilaporkan bahwa dalam tiga tahun terakhir, mahasiswa prodi manajemen informatika telah mendapatkan 3 juara dalam kegiatan lomba tingkat nasional. selanjutnya juga dilaporkan bahwa rata rata masa tunggu kerja lulusan prodi mi adalah 4,5 bulan sehingga sudah memenuhi standar yang ditetapkan perguruan tinggi yaitu kurang dari 6 bulan. data tersebut didapatkan dari proses pelacakan dan perekaman data lulusan menggunakan tracer study (jumlah lulusan yang terlacak dari tersebut 4 sampai dengan tersebut 2 sebesar 76. dari lulusan yang terlacak, 90 lulusan mendapatkan pekerjaan kurang dari 6 bulan dan hanya masing masing 1 mahasiswa yang mendapatkan pekerjaan lebih dari 6 bulan. selanjutnya dari hasil tracer studi juga diperoleh hasil pelacakan, terdapat lulusan yang bekerja sesuai bidang infokom di sebesar 82, sisanya bekerja sebagai wirausaha bidang infokom maupun non infokom. (dok.9.28). jumlah karya yang telah mendapatkan hak kekayaan intelektual sejumlah 11 dapat dilihat pada link repositori (dok.9.29). lebih dari 90 karya dosen/mahasiswa adalah di bidang infokom. sehingga dapat dikatakan bahwa keterlaksanaannya disertai dengan bukti yang sahih dan lengkap",
+        "nilai_asli": "3.4"
+      },
+      "status_utama_konsistensi_ak": "KONSISTEN",
+      "status_sub_kategori_ak": "Komentar Sama, Nilai Berbeda",
+      "penjelasan_sistem_ak": "Kedua asesor memberikan komentar yang sangat mirip, menggambarkan capaian pembelajaran, prestasi mahasiswa, kelulusan tepat waktu, dan pelacakan lulusan dengan cara yang serupa. Namun, nilai yang diberikan oleh Asesor 2 sedikit lebih tinggi (3.4) dibandingkan dengan Asesor 1 (3.0). Perbedaan ini mungkin disebabkan oleh penekanan Asesor 2 pada pencapaian yang melampaui standar universitas dan detail tambahan mengenai pelacakan lulusan dan karya intelektual, yang mungkin dianggap memberikan bukti yang lebih kuat atas kinerja program.",
+      "rekomendasi_nilai_ak_sistem": {
+        "nilai_disarankan": "3.2",
+        "alasan_rekomendasi_nilai": "Nilai disarankan 3.2 berdasarkan konsensus antara dua asesor dengan pertimbangan bahwa kedua asesor memberikan penilaian yang sangat mirip namun dengan sedikit perbedaan dalam penilaian kualitas. Nilai ini mencerminkan kinerja yang baik namun dengan ruang untuk perbaikan di beberapa area, seperti detail pelacakan lulusan dan peningkatan kelulusan tepat waktu."
+      }
+    }
+  },
+  "analisis_al_llm_baru": {
+    "analisis_al_baru": {
+      "nomor_usulan_analisis": "23010513251506103057401",
+      "nomor_aspek_analisis": "C9.2.A",
+      "komentar_al_asli": "program studi manajemen informatika telah memiliki dokumen kurikulum yang memuat profil lulusan dan capaian pembelajaran lulusan mencakup sikap, pengetahuan, ketrampilan umum dan ketrampilan khusus sesuai kerangka kualifikasi nasional indonesia (kerangka kualifikasi nasional indonesia) (dok.9.26). 1) capaian pembelajaran lulusan diukur berdasarkan indeks prestasi kumulatif lulusan, lulusan prodi manajemen informatika uniq mempunyai indeks prestasi kumulatif rata rata 3,00 selama tiga tahun terakhir. rata rata indeks prestasi kumulatif pada tersebut mengalami peningkatan dari tersebut 1 yaitu dari 3,51 meningkat menjadi 3,65 sedangkan secara keseluruhan rata rata indeks prestasi kumulatif selama tiga tahun yaitu 3,58. 2) raihan prestasi mahasiswa dalam 3 tahun 1) lomba ui/ux design competition, juara 2, nasional, 2) festifal teknologi jateng 2022, juara 1, 3) festifal teknlogi jateng 2022, juara 2. 3) jumlah kelulusan tepat waktu mahasiswa tersebut 4 sebanyak 5 mahasiswa, tersebut 3 sebanyak 11 mahasiswa dan pada tersebut 2 sebanyak 9 mahasiswa. presentase kelulusan tepat waktu 3 tahun terakhir sebesar 40,7. 4) tracer study dilaksanakan setiap 1 tahun sekali, terakhir dilaksanakan pada tahun 2022, hasil pelacakan dan perekaman data lulusan mulai tersebut 4 sampai tersebut 2 sebesar 79.4, tidak disampaikan secara rinci hasilnya, 5) rata rata masa tunggu kerja lulusan prodi mi adalah 4,5 bulan, 6) dari hasil pelacakan, terdapat lulusan yang bekerja sesuai bidang infokom di sebesar 82, sisanya bekerja sebagai wirausaha bidang infokom maupun non infokom. 7) jumlah karya yang telah mendapatkan hak kekayaan intelektual sejumlah 11. lebih dari 90 karya dosen / mahasiswa adalah di bidang infokom. dokumen pendukung ditunjukkan.",
+      "nilai_al_asli": "3.5",
+      "status_relevansi_komentar_al": "SANGAT_RELEVAN",
+      "penjelasan_sistem_al": "Komentar AL secara efektif mencakup semua aspek kunci yang diuraikan dalam Keterangan Aspek Utama, termasuk capaian pembelajaran lulusan, prestasi mahasiswa, kelulusan tepat waktu, pelacakan dan perekaman data lulusan, kesesuaian bidang kerja, dan karya intelektual. Setiap poin dibahas secara spesifik dengan data yang mendukung, seperti rata-rata IPK, persentase kelulusan tepat waktu, dan hasil tracer study. Ini menunjukkan pemahaman yang mendalam tentang aspek-aspek yang dinilai dan konsistensi dengan bukti yang sahih.",
+      "analisis_terhadap_nilai_al_asli": "Nilai 3.5 yang diberikan dalam Asesmen Lapangan (AL) tampak konsisten dengan tingkat detail dan kualitas pembahasan yang disajikan dalam komentar AL. Komentar tersebut menunjukkan pemenuhan yang baik terhadap standar yang diharapkan, mendukung nilai yang tinggi.",
+      "rekomendasi_nilai_al_sistem": {
+        "nilai_disarankan": "3.5",
+        "alasan_rekomendasi_nilai": "Berdasarkan analisis komprehensif terhadap komentar AL dan konsistensi dengan nilai yang diberikan, nilai 3.5 dianggap tepat dan mencerminkan kualitas dan kelengkapan pembahasan yang disajikan dalam komentar AL."
+      }
+    }
+  }
+}
